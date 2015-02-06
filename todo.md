@@ -6,3 +6,4 @@
 - [ ] achterkant: 
 - [ ] geluidenbank: H
 - [ ] beeldbank: T
+- [ ] handleiding totaal: T
