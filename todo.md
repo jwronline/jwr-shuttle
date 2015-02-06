@@ -1,6 +1,8 @@
 # TODO
 
-[ ] handleiding satelliet herstellen: J
-[ ] dashboard
-[ ] achterkant
-[ ] geluidenbank en beeldbank
+- [ ] handleiding satelliet herstellen: J
+- [ ] dashboard: H
+- [x] webcam: H
+- [ ] achterkant: 
+- [ ] geluidenbank: H
+- [ ] beeldbank: T
