@@ -103,18 +103,18 @@ setInterval(fillBar, 2000)
 
 //set dummy data for table
 function generateTable() {
-   var data = []
+  var data = []
 
-   for (var i=0; i<30; i++) {
-     var row = []          
-     row.push(commands[Math.round(Math.random()*(commands.length-1))])
-     row.push(Math.round(Math.random()*5))
-     row.push(Math.round(Math.random()*100))
+  for (var i=0; i<30; i++) {
+    var row = []
+    row.push(commands[Math.round(Math.random()*(commands.length-1))])
+    row.push(Math.round(Math.random()*5))
+    row.push(Math.round(Math.random()*100))
 
-     data.push(row)
-   }
+    data.push(row)
+  }
 
-   table.setData({headers: ['Process', 'Cpu (%)', 'Memory'], data: data})
+  table.setData({headers: ['Process', 'Cpu (%)', 'Memory'], data: data})
 }
 
 generateTable()
@@ -124,11 +124,11 @@ setInterval(generateTable, 3000)
 
 //set log dummy data
 setInterval(function() {
-   var rnd = Math.round(Math.random()*2)
-   if (rnd==0) log.log('starting process ' + commands[Math.round(Math.random()*(commands.length-1))])   
-   else if (rnd==1) log.log('terminating server ' + servers[Math.round(Math.random()*(servers.length-1))])
-   else if (rnd==2) log.log('avg. wait time ' + Math.random().toFixed(2))
-   screen.render()
+  var rnd = Math.round(Math.random()*2)
+  if (rnd==0) log.log('starting process ' + commands[Math.round(Math.random()*(commands.length-1))])   
+  else if (rnd==1) log.log('terminating server ' + servers[Math.round(Math.random()*(servers.length-1))])
+  else if (rnd==2) log.log('avg. wait time ' + Math.random().toFixed(2))
+  screen.render()
 }, 500)
 
 
@@ -154,8 +154,8 @@ var marker = true
 setInterval(function() {
    if (marker) {
     map.addMarker({"lon" : "37.5000", "lat" : "-79.0000", color: 'yellow', char: 'X' })
-    map.addMarker({"lon" : "45.5200", "lat" : "-122.6819" })
-    map.addMarker({"lon" : "53.3478", "lat" : "-6.2597" })
+    map.addMarker({"lon" : "45.5200", "lat" : "-122.6819", color: 'red', char: '*'})
+    map.addMarker({"lon" : "53.3478", "lat" : "-6.2597", color: 'blue', char: '•'})
     map.addMarker({"lon" : "1.3000", "lat" : "103.8000" })
    }
    else {
