@@ -41,6 +41,7 @@ while [[ true ]]; do
 			;;
 		9 )
 			mplayer "Sally Ride e-ticket.mp3"
+			;;
 		0 )
 			mplayer "landingGearDrop.mp3"
 			;;
