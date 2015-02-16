@@ -2,6 +2,7 @@
 while [[ true ]]; do
 	echo "
 	enter the number of a file…
+	press enter to stop playback; ^C to quit the script
 1) STS-1 Dust it off.mp3
 2) STS-131 launchNats.mp3
 3) STS-135 Countdown to Launch.mp3
