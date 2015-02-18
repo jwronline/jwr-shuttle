@@ -5,9 +5,9 @@ All files for the space shuttle by JWR-vzw
 # What's in here?
 
 - [ ] A dashboard by [@Yaronn](https://github.com/Yaron/blessed-contrib), to be modified to have space shuttle data
-- [*] A library of sounds from space shuttle missions (NASA)
+- [x] A library of sounds from space shuttle missions (NASA)
 - [ ] A library of videos from space shuttle missions (NASA)
-- [*] A dashboard in gif-form for our planet (by [/u/hellofromthemoon](http://www.reddit.com/u/hellofromthemoon))
+- [x] A dashboard in gif-form for our planet (by [/u/hellofromthemoon](http://www.reddit.com/u/hellofromthemoon))
 
 # Licence
 
