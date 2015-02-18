@@ -21,13 +21,13 @@ while [[ true ]]; do
 			mplayer "STS-1 Dust it off.mp3"
 			;;
 		2 )
-			mplayer "STS-131 launchNats.mp3"
+			mplayer "STS-131 launchNats.mp3 (na lancering)"
 			;;
 		3 )
-			mplayer "STS-135 Countdown to Launch.mp3"
+			mplayer "STS-135 Countdown to Launch.mp3 (vanaf 10)"
 			;;
 		4 )
-			mplayer "STS-135 Launch.mp3"
+			mplayer "STS-135 Launch.mp3 (houston neemt over)"
 			;;
 		5 )
 			mplayer "STS-135 landingCommanderComments.mp3"
@@ -36,13 +36,13 @@ while [[ true ]]; do
 			mplayer "STS-135 landingNaviusComments.mp3"
 			;;
 		7 )
-			mplayer "STS-26 Liftoff.mp3"
+			mplayer "STS-26 Liftoff.mp3 (vanaf 3)"
 			;;
 		8 )
-			mplayer "STS-41D Liftoff.mp3"
+			mplayer "STS-41D Liftoff.mp3 (vanaf 0)"
 			;;
 		9 )
-			mplayer "Sally Ride e-ticket.mp3"
+			mplayer "Sally Ride e-ticket.mp3 (verhaaltje over Disneyland)"
 			;;
 		0 )
 			mplayer "landingGearDrop.mp3"
