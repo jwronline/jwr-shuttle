@@ -14,6 +14,7 @@ while [[ true ]]; do
 9) Sally Ride e-ticket.mp3
 0) landingGearDrop.mp3
 	"
+
 	read sound
 	case $sound in
 		1 )
