@@ -9,10 +9,13 @@ All files for the space shuttle by JWR-vzw
 - [ ] A library of videos from space shuttle missions (NASA)
 - [x] A dashboard in gif-form for our planet (by [/u/hellofromthemoon](http://www.reddit.com/u/hellofromthemoon))
 - [x] Countdown timer (ekleinod)
+- [ ] [Shuttle Command](https://www.github.com/haroenv/shuttle-command)
 
 # Licence
 
-Proprietary, no-shares
+CC0, unless the content wasn't created by me.
+
+# Acknowledgements
 
 Made by Haroen Viaene
 
