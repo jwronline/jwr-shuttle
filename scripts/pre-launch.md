@@ -33,4 +33,3 @@ Alle posities in mission control voeren nu de pre-launch computerconfiguratie in
 
 | T-0:09:00 HOLDING | FD | bevestig dat audio controle af is en begin met de abort advisory test | | “Roger. Audiocontrole is klaar. Alle posten standby voor een abort advisory test. Alle posten moeten het abort lampje zien knipperen wanneer ik de testschakelaar indruk.” |
 | | | druk de testschakelaar in | <kbd>ITEM</kbd> 438 <kbd>EXEC</kbd> (“ABORT” knippert) | |
-
