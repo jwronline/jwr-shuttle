@@ -14,13 +14,13 @@ De lancering
 | T-0:08:10 | LD | begin pre-launch raadpleging van bemanning | | “BEGIN PRE-LAUNCH STATUS MONDELING EN MET DE COMPUTER. COMMANDER, BEN JE ‘GO’?” |
 | | CMDR | antwoord en enter ‘GO’ | enter [GO] | “JAPETUS IS ‘GO’ VOOR LANCERING.” |
 | | LD | overleg met SSO | | “SSO, BEN JE ‘GO’ ?” |
-| | SSO | antwoord aan LD en enter ‘GO’ | enter [GO] | | enter [ITEM 195 <kbd>EXEC</kbd> | “SSO IS ‘GO’ .” |
+| | SSO | antwoord aan LD en enter ‘GO’ | enter [GO] | | enter <kbd>ITEM</kbd> 195 <kbd>EXEC</kbd> | “SSO IS ‘GO’ .” |
 | | LD | overleg met ELSS: | | “ENVIRONMETAL LIFE SUPPORT?” |
 | | ELSS | antwoord aan LD en enter ‘GO’ | | enter [GO] | | | “ELSS HIER. ALLE SYSTEMEN ‘GO’. TREK TOEGANGSARM VOOR DE BEMANNING IN.” |
-| | | trek toegangsarm in | enter [ITEM 140 <kbd>EXEC</kbd> | |
-| | LD | overleg met WXT | | “WEATHER AND TRACKING?” |
-| | WXT | antwoord aan LD en enter ‘GO’ | enter [GO] | “WEATHER AND TRACKING IS ‘GO’.” |
-| | LD | overleg met PAO | | “PUBLIC AFFAIRS OFFICER?” |
+| | | trek toegangsarm in | enter <kbd>ITEM</kbd> 140 <kbd>EXEC</kbd> | |
+| | LD | overleg met WXT | | “Weather and Tracking?” |
+| | WXT | antwoord aan LD en enter ‘GO’ | enter [GO] | “Weather and Tracking IS ‘GO’.” |
+| | LD | overleg met PAO | | “Public Affairs Officer?” |
 | | PAO | antwoord aan LD en enter ‘GO’ | enter [GO] | “PUBLIC AFFAIRS OFICER IS ‘GO’.” |
 | | LD | meld dat alle posten ‘GO’ zijn voor de lancering | controleer dat alle statuslampjes van de computer (behalve LD en FD) op ‘GO’ staan voor de lancering. | “ALLE LAUNCH CONTROL POSTEN MELDEN DAT ZE ‘GO’ ZIJN VOOR DE LANCERING VAN JAPETUS.” |
 | | |  | enter [GO] | |
@@ -39,7 +39,7 @@ De lancering
 | | | | voer PLT CHECKLIST #8 uit | |
 | | | bevestig opstarten wanneer klaar | | “HOUSTON, CHECKLIST IS AFGEWERKT EN BRANDSTOFCELLEN ZIJN GESTART EN WERKEN.” |
 | | SSO | | | “Roger, JAPETUS. WE BEVESTIGEN EEN SUCCESVOL OPSTARTEN EN EEN NORMALE WERKING VAN ALLE BRANDSTOFCELLEN. IK SCHAKEL JE NU OVER OP INTERNE STROOMVOORZIENING.” |
-| | | | enter [ITEM 162 <kbd>EXEC</kbd> | |
+| | | | enter <kbd>ITEM</kbd> 162 <kbd>EXEC</kbd> | |
 | | CMDR | | | “Roger, CONTROL. WE ZIJN OP INTERNE STROOMVOORZIENING.” |
 | | PAO | | | “LAUNCH CONTROL MELDT DAT DE SHUTTLE NU OP INTERNE STROOM WERKT. HET AFTELLEN VERLOOPT NORMAAL. WE ZULLEN BINNENKORT DE AFVOERARM VAN DE GASVORMIGE ZUURSTOF INTREKKEN.” |
 | | CMDR | controleer advisory voor bevestiging | | “Roger. BEVESTIG ZUURSTOFKLEPPEN NU GESLOTEN EN AFVOERARM AAN HET INTREKKEN.” |
@@ -49,33 +49,33 @@ De lancering
 | T-0:01:55 | SSO | | controleer signaal van statuslampje | “WATERSTOFKLEPPEN WORDEN NU GESLOTEN.” |
 | | CMDR | bevestig | controleer advisory | “Roger. WATERSTOFKLEPPEN WORDEN GESLOTEN EN DRUK WORDT OPGEVOERD.” |
 | | | meld wanneer operationele druk van de externe tank bereikt is | controleer de manometers van de ET | “LAUNCH CONTROL, DE EXTERNE TANK STAAT NU ONDER OPERATIONELE DRUK.” |
-| T-0:01:05 | SSO | bevestig operationele druk wanneer hij bereikt wordt | controleer de manometer (ET groen) | “Roger. WE BEVESTIGEN DAT DE ET ONDER OPERATIONELE DRUK STAAT.” |
-| T-0:01:00 | FD | overloop de vluchtstatus en geef het bevel voor de lancering | | “WE ZIJN ‘GO’ VOOR DE LANCERING.” |
-| | PAO | | | “OVER ENKELE SECONDEN BEGINT DE AUTOMATISCHE AFTELSEQUENTIE. DE COMPUTERBESTURING VOOR DE LANCERING ZAL VAN LAUNCH CONTROL OVERGESCHAKELD WORDEN OP DE BOORDCOMPUTERS VAN DE SHUTTLE.” |
-| T-0:00:31 | LD | bevestig het inschakelen van de auto sequencer | controleer de statuslampjes | “AUTO SEQUENCER START.” |
-| | CMDR | bevestig start | controleer advisory | “Roger. BEVESTIG START SEQUENCER.” |
-| T-0:00:20 | PAO | tel af voor de lancering | tel mee met de klok | “WE ZIJN OP 20 SECONDEN EN TELLEN AF…T-MIN 15,14,13,12,11,10,9,8,7…” |
-| T-0:00:06 | LD | bevestig de ontsteking van de hoofdmotoren | controleer statuslampje van hoofdmotoren. De ontsteking moet plaatshebben op T-6 seconden | “HOOFDMOTOREN GESTART.” |
+| T-0:01:05 | SSO | bevestig operationele druk wanneer hij bereikt wordt | controleer de manometer (ET groen) | “Roger. We bevestigen dat de ET onder operationele druk staat.” |
+| T-0:01:00 | FD | overloop de vluchtstatus en geef het bevel voor de lancering | | “We zijn ‘go’ voor de lancering.” |
+| | PAO | | | “Over enkele seconden begint de Automatische Aftelsequentie. De computerbesturing voor de lancering zal van Launch Control overgeschakeld worden op de boordcomputers van de shuttle.” |
+| T-0:00:31 | LD | bevestig het inschakelen van de auto sequencer | controleer de statuslampjes | “Auto Sequencer start.” |
+| | CMDR | bevestig start | controleer advisory | “Roger. Bevestig Start Sequencer.” |
+| T-0:00:20 | PAO | tel af voor de lancering | tel mee met de klok | “We zijn op 20 seconden en tellen af…T-MIN 15,14,13,12,11,10,9,8,7…” |
+| T-0:00:06 | LD | bevestig de ontsteking van de hoofdmotoren | controleer statuslampje van hoofdmotoren. De ontsteking moet plaatshebben op T-6 seconden | “Hoofdmotoren gestart.” |
 | | PAO | | | “6, 5, 4, 3, 2, 1,…” |
-| T-0:00:00 | SSO | meld SRB ontsteking | bevestiging op het computerscherm; dit moet op T 00:00 gebeuren. | “SRB ONTSTEKING.” |
-| | PAO | | | “NUL. EN LIFT-OFF VAN SHUTTLE JAPETUS!” |
-| T+0:00:05 | LD | | kijk naar advisory line op computerscherm | “DE SHUTTLE HEEFT DE LANCEERTOREN VERLATEN!” |
-| T+0:00:11 | FD | | Kijk naar advisory line | “ROLBEWEGING START.” |
-| | CMDR | | Kijk naar advisory line | “Roger. ROLBEWEGING GESTART.” |
-| T+0:00:15 | CMDR | | Kijk naar advisory line | “HOUSTON, ROLBEWEGING IS BEËINDIGD.” |
-| | FD | bevestig | | “Roger. ROLBEWEGING IS VOLTOOID.” |
-| T+0:00:20 | WXT | | enter [<kbd>SPEC</kbd> 200 <kbd>EXEC</kbd> | |
-| | | meld shuttle status | lees af van computerscherm | “SNELHEID IS … VOET PER SECONDE.” |
-| | FD | | | “JAPETUS, JE BENT ‘GO’ OM STUWKRACHT TE VERMINDEREN.” |
-| | WXT | controleer snelheid en meld wanneer shuttle mach 1 bereikt | controleer machmeter | “DE SHUTTLE VLIEGT NU AAN DE SNELHEID VAN HET GELUID.” |
-| | WXT | meld status van de shuttle | controleer meters | “SNELHEID … VOET PER SECONDE, HOOGTE … ZEEMIJL.” |
-| T+0:00:54 | CMDR | | | “Roger. ‘GO’ OM STUWKRACHT TE VERMINDEREN.” |
-| | PLT | controleer meters en meld verloop van stuwkrachtvermindering | enter [SPEC 005 <kbd>EXEC</kbd> | “tuwkrachtvermindering. motoren nu op 65%.” |
+| T-0:00:00 | SSO | meld SRB ontsteking | bevestiging op het computerscherm; dit moet op T 00:00 gebeuren. | “SRB ontsteking.” |
+| | PAO | | | “Nul. En lift-off van shuttle Japetus!” |
+| T+0:00:05 | LD | | kijk naar advisory line op computerscherm | “De shuttle heeft de lanceertoren verlaten!” |
+| T+0:00:11 | FD | | Kijk naar advisory line | “Rolbeweging start.” |
+| | CMDR | | Kijk naar advisory line | “Roger. Rolbeweging gestart.” |
+| T+0:00:15 | CMDR | | Kijk naar advisory line | “Houston, rolbeweging is beëindigd.” |
+| | FD | bevestig | | “Roger. ROlbeweging is voltooid.” |
+| T+0:00:20 | WXT | | enter <kbd>SPEC</kbd> 200 <kbd>EXEC</kbd> | |
+| | | meld shuttle status | lees af van computerscherm | “Snelheid is … voet per seconde.” |
+| | FD | | | “Japetus, je bent ‘go’ om stuwkracht te verminderen.” |
+| | WXT | controleer snelheid en meld wanneer shuttle mach 1 bereikt | controleer machmeter | “De shuttle vliegt nu aan de snelheid van het geluid.” |
+| | WXT | meld status van de shuttle | controleer meters | “Snelheid … voet per seconde, hoogte … zeemijl.” |
+| T+0:00:54 | CMDR | | | “Roger. ‘Go’ om stuwkracht te verminderen.” |
+| | PLT | controleer meters en meld verloop van stuwkrachtvermindering | enter <kbd>SPEC</kbd> 005 <kbd>EXEC</kbd> | “tuwkrachtvermindering. motoren nu op 65%.” |
 | T+0:01:00 | FD | meld MAX-Q wanneer de snelheid van de shuttle 1500 FPS overschrijdt | (wacht eerst op statuslampje) | “Japetus, je hebt MAX-Q bereikt, en bent ‘go’ om te versnellen.” |
 | | CMDR | | | “Roger. ‘Go’ om te versnellen.” |
 | T+0:01:10 | PAO | | | “De melding van de Flight Director dat MAX-Q bereikt is betekent dat de shuttle een maximum aerodynamische druk onderging. De motren worden nu opnieu op volle kracht gebracht.” |
 | | PLT | meld wanneer de motoren opnieuw op volle kracht zijn | controleer de meters | “Houston, motoren nu op volle kracht” |
-| | SSO | controleer de baan van de shuttle | enter [SPEC 200 <kbd>EXEC</kbd> | “De eerste trap werkt nog altijd normaal.” |
+| | SSO | controleer de baan van de shuttle | enter <kbd>SPEC</kbd> 200 <kbd>EXEC</kbd> | “De eerste trap werkt nog altijd normaal.” |
 | | WXT | controleer meters | | “Snelheid is … voet per seconde, hoogte is … zeemijl.” |
 | T+0:01:30 | SSO | meld 30 seconden voor SRB SEP | | “Nog 30 seconden voor SRB SEP.” |
 | | CMDR | bevestig SRB SEP | | “Roger. SRB SEP binnen 30 seconden.” |
