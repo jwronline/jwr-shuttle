@@ -94,19 +94,19 @@
 |  | FD | meld |  | “WE ZIJN ‘GO’ VOOR RENDEZ-VOUS OVER 28 MINUTEN.” |
 |  | CMDR | bevestig |  | “ROGER. RENDEZ-VOUS MET FREEDOM OVER 28 MINUTEN.” |
 | T+0:29:00 | FD | vraag een verslag over de EVA |  | “MAG IK EEN VERSLAG OVER DE EVA?” |
-|  | LD | kijk door het raam en geef met eigen woorden een verslag over de ruimtewandeling |  | “ ……….” |
+|  | LD | kijk door het raam en geef met eigen woorden een verslag over de ruimtewandeling |  | “ …” |
 |  | WXT |  | enter [item 274 EXEC] | “DIT IS DE TRACKING OFFICER. WE HEBBEN ZOJUIST EEN SIGNAAL ONTVANGEN VAN DE SATELLIET. DE ONTBRANDING VAN DE RAKETMOTOR IS CORRECT VERLOPEN EN DE SATELLIET BEVINDT ZICH OP DE JUISTE BAAN. PROFICIAT, JAPETUS. HET SIGNAAL VAN DE SATELLIET WORDT DUIDELIJK ONTVANGEN DOOR DE GRONDSTATIONS. HIJ BEVINDT ZICH IN DE GEPLANDE BAAN, 300 MIJL BOVEN HET AARDOPPERVLAK.” |
-| T+0:31:00 | PAO | kondig een boodschap aan en lees die voor |  | “JAPETUS, WE HEBBEN EEN SPECIALE BOODSCHAP VOOR JULLIE. ZE LUIDT ALS VOLGT: ‘ ………’” |
-|  | CMDR | antwoord met je eigen woorden |  | “ ………” |
-| T+0:35:00 | LD | geef verslag over de vorderingen van het EVA-team (kijk door het raam) |  | “ ………” |
+| T+0:31:00 | PAO | kondig een boodschap aan en lees die voor |  | “JAPETUS, WE HEBBEN EEN SPECIALE BOODSCHAP VOOR JULLIE. ZE LUIDT ALS VOLGT: ‘ …’” |
+|  | CMDR | antwoord met je eigen woorden |  | “ …” |
+| T+0:35:00 | LD | geef verslag over de vorderingen van het EVA-team (kijk door het raam) |  | “ …” |
 |  |  | vraag toelating om de satelliet te activeren. | gebruik de satellite systems checklist | “FLIGHT DIRECTOR, BEN IK ‘GO’ OM DE ELEKTRISCHE STROOM EN DE TEMPERATUURCONTROLE VAN DE SATELLIET IN TE SCHAKELEN?” |
 |  | FD | antwoord |  | “ROGER. JE BENT ‘GO’ OM TE ACTIVEREN.” |
 |  | LD | activeer de satelliet | enter [item 987 EXEC] |  |
 | T+0:38:00 | LD | geef verslag over het activeren van de satellietsystemen |  | “WE HEBBEN EEN GESLAAGDE ACTIVERING VAN DE SATELLIETSYSTEMEN. IK GA NU DOOR MET DE ACIVERING VAN DE COMMUNICATIEMODULE EN HET STUURSYSTEEM VOOR DE STAND VAN DE SATELLIET.” |
 |  | FD | controleer de statuslampjes en bevestig |  | “ROGER. GA VERDER MET DE NORMALE CHECKLIST.” |
 | T+0:39:00 | SSO | vraag naar brandstofniveaus |  | “JAPETUS, MAG IK HET BRANDSTOFNIVEAU VAN DE RUIMTEPENDEL?” |
-|  | CMDR | controleer de brandstofmeters en antwoord met de percentages van de overblijvende brandstof | enter [SPEC 008 EXEC] (OMS), dan [SPEC 009 EXEC] (RCS) | “ROGER. OMS BRANDSTOFNIVEAU IS …… % EN RCS BRANDSTOFNIVEAU IS …… %.” |
-|  | SSO | bevestig verslag en geef advies over situatie. Raadpleeg de fuel level checklist. |  | “JAPETUS, WE BEVESTIGEN DAT JULLIE BRANDSTOFNIVEAU …… IS. HOU ONS OP DE HOOGTE VAN ELKE ABNORMALE VERANDERING.” |
+|  | CMDR | controleer de brandstofmeters en antwoord met de percentages van de overblijvende brandstof | enter [SPEC 008 EXEC] (OMS), dan [SPEC 009 EXEC] (RCS) | “ROGER. OMS BRANDSTOFNIVEAU IS … % EN RCS BRANDSTOFNIVEAU IS … %.” |
+|  | SSO | bevestig verslag en geef advies over situatie. Raadpleeg de fuel level checklist. |  | “JAPETUS, WE BEVESTIGEN DAT JULLIE BRANDSTOFNIVEAU … IS. HOU ONS OP DE HOOGTE VAN ELKE ABNORMALE VERANDERING.” |
 |  | CMDR | antwoord |  | “ROGER, HOUSTON. WE HOUDEN JULLIE OP DE HOOGTE.” |
 | T+0:40:30 | LD | begin het experiment met de kristaloven. Gebruik de Christal furnace checklist. |  |  |
 | T+0:41:00 | FD | geef, indien het eva team nog altijd bezig is met hun ruimtewandeling, en 5-minuten verwittiging. |  | “LAUNCH AND LANDING, NOG VIJF MINUTEN EVA-TIJD. VERWITTIG DE ASTRONAUTEN BUITEN.” |
@@ -115,7 +115,7 @@
 |  | PAO |  |  | “DE MISSION SPECIALISTS VAN JAPETUS BEËINDIGEN NU HUN EVA ACTIVITEITEN. ZE ZULLEN WELDRA NAAR DE LUCHTSLUIS VAN DE RUIMTEPENDEL TERUGKEREN.” |
 | T+0:45:00 | FREEDOM | leg rechtstreekse radioverbinding met Houston. |  | “HOUSTON, FREEDOM HIER. ONTVANG JE ME?” |
 |  | FD |  |  | “ROGER. WE ONTVANGEN JE, FREEDOM.” |
-|  | WXT | controleer meters en meld vluchtgegevens | enter [SPEC 303 EXEC] en [SPEC 010 EXEC] | “JAPETUS EN FREEDOM. JULLIE AFSTAND IS …… VOET.” |
+|  | WXT | controleer meters en meld vluchtgegevens | enter [SPEC 303 EXEC] en [SPEC 010 EXEC] | “JAPETUS EN FREEDOM. JULLIE AFSTAND IS … VOET.” |
 |  | PLT | bevestig |  | “ROGER.” |
 |  | FREEDOM | bevestig | enter <kbd>ITEM</kbd> 386 <kbd>EXEC</kbd> (radar lock) | “ROGER, WE HEBBEN RADARCONTACT MET JAPETUS.” |
 |  | WXT | vraag |  | “JAPETUS, HEB JE NU VISUEEL CONTACT MET SPACE STATION?” |
@@ -128,18 +128,18 @@
 |  | CMDR |  |  | “HOUSTON, WE HOUDEN ONZE NADERINGSKOERS AAN.” |
 |  | LD |  |  | “MIDDENDEK, WE ZIJN NU KLAAR OM AAN FREEDOM TE KOPPELEN. ALLE LOSZITTENDE VOORWERPEN VASTMAKEN. BEREID JE VOOR OP HET OVERSTAPPEN VAN DE BEMANNING.” |
 |  | PS 1 | antwoord |  | “ROGER. MAKEN ALLE LOSZITTENDE VOORWERPEN VAST.” |
-| T+0:47:00 | WXT | controleer meters en geef vluchtgegevens |  | “VERSLAG KOPPELING:RELATIEVE AFSTAND: …… VOET,RELATIEVE SNELHEID: …… FPS.” |
+| T+0:47:00 | WXT | controleer meters en geef vluchtgegevens |  | “VERSLAG KOPPELING:RELATIEVE AFSTAND: … VOET,RELATIEVE SNELHEID: … FPS.” |
 |  | SSO |  |  | “JAPETUS, WE RADEN AAN GEDURENDE 12 SECONDEN AF TE REMMEN MET HET VOORSTE RCS-SYSTEEM.” |
 |  | CMDR |  |  | “ROGER. VOEREN CORRECTIE NU UIT.” |
 | T+0:48:00 | LD | indien het EVA-team nog steeds buiten is, verwittig hen dan dat het tijd is om binnen te komen |  | “EVA TEAM, ALLE ACTIVITEITEN STOPZETTEN. JULLIE MOETEN NU IN DE PENDEL TERUGKEREN.” |
 |  | MS1 OF 2 |  |  | “ROGER. WE ZITTEN NU IN ONZE STOEL.” |
 | T+0:49:00 | WXT |  |  | “JAPETUS, JE BENT NU IN MANUELE EN VISUELE NADERING NAAR SPACE STATION FREEDOM.” |
 | T+0:49:10 | PLT | antwoord | enter [SPEC 303 EXEC] en [SPEC 010 EXEC] | “ROGER. MANUELE EN VISUELE NADERING TOT FREEDOM.” |
-| T+0:50:00 | WXT | controleer meters en geef koppelingsgegevens |  | “RELATIEVE AFSTAND: …… VOET,RELATIEVE SNELHEID: …… FPS.” |
+| T+0:50:00 | WXT | controleer meters en geef koppelingsgegevens |  | “RELATIEVE AFSTAND: … VOET,RELATIEVE SNELHEID: … FPS.” |
 |  |  | geef uitleg |  | “ZIET ER GOED UIT, JAPETUS.” |
 |  | FD | geef uitleg over de koppelingsoperaties |  | “ROGER, SHUTTLE. DE NADERING ZIET ER GOED UIT, GA DOOR MET KOPPELINGSOPERATIES.” |
 |  | PLT |  |  | “ROGER.” |
-| T+0:51:00 | WXT | controleer meters en geef koppelingsgegevens |  | “RELATIEVE AFSTAND: …… VOET,RELATIEVE SNELHEID: …… FPS.” |
+| T+0:51:00 | WXT | controleer meters en geef koppelingsgegevens |  | “RELATIEVE AFSTAND: … VOET,RELATIEVE SNELHEID: … FPS.” |
 |  | PLT |  |  | “ROGER. HOUDEN HUIDIGE VERSCHUIVING EN NADERINGSSNELHEID AAN.” |
 | T+0:51:30 | FREEDOM | houd Houston op de hoogte van afstand tot shuttle |  | “HOUSTON, FREEDOM. RADAR VAST OP JAPETUS. AFSTAND IS GOED. ZIJN KLAAR OM KOPPELINGSADAPTOR TE ONTPLOOIEN.” |
 | T+0:51:45 | FD | antwoord |  | “ROGER, FREEDOM. STANDBY.JAPETUS, JE BENT ‘GO’ VOOR DE EINDFASE VAN HET KOPPELINGSMANEUVER. ENTER AUTO DOCK PROGRAMMA.” |
@@ -189,14 +189,14 @@
 |  | CMDR | bevestig |  | “ROGER. MAKEN ONS KLAAR VOOR DE-ORBIT EN TERUGKEER. |
 | T+1:10:00 | SSO |  |  | “JAPETUS, ALLES ZIET ER GOED UIT VOOR DE-ORBIT.” |
 |  | PLT | beaam toestand Japetus |  | “ROGER, HOUSTON. JAPETUS IS KLAAR OM NAAR HUIS TERUG TE KEREN.” |
-| T+1:10:30 | WXT | geef met je eigen woorden het weerbericht voor de primaire landingsplaats aan de commander en de piloot |  | “……” |
+| T+1:10:30 | WXT | geef met je eigen woorden het weerbericht voor de primaire landingsplaats aan de commander en de piloot |  | “…” |
 |  | CMDR |  |  | “BEDANKT, TRACKING.” |
 | T+1:11:00 | FD | verwittig de bemanning in hun zetels plaats te nemen |  | “JAPETUS, DE BEMANNINGSLEDEN MOETEN NU IN HUN ZETELS PLAATSNEMEN VOOR DE-ORBIT.” |
-|  | CMDR | bevestig in je eigen woorden dat dit gebeurt of gebeurd is |  | “……” |
+|  | CMDR | bevestig in je eigen woorden dat dit gebeurt of gebeurd is |  | “…” |
 |  | LD | meld begin landing checklists |  | “ALLE MISSION CONTROL POSTEN BEGINNEN NU AAN HUN LANDING CHECKLISTS.” |
 |  |  |  |  | “WEATHER AND TRACKING, DIT IS LANDING DIRECTOR. MAG IK HET WEERBERICHT VAN KENNEDY, EDWARDS EN WHITE SANDS?” |
 |  | WXT | geef in je eigen woorden het weerbericht. |  | “ROGER. HET WEERBERICHT IS ALS VOLGT: …” |
-|  |  | kies de beste landingsplaats. Als het weer het toelaat, verkies je Kennedy. Zoniet Edwards, zoniet White Sands. |  | “IK RAAD AAN DAT WE OP …… LANDEN.” |
+|  |  | kies de beste landingsplaats. Als het weer het toelaat, verkies je Kennedy. Zoniet Edwards, zoniet White Sands. |  | “IK RAAD AAN DAT WE OP … LANDEN.” |
 |  | FD | vraag aan mission control om computerschermen te configureren voor de landing. Vraag LD te beginnen met de controle van alle posten. | enter [ITEM 080 EXEC] | “ALLE POSTEN CONFIGUREREN NU HUN COMPUTERSCHERMEN VOOR DE LANDING. LAUNCH AND LANDING DIRECTOR GAAT NA OF ALLE POSTEN ‘GO’ ZIJN VOOR DE LANDING.” |
 |  | ALLE POSTEN | raadpleeg de checklists voor de juiste schermen en codes voor de landing. |  |  |
 |  | LD | bevestig, begin controle bij SSO |  | “ROGER. ALLE POSTEN ANTWOORDEN VERBAAL EN VIA DE COMPUTER. SPACECRAFT SYSTEMS BEN JE ‘GO’?” |
@@ -213,5 +213,5 @@
 |  | LD | meld dat alle posten ‘GO’ zijn voor de-orbit van Japetus |  | “FLIGHT DIRECTOR, DIT IS LANDING DIRECTOR. ALLE POSTEN ZIJN ‘GO’ VOOR DE-ORBIT EN TERUGKEER VAN JAPETUS.” |
 |  |  |  | enter [GO] |  |
 |  | FD | bevestig | enter [GO] | “ROGER. ALLE POSTEN ‘GO’.” |
-| T+1:13:00 | LD | geef verslag over de landing (primaire, secundaire of tertiaire landingsplaats) |  | “WE ZULLEN LANDEN OP …… .” |
+| T+1:13:00 | LD | geef verslag over de landing (primaire, secundaire of tertiaire landingsplaats) |  | “WE ZULLEN LANDEN OP … .” |
 | T+1:13:15 | ALLE POSTEN | iedereen neemt het deel landing en herneemt om T+1:14:00 |  |  |
