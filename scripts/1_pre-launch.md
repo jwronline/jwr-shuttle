@@ -12,18 +12,18 @@ Alle posities in mission control voeren nu de pre-launch computerconfiguratie in
 | | LD | controle met spacecraft systems officer | | “Spacecraft Systems Officer, hoe ontvangt u mij?” |
 | | SSO | antwoord aan launch director | | “Spacecraft Systems ontvangt u goed.” |
 | | LD | controle met ELSS | | “ELSS, hoe ontvangt u mij?” |
-| | ELSS |antwoord aan launch director | |“ELSS ONTVANGT U UITSTEKEND.” |
-| | LD |controle met weather & tracking | |“WEATHER & TRACKING, HOE ONTVANGT U MIJ?” |
-| | WXT |antwoord aan launch director | |“WEATHER AND TRACKING ONTVANGT U GOED.” |
-| | LD |controle met PAO | |“PAO, HOE ONTVANGT U MIJ?” |
-| | PAO |antwoord aan launch director | |“PAO ONTVANGT U GOED.” |
-| | LD |begin lucht-grond audio controle | |“JAPETUS, HIER LAUNCH CONTROL. GRAAG EEN ANTWOORD PER POSITIE VOOR LUCHT-GROND AUDIO CONTROLE. |COMMANDER?” |
-| | CMDR |antwoord aan launch director | |“ROGER.” |
+| | ELSS |antwoord aan launch director | |“ELSS ontvangt u uitstekend.” |
+| | LD |controle met weather & tracking | |“Weather & Tracking, hoe ontvangt u mij?” |
+| | WXT |antwoord aan launch director | |“Weather and Tracking ontvangt u goed.” |
+| | LD |controle met PAO | |“PAO, hoe ontvangt u mij?” |
+| | PAO |antwoord aan launch director | |“PAO ontvangt u goed.” |
+| | LD |begin lucht-grond audio controle | |“Japetus, hier launch control. Graag een antwoord per positie voor lucht-grond audio controle. Commander?” |
+| | CMDR |antwoord aan launch director | |“Roger.” |
 | | LD |controle met piloot | |“PILOOT?” | |PLT |antwoord aan launch director | |“ROGER.” |
-| | LD |controle met MS 1 | |“MISSION SPECIALIST 1?” |
-| | MS 1 |antwoord aan launch director | |“ROGER.” |
+| | LD |controle met MS 1 | |“Mission Specialist 1?” |
+| | MS 1 |antwoord aan launch director | |“Roger.” |
 | | LD |controle met MS 2 | |“Mission Specialist 2?” |
-| | MS 2 |antwoord aan launch director | |“ROGER.” |
+| | MS 2 |antwoord aan launch director | |“Roger.” |
 | | LD |controle met PS 1 | |“Payload Specialist 1?” |
 | | PS 1 | antwoord aan launch director | | “Roger.” |
 | | LD | controle met PS 2 | | “Payload Specialist 2?” |
@@ -52,21 +52,21 @@ Alle posities in mission control voeren nu de pre-launch computerconfiguratie in
 
 | MET (mission elapsed time) | Wie is aan de beurt | Wat gebeurt er | Scherm, knopjes, klavier, schakelaars | Wat wordt er gezegd? |
 | --- | --- | --- | --- | --- |
-| | FD | geef ELSS ‘go’ voor de lekcontrole van de cabine | | “ELSS, JE BENT ‘GO’ VOOR DE LEKCONTROLE VAN DE CABINE.” |
-| | ELSS | | | “ROGER. ‘GO’ VOOR LEKCONTROLE VAN DE CABINE.” |
-| | PAO | leg lekcontrole van de cabine uit | | “WE ZIJN KLAAR OM MET DE LEKCONTROLE VAN DE CABINE TE BEGINNEN. DEZE TEST CONTROLEERT DE LUCHTDICHTHEID VAN DE BEMANNINGSMODULE EN ZIJN VERMOGEN OM DE ATMOSFERISCHE DRUK TE BEHOUDEN.” |
-| | ELSS | geef Japetus ‘go’ voor lekcontrole van de cabine | | “JAPETUS, DIT IS ELSS. BEN JE KLAAR OM MET DE LEKCONTROLE VAN DE CABINE TE BEGINNEN?” |
-| | CMDR | bevestig | | “AFFIRMATIEF. KLAAR OM MET DE LEKCONTROLE VAN DE CABINE TE BEGINNEN.” |
-| | ELSS | geef CMDR ‘go’ voor het sluiten van de luchtkleppen | | “JE BENT ‘GO’ VOOR HET SLUITEN VAN LUCHTKLEPPEN.”
-| | CMDR | bevestig | | “ROGER. IK SLUIT NU DE LUCHTKLEPPEN.” |
+| | FD | geef ELSS ‘go’ voor de lekcontrole van de cabine | | “ELSS, je bent ‘go’ voor de lekcontrole van de cabine.” |
+| | ELSS | | | “Roger. ‘Go’ voor lekcontrole van de cabine.” |
+| | PAO | leg lekcontrole van de cabine uit | | “We zijn klaar om met de lekcontrole van de cabine te beginnen. Deze test controleert de luchtdichtheid van de bemanningsmodule en zijn vermogen om de atmosferische druk te behouden.” |
+| | ELSS | geef Japetus ‘go’ voor lekcontrole van de cabine | | “Japetus, dit is ELSS. Ben je klaar om met de lekcontrole van de cabine te beginnen?” |
+| | CMDR | bevestig | | “Affirmatief. Klaar om met de lekcontrole van de cabine te beginnen.” |
+| | ELSS | geef CMDR ‘go’ voor het sluiten van de luchtkleppen | | “Je bent ‘go’ voor het sluiten van luchtkleppen.” |
+| | CMDR | bevestig | | “Roger. Ik sluit nu de luchtkleppen.” |
 | | | | CMDR CHECKLIST #2 | |
-| | | verwittig wanneer kleppen gesloten zijn | “LAUNCH CONTROL, LUCHTKLEPPEN ZIJN NU GESLOTEN.” |
-| | ELSS | meld controle van de luchtdruk in de cabine | | “ROGER. WE CONTROLEREN DE LUCHTDRUK IN DE CABINE.” |
+| | | verwittig wanneer kleppen gesloten zijn | “Launch Control, luchtkleppen zijn nu gesloten.” |
+| | ELSS | meld controle van de luchtdruk in de cabine | | “Roger. We controleren de luchtdruk in de cabine.” |
 | | | | kijk naar de manometer. wanneer hij 16.7 psi bereikt, meld je een positieve test. indien niet, meld je negatief resultaat aan flight director | |
-| | | | | “JAPETUS, DE LUCHTDRUK IN DE CABINE IS NU 16.7 PSI EN BLIJFT CONSTANT. TEST IS NORMAAL EN GEDAAN.” |
-| | | | enter <kbd>ITEM</kbd> 136 <kbd>EXEC</kbd> (“CABIN LEAK CHECK” GROEN) | |
-| | CMDR | bevestig | | “ROGER.” |
-| | FD | meld dat lekcontrole van de cabine normal was | | “LEKCONTROLE VAN DE CABINE IS NORMAAL EN WE MOGEN STARTEN MET HET OPWARMEN VAN ALLE APU’S IN DE JUISTE VOLGORDE.” |
+| | | | | “Japetus, de luchtdruk in de cabine is nu 16.7 PSI en blijft constant. Test is normaal en gedaan.” |
+| | | | enter <kbd>ITEM</kbd> 136 <kbd>EXEC</kbd> (“CABIN LEAK CHECK” groen) | |
+| | CMDR | bevestig | | “Roger.” |
+| | FD | meld dat lekcontrole van de cabine normal was | | “Lekcontrole van de cabine is normaal en we mogen starten met het opwarmen van alle APU’s in de juiste volgorde.” |
 
 ## APU pre-start (opstarten noodstroomvoorziening)
 
