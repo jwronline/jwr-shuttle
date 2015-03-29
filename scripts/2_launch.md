@@ -10,45 +10,45 @@ De lancering
 | | | | druk op <kbd>PRO</kbd> op het moment dat je ‘start’ zegt | |
 | | PAO | meld alle systemen ‘go’ voor lancering volgens tijdschema | | “We zijn nu T-8 minuten en … seconden. Alle systemen zijn ‘go’ voor een tijdige lancering van de shuttle.” |
 | T-0:08:30 | FD | geef launch director ‘GO’ om navraag van Launch Control te beginnen | | “Launch Director, je bent ‘go’ om launch control te raadplegen.” |
-| T-0:08:20 | PAO | rapporteer over pre-launch raadpleging | | “DE LAUNCH DIRECTOR ZAL NU ALLE LAUNCH CONTROL POSTEN RAADPLEGEN OM ZEKER TE ZIJN DAT ZE ‘GO’ ZIJN VOOR DE LANCERING VAN SHUTTLE JAPETUS.” |
-| T-0:08:10 | LD | begin pre-launch raadpleging van bemanning | | “BEGIN PRE-LAUNCH STATUS MONDELING EN MET DE COMPUTER. COMMANDER, BEN JE ‘GO’?” |
-| | CMDR | antwoord en enter ‘GO’ | enter [GO] | “JAPETUS IS ‘GO’ VOOR LANCERING.” |
-| | LD | overleg met SSO | | “SSO, BEN JE ‘GO’ ?” |
-| | SSO | antwoord aan LD en enter ‘GO’ | enter [GO] | | enter <kbd>ITEM</kbd> 195 <kbd>EXEC</kbd> | “SSO IS ‘GO’ .” |
-| | LD | overleg met ELSS: | | “ENVIRONMETAL LIFE SUPPORT?” |
-| | ELSS | antwoord aan LD en enter ‘GO’ | | enter [GO] | | | “ELSS HIER. ALLE SYSTEMEN ‘GO’. TREK TOEGANGSARM VOOR DE BEMANNING IN.” |
+| T-0:08:20 | PAO | rapporteer over pre-launch raadpleging | | “De Launch Director zal nu alle Launch Control posten raadplegen om zeker te zijn dat ze ‘go’ zijn voor de lancering van shuttle Japetus.” |
+| T-0:08:10 | LD | begin pre-launch raadpleging van bemanning | | “BEgin pre-launch status mondeling en met de computer. Commander, ben je ‘go’?” |
+| | CMDR | antwoord en enter ‘GO’ | enter [GO] | “Japetus is ‘go’ voor lancering.” |
+| | LD | overleg met SSO | | “SSO, ben je ‘go’ ?” |
+| | SSO | antwoord aan LD en enter ‘GO’ | enter [GO] | | enter <kbd>ITEM</kbd> 195 <kbd>EXEC</kbd> | “SSO is ‘go’ .” |
+| | LD | overleg met ELSS: | | “Environmetal Life Support?” |
+| | ELSS | antwoord aan LD en enter ‘GO’ | | enter [GO] | | | “ELSS hier. alle systemen ‘go’. Trek toegangsarm voor de bemanning in.” |
 | | | trek toegangsarm in | enter <kbd>ITEM</kbd> 140 <kbd>EXEC</kbd> | |
 | | LD | overleg met WXT | | “Weather and Tracking?” |
-| | WXT | antwoord aan LD en enter ‘GO’ | enter [GO] | “Weather and Tracking IS ‘GO’.” |
+| | WXT | antwoord aan LD en enter ‘GO’ | enter [GO] | “Weather and Tracking is ‘go’.” |
 | | LD | overleg met PAO | | “Public Affairs Officer?” |
-| | PAO | antwoord aan LD en enter ‘GO’ | enter [GO] | “PUBLIC AFFAIRS OFICER IS ‘GO’.” |
-| | LD | meld dat alle posten ‘GO’ zijn voor de lancering | controleer dat alle statuslampjes van de computer (behalve LD en FD) op ‘GO’ staan voor de lancering. | “ALLE LAUNCH CONTROL POSTEN MELDEN DAT ZE ‘GO’ ZIJN VOOR DE LANCERING VAN JAPETUS.” |
+| | PAO | antwoord aan LD en enter ‘GO’ | enter [GO] | “Public Affairs Officer is ‘go’.” |
+| | LD | meld dat alle posten ‘GO’ zijn voor de lancering | controleer dat alle statuslampjes van de computer (behalve LD en FD) op ‘GO’ staan voor de lancering. | “Alle Launch Control-posten melden dat ze ‘go’ zijn voor de lancering van Japetus.” |
 | | |  | enter [GO] | |
-| | FD | bevestig ‘GO’ voor lancering en enter ‘GO’ | enter [GO] | “Roger, WE ZIJN ‘GO’ VOOR DE LANCERING.” |
-| | LD | geef 'GO' om pre-launch programma in de boordcomputers te laden | | “JAPETUS, DIT IS LAUCH CONTROL. JE BENT ‘GO’ OM HET PRELAUNCH PROGRAMMA VAN JAPETUS IN DE BOORDCOMPUTERS TE LADEN.” |
-| | CMDR | bevestig | CMDR CHECKLIST #3 | “Roger. LADEN PRELAUCH PROGRAMMA NU.” |
-| | | meld einde van de opdracht | | “LAUNCH CONTROL, KOMPASRICHTING VAN 90.00 GRADEN GELADEN IN DE BOODCOMPUTERS VAN JAPETUS.” |
-| | LD | bevestig kompasrichting 90.00° | | “Roger. WE BEVESTIGEN EEN KOMPASRICHTING VAN 90.00 GRADEN.” |
-| T-0:06:15 | SSO | meld alle systemen normaal. Geef ‘GO’ om alle APU’s op te starten | | “ALLE SYSTEMEN VAN HET RUIMTESCHIP ZIJN NORMAAL. JAPETUS, JE BENT ‘GO’ OM ALLE APU’S IN DE JUISTE VOLGORDE OP TE STARTEN.” |
-| | PLT | | | “Roger, CONTROL. STARTEN ALLE APU’S OP IN DE JUISTE VOLGORDE.” |
+| | FD | bevestig ‘GO’ voor lancering en enter ‘GO’ | enter [GO] | “Roger, We zijn ‘go’ voor de lancering.” |
+| | LD | geef 'GO' om pre-launch programma in de boordcomputers te laden | | “Japetus, dit is Lauch Control. Je bent ‘go’ om het prelaunch programma van Japetus in de boordcomputers te laden.” |
+| | CMDR | bevestig | CMDR CHECKLIST #3 | “Roger. Laden prelauch programma nu.” |
+| | | meld einde van de opdracht | | “Launch Control, Kompasrichting van 90.00 graden geladen in de boodcomputers van Japetus.” |
+| | LD | bevestig kompasrichting 90.00° | | “Roger. We bevestigen een kompasrichting van 90.00 graden.” |
+| T-0:06:15 | SSO | meld alle systemen normaal. Geef ‘GO’ om alle APU’s op te starten | | “Alle systemen van het ruimteschip zijn normaal. Japetus, je bent ‘go’ om alle apu’s in de juiste volgorde op te starten.” |
+| | PLT | | | “Roger, Control. Starten allE APU’s op in de juiste volgorde.” |
 | | | | voer PLT CHECKLISTS #5, #6, #7 uit | |
-| | PAO | | | “DE PILOOT START NU DE AUXILIARY POWER UNITS DIE DE HYDRAULISCHE ENERGIE LEVEREN NODIG BIJ HET OPSTIJGEN EN DE LANDING VAN DE SHUTTLE.” |
-| | PLT | bevestig opstarten APU’s wanneer klaar | | “LAUNCH CONTROL, IK BEN KLAAR MET HET OPSTARTEN VAN DE APU’S IN DE JUISTE VOLGORDE. ALLE APU SYSTEMEN WERKEN NORMAAL.” |
-| T-0:04:45 | SSO | | | “Roger, JAPETUS. JE BENT ‘GO’ OM DE BRANDSTOFCELLEN TE STARTEN.” |
-| | PLT | | | “Roger. START BRANDSTOFCELLEN. IK MELD ME WANNEER OPDRACHT KLAAR.” |
+| | PAO | | | “De piloot start nu de Auxiliary Power units die de hydraulische energie leveren nodig bij het opstijgen en de landing van de shuttle.” |
+| | PLT | bevestig opstarten APU’s wanneer klaar | | “Launch Control, ik ben klaar met het opstarten van de APU’s in de juiste volgorde. Alle APU systemen werken normaal.” |
+| T-0:04:45 | SSO | | | “Roger, Japetus. Je bent ‘go’ om de brandstofcellen te starten.” |
+| | PLT | | | “Roger. Start brandstofcellen. ik meld me wanneer opdracht klaar.” |
 | | | | voer PLT CHECKLIST #8 uit | |
-| | | bevestig opstarten wanneer klaar | | “HOUSTON, CHECKLIST IS AFGEWERKT EN BRANDSTOFCELLEN ZIJN GESTART EN WERKEN.” |
-| | SSO | | | “Roger, JAPETUS. WE BEVESTIGEN EEN SUCCESVOL OPSTARTEN EN EEN NORMALE WERKING VAN ALLE BRANDSTOFCELLEN. IK SCHAKEL JE NU OVER OP INTERNE STROOMVOORZIENING.” |
+| | | bevestig opstarten wanneer klaar | | “Houston, checklist is afgewerkt en brandstofcellen zijn gestart en werken.” |
+| | SSO | | | “Roger, JAPETUS. we bevestigen een succesvol opstarten en een normale werking van alle brandstofcellen. Ik schakel je nu over op interne stroomvoorziening.” |
 | | | | enter <kbd>ITEM</kbd> 162 <kbd>EXEC</kbd> | |
-| | CMDR | | | “Roger, CONTROL. WE ZIJN OP INTERNE STROOMVOORZIENING.” |
-| | PAO | | | “LAUNCH CONTROL MELDT DAT DE SHUTTLE NU OP INTERNE STROOM WERKT. HET AFTELLEN VERLOOPT NORMAAL. WE ZULLEN BINNENKORT DE AFVOERARM VAN DE GASVORMIGE ZUURSTOF INTREKKEN.” |
-| | CMDR | controleer advisory voor bevestiging | | “Roger. BEVESTIG ZUURSTOFKLEPPEN NU GESLOTEN EN AFVOERARM AAN HET INTREKKEN.” |
-| T-0:02:30 | SSO | | | “JAPETUS, JE BENT ‘GO’ OM UITSCHAKELEN VAN APU’S TE VERMINDEREN BIJ ALLE APU’S.” |
-| | PLT | verhinder uitschakelen APU’s | | “Roger. VERHINDER NU UITSCHAKELEN VAN ALLE APU’S.” |
-| | | meld wanneer klaar | voer PLT CHECKLIST #9 uit en meld wanneer opdracht uitgevoerd is | “LAUNCH CONTROL, UITSCHAKELEN VAN APU’S IS VERHINDERD.” |
-| T-0:01:55 | SSO | | controleer signaal van statuslampje | “WATERSTOFKLEPPEN WORDEN NU GESLOTEN.” |
-| | CMDR | bevestig | controleer advisory | “Roger. WATERSTOFKLEPPEN WORDEN GESLOTEN EN DRUK WORDT OPGEVOERD.” |
-| | | meld wanneer operationele druk van de externe tank bereikt is | controleer de manometers van de ET | “LAUNCH CONTROL, DE EXTERNE TANK STAAT NU ONDER OPERATIONELE DRUK.” |
+| | CMDR | | | “Roger, control. We zijn op interne stroomvoorziening.” |
+| | PAO | | | “Launch Control meldt dat de shuttle nu op interne stroom werkt. het aftellen verloopt normaal. We zullen binnenkort de afvoerarm van de gasvormige zuurstof intrekken.” |
+| | CMDR | controleer advisory voor bevestiging | | “Roger. Bevestig zuurstofkleppen nu gesloten en afvoerarm aan het intrekken.” |
+| T-0:02:30 | SSO | | | “Japetus, je bent ‘go’ om uitschakelen van APU’s te verminderen bij alle APU’s.” |
+| | PLT | verhinder uitschakelen APU’s | | “Roger. Verhinder nu uitschakelen van alle APU’s.” |
+| | | meld wanneer klaar | voer PLT CHECKLIST #9 uit en meld wanneer opdracht uitgevoerd is | “Launch Control, uitschakelen van APU’s is verhinderd.” |
+| T-0:01:55 | SSO | | controleer signaal van statuslampje | “Waterstofkleppen worden nu gesloten.” |
+| | CMDR | bevestig | controleer advisory | “Roger. Waterstofkleppen worden gesloten en druk wordt opgevoerd.” |
+| | | meld wanneer operationele druk van de externe tank bereikt is | controleer de manometers van de ET | “Launch Control, de Externe Tank staat nu onder operationele druk.” |
 | T-0:01:05 | SSO | bevestig operationele druk wanneer hij bereikt wordt | controleer de manometer (ET groen) | “Roger. We bevestigen dat de ET onder operationele druk staat.” |
 | T-0:01:00 | FD | overloop de vluchtstatus en geef het bevel voor de lancering | | “We zijn ‘go’ voor de lancering.” |
 | | PAO | | | “Over enkele seconden begint de Automatische Aftelsequentie. De computerbesturing voor de lancering zal van Launch Control overgeschakeld worden op de boordcomputers van de shuttle.” |
