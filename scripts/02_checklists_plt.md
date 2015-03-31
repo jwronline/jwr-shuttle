@@ -86,6 +86,57 @@ voorbereiding lancering satelliet
 
 1. Geef scherm lancering satelliet weer: <kbd>SPEC</kbd> 302 <kbd>EXEC</kbd>.
 2. Open de beschermkap (SUN SHIELD): <kbd>ITEM</kbd> 179 <kbd>EXEC</kbd>
-3. Laat de satelliet om zijn as draaien (SPIN SEQUENCE) :
-	*  Zet de motoren aan: ENTER ITEM 219 <kbd>EXEC</kbd>
-	*  Maak de verankeringen (LATCHES) los: <kbd>ITEM </kbd>220 <kbd>EXEC</kbd>.
+3. Laat de satelliet om zijn as draaien (SPIN SEQUENCE):
+	*  Zet de motoren aan: <kbd>ITEM</kbd> 219 <kbd>EXEC</kbd>
+	*  Maak de verankeringen (LATCHES) los: <kbd>ITEM</kbd>220 <kbd>EXEC</kbd>.
+
+## PLT CHECKLIST # 13
+
+lancering satelliet
+
+1. Op T+0:20:30: <kbd>ITEM</kbd> 224.
+	* Druk nog niet op <kbd>EXEC</kbd>!
+2. Op T+0:21:00 precies: <kbd>EXEC</kbd>.
+
+Bij fouten heb je slechts een lanceervenster  van 15 seconden!
+
+Lanceer de satelliet niet meer na T+0:21:15!
+
+## PLT CHECKLIST # 14
+
+ontsteking OMS de-orbit
+
+1. Geef OMS-brandstofniveau weer:  <kbd>SPEC</kbd> 008 <kbd>EXEC</kbd>
+2. Geef status OMS-motoren weer: <kbd>SPEC</kbd> 301 <kbd>EXEC</kbd>
+3. Zoek “OMS ENG”. (C3)
+4. Schakel “LEFT” en “RIGHT” naar “ARM” (C3) 
+5. Breng het ontstekingsprogramma in: <kbd>ITEM</kbd> 478
+	* Druk nog niet op <kbd>EXEC</kbd>! 
+6. Druk 10 seconden voor de ontsteking moet gebeuren op <kbd>EXEC</kbd> om de aftelling te starten. 
+7. Volg de aftelling op de “advisory line”. 
+8. Na uitdoving OMS-motoren: schakel “LEFT” en “RIGHT” “OMS ENG” weer naar “OFF”. (C3)"
+
+## PLT CHECKLIST # 15
+
+herstart APU #1
+
+1. Schakel “BOILER CNTLR #1” naar “ON”. (R2) 
+2. Schakel “APU CONTROL #1” naar “START/RIDE”. (R2)
+ 
+## PLT CHECKLIST # 16
+
+herstart APU’s #2, #3
+
+1. Schakel “BOILER CNTLR #2, #3” naar “ON”. (R2) 
+2. Schakel “APU CONTROL #2, #3” naar “START/RIDE”. (R2)
+3. Schakel “APU AUTO SHUTDOWN” naar “INHIBIT”. (R2)
+   
+## PLT CHECKLIST # 17
+
+UItschakelen Boordsystemen
+
+1. Schakel “APU AUTO SHUTDOWN” naar “ENABLE”. (R2) 2.
+2. Schakel “APU CONTROL #3, #2, #1” naar “START ORIDE/RUN”. (R2)
+3. Schakel “BOILER CNTLR #3, #2, #1” naar “OFF”. (R2) 
+4. Schakel “FLT CNTLR POWER” naar “OFF”. (F8) 
+5. Schakel “INSTRUMENT POWER” naar “OFF”. (F8)   
