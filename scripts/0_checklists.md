@@ -33,4 +33,26 @@ OMS ontsteking # 1
 8. Bevestig OMS-ontsteking.
 9. Na uitdoving OMS-motoren: schakel “LEFT” en “RIGHT” “OMS ENG” weer naar “OFF”.  (C3)
 
+## CMDR CHECKLIST # 8
+
+OMS ontsteking # 2
+
+1. Geef OMS-brandstofniveau weer: <kbd>SPEC</kbd> 008 <kbd>EXEC</kbd>.
+2. Geef status OMS-motoren weer: <kbd>SPEC</kbd> 301 <kbd>EXEC</kbd>.
+3. Zoek “OMS ENG”.   (C3)
+4. Schakel “LEFT” en “RIGHT” naar “ARM”.  (C3)
+5. Breng het ontstekingsprogramma in: <kbd>ITEM</kbd> 477. Druk nog niet op <kbd>EXEC</kbd>!
+6. Druk 10 seconden voor de ontsteking moet gebeuren op <kbd>EXEC</kbd> om de aftelling te starten.
+7. Volg de aftelling op de “advisory line”.
+8. Bevestig OMS-ontsteking.
+9. Na uitdoving OMS-motoren: schakel “LEFT” en  “RIGHT” “OMS ENG” weer naar “ OFF”.  (C3)
+
+## CMDR CHECKLIST # 12
+
+Ontplooien Luchtsondes
+
+1. Zoek “AIR DATA PROBE STOW”. (C3) 
+2. Schakel “LEFT” en “RIGHT” naar “ENABLE”. (C3) 
+3. Zoek “AIR DATA PROBE”. (C3) 4. Schakel “LEFT” en “RIGHT” naar “DEPLOY/HEAT”. (C3)       "
+
 # Pilot
