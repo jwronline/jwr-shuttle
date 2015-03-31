@@ -71,5 +71,3 @@ Uitschakelen boordsystemen
 8. Schakel “general purpose computer power” #5 tot en met #1 naar “OFF”. (O6)
 9. Schakel “flt cntlr power” naar “off”. (F6)
 10. Schakel “instrument power” naar “off”. (F6)"
-
-# Pilot
