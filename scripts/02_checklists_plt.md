@@ -50,7 +50,7 @@ starten APU’s
 
 start brandstofcellen
 
-1. Zoek “FUEL CELL / READY FOR LOAD”.  (R1)
+1. Zoek “FUEL CELL / READY FOR LOAD”. (R1)
 2. Schakel “1” naar “START”. (R1)
 3. Schakel “2” naar “START”. (R1)
 4. Schakel “3” naar “START”. (R1)
@@ -71,3 +71,21 @@ sluiten deuren brandstofleidingen ET
 3. Schakel “LEFT” en “RIGHT” van “LATCH” naar “RELEASE”. (R2)
 4. Schakel “LEFT” en “RIGHT” van “OPEN” naar “CLOSE”. (R2)
 5. Schakel “LEFT” en “RIGHT” van “RELEASE” naar “LATCH”. (R2)
+
+## PLT CHECKLIST # 11
+
+uitschakelen APU’s
+
+1. Schakel “APU AUTO SHUTDOWN” naar “ENABLE”. (R2)
+2. Schakel “APU CONTROL #1, #2, #3” naar “START ORIDE/RUN”. (R2)
+3. Schakel “BOILER CNTLR #1, #2, #3” naar “OFF”. (R2)
+
+## PLT CHECKLIST # 12
+
+voorbereiding lancering satelliet
+
+1. Geef scherm lancering satelliet weer: <kbd>SPEC</kbd> 302 <kbd>EXEC</kbd>.
+2. Open de beschermkap (SUN SHIELD): <kbd>ITEM</kbd> 179 <kbd>EXEC</kbd>
+3. Laat de satelliet om zijn as draaien (SPIN SEQUENCE) :
+	*  Zet de motoren aan: ENTER ITEM 219 <kbd>EXEC</kbd>
+	*  Maak de verankeringen (LATCHES) los: <kbd>ITEM </kbd>220 <kbd>EXEC</kbd>.
