@@ -12,6 +12,6 @@ Scripts is licensed under a [Creative Commons Attribution-NonCommercial-ShareAli
 
 # Progress
 
-Voor zover is het hele script behalve de checklists omgezet in geldige markdown. Het is echter nog niet allemaal 'schoongemaakt' (d.w.z. er zijn nog hopen tekst in all-caps die proper gemaakt moeten worden).
+Voor zover is het hele script en zijn de checklists omgezet in geldige markdown. Het is echter nog niet allemaal 'schoongemaakt' (d.w.z. er zijn nog hopen tekst in all-caps die proper gemaakt moeten worden).
 
 De codes moeten ook nog geïmplementeerd worden in [shuttle-command](https://github.com/shuttle-command), en aangepast in het script.
