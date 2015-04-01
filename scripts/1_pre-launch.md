@@ -19,7 +19,8 @@ Alle posities in mission control voeren nu de pre-launch computerconfiguratie in
 | | PAO |antwoord aan launch director | |“PAO ontvangt u goed.” |
 | | LD |begin lucht-grond audio controle | |“Japetus, hier launch control. Graag een antwoord per positie voor lucht-grond audio controle. Commander?” |
 | | CMDR |antwoord aan launch director | |“Roger.” |
-| | LD |controle met piloot | |“PILOOT?” | |PLT |antwoord aan launch director | |“ROGER.” |
+| | LD |controle met piloot | |“PILOOT?” |
+| |PLT |antwoord aan launch director | |“ROGER.” |
 | | LD |controle met MS 1 | |“Mission Specialist 1?” |
 | | MS 1 |antwoord aan launch director | |“Roger.” |
 | | LD |controle met MS 2 | |“Mission Specialist 2?” |
