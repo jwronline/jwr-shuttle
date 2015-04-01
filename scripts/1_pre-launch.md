@@ -61,7 +61,7 @@ Alle posities in mission control voeren nu de pre-launch computerconfiguratie in
 | | CMDR | bevestig | | “Roger. Ik sluit nu de luchtkleppen.” |
 | | | | CMDR CHECKLIST #2 | |
 | | | verwittig wanneer kleppen gesloten zijn | “Launch Control, luchtkleppen zijn nu gesloten.” |
-| | ELSS | meld controle van de luchtdruk in de cabine | | “Roger. We controleren de luchtdruk in de cabine.” |
+| | ELSS | meld controle van de luchtdruk in de cabine | <kbd>OPS</kbd>003<kbd>EXEC</kbd>| “Roger. We controleren de luchtdruk in de cabine.” |
 | | | | kijk naar de manometer. wanneer hij 16.7 psi bereikt, meld je een positieve test. indien niet, meld je negatief resultaat aan flight director | |
 | | | | | “Japetus, de luchtdruk in de cabine is nu 16.7 PSI en blijft constant. Test is normaal en gedaan.” |
 | | | | enter <kbd>ITEM</kbd> 136 <kbd>EXEC</kbd> (“CABIN LEAK CHECK” groen) | |
