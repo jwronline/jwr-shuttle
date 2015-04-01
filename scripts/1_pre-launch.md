@@ -6,8 +6,8 @@ Alle posities in mission control voeren nu de pre-launch computerconfiguratie in
 
 | MET (mission elapsed time) | Wie is aan de beurt | Wat gebeurt er | Scherm, knopjes, klavier, schakelaars | Wat wordt er gezegd? |
 | --- | --- | --- | --- | --- |
-| T -0:09:00 HOLDING | PAO | | | “DE Launch Director zal nu de geluidsverbindingen met het grondpersoneel en de bemanning in de shuttle controleren. Ieder lid moet een goede audioverbinding bevestigen vooraleer de aftelling hernomen kan worden.” |
-| |LD | start het testen van de geluidsverbindingen met mission control, te beginnen met de Flight Director | | “Dit is launch control met een audio controle voor de vlucht. Flight Director, hoe ontvangt u mij?” |
+| T -0:09:00 HOLDING | PAO | | | “De Launch Director zal nu de geluidsverbindingen met het grondpersoneel en de bemanning in de shuttle controleren. Ieder lid moet een goede audioverbinding bevestigen vooraleer de aftelling hernomen kan worden.” |
+| |LD | start het testen van de geluidsverbindingen met mission control, te beginnen met de Flight Director | <kbd>OPS</kbd> 137 <kbd>EXEC</kbd> | “Dit is launch control met een audio controle voor de vlucht. Flight Director, hoe ontvangt u mij?” |
 | | FD | antwoord aan launch director | | “Flight Director ontvangt u goed.” |
 | | LD | controle met spacecraft systems officer | | “Spacecraft Systems Officer, hoe ontvangt u mij?” |
 | | SSO | antwoord aan launch director | | “Spacecraft Systems ontvangt u goed.” |
@@ -17,7 +17,7 @@ Alle posities in mission control voeren nu de pre-launch computerconfiguratie in
 | | WXT |antwoord aan launch director | |“Weather and Tracking ontvangt u goed.” |
 | | LD |controle met PAO | |“PAO, hoe ontvangt u mij?” |
 | | PAO |antwoord aan launch director | |“PAO ontvangt u goed.” |
-| | LD |begin lucht-grond audio controle | |“Japetus, hier launch control. Graag een antwoord per positie voor lucht-grond audio controle. Commander?” |
+| | LD | begin lucht-grond audio controle | |“Japetus, hier launch control. Graag een antwoord per positie voor lucht-grond audio controle. Commander?” |
 | | CMDR |antwoord aan launch director | |“Roger.” |
 | | LD |controle met piloot | |“PILOOT?” |
 | |PLT |antwoord aan launch director | |“ROGER.” |
@@ -44,7 +44,7 @@ Alle posities in mission control voeren nu de pre-launch computerconfiguratie in
 
 | MET (mission elapsed time) | Wie is aan de beurt | Wat gebeurt er | Scherm, knopjes, klavier, schakelaars | Wat wordt er gezegd? |
 | --- | --- | --- | --- | --- |
-| | FD | overleg met WXT | “Weather and Tracking, zijn we ‘go’ voor de lancering?” |
+| | FD | overleg met WXT || “Weather and Tracking, zijn we ‘go’ voor de lancering?” |
 | | WXT | raadpleeg het weerbericht van de lanceerbasis en van de noodlandingbases en vermeld de bases die ‘go’ zijn om gebruikt te worden als de lancering op tijd gebeurt | lees het weerbericht met betrekking tot de noodlandingbases en kies | “Launch Director, de weersomstandigheden in Dakar maken een tal landing [mogelijk/onmogelijk] indien nodig, en Edwards kan [een/geen] AOA ontvangen.” |
 | | | | lees het weerbericht met betrekking tot de lanceerbasis en kies | “Het weer op de kaap is [goed/niet] goed. we zijn [‘go’/’no go’] voor de lancering.” |
 
