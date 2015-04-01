@@ -35,7 +35,7 @@ Alle posities in mission control voeren nu de pre-launch computerconfiguratie in
 | MET (mission elapsed time) | Wie is aan de beurt | Wat gebeurt er | Scherm, knopjes, klavier, schakelaars | Wat wordt er gezegd? |
 | --- | --- | --- | --- | --- |
 | T-0:09:00 HOLDING | FD | bevestig dat audio controle af is en begin met de abort advisory test | | “Roger. Audiocontrole is klaar. Alle posten standby voor een abort advisory test. Alle posten moeten het abort lampje zien knipperen wanneer ik de testschakelaar indruk.” |
-| | | druk de testschakelaar in | <kbd>ITEM</kbd> 438 <kbd>EXEC</kbd> (“ABORT” knippert) | |
+| | | druk de testschakelaar in | <kbd>OPS</kbd> 438 <kbd>EXEC</kbd> (“ABORT” knippert) | |
 | | PAO | leg ondertussen de abort advisory test uit | | “De Abort Advisory test is een controle van de computer die de stopzetting van de lancering bestuurt. Als de shuttle met een probleem te maken krijgt tijdens het aftellen of de lancering zal het alarmsysteem het personeel in mission control en in de ruimtependel verwittigen.” |
 | | FD | meldt wanneer abort advisory test af is | <kbd>ITEM</kbd> 439 <kbd>EXEC</kbd> (“ABORT” uit) | “Abort Advisory Test is gedaan. Elke post waar het abort lampje niet brandt moet het nu melden.” |
 | | LD | bevestig positieve test |  <kbd>ITEM</kbd> 116 <kbd>EXEC</kbd> (“ABORT TEST” in het groen) | “Launch Control bevestigt een positieve abort advisory test.” |
