@@ -19,8 +19,8 @@ inbrengen prelaunch programma
 
 OMS ontsteking # 1
 
-1. Geef OMS-brandstofniveau weer: <kbd>SPEC</kbd> 008 <kbd>EXEC</kbd>
-2. Geef status OMS-motoren weer: <kbd>SPEC</kbd> 301 <kbd>EXEC</kbd>
+1. Geef OMS-brandstofniveau weer: <kbd>OPS</kbd> 008 <kbd>EXEC</kbd>
+2. Geef status OMS-motoren weer: <kbd>ITEM</kbd> 301 <kbd>EXEC</kbd>
 3. Zoek “OMS ENG”.  (C3)
 4. Schakel “LEFT” en “RIGHT” naar “ARM”.  (C3)
 5. WXT geeft het OMS-1 programma door. Bevestig.
