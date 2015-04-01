@@ -38,8 +38,7 @@ Alle posities in mission control voeren nu de pre-launch computerconfiguratie in
 | | | druk de testschakelaar in | <kbd>ITEM</kbd> 438 <kbd>EXEC</kbd> (“ABORT” knippert) | |
 | | PAO | leg ondertussen de abort advisory test uit | | “De Abort Advisory test is een controle van de computer die de stopzetting van de lancering bestuurt. Als de shuttle met een probleem te maken krijgt tijdens het aftellen of de lancering zal het alarmsysteem het personeel in mission control en in de ruimtependel verwittigen.” |
 | | FD | meldt wanneer abort advisory test af is | <kbd>ITEM</kbd> 439 <kbd>EXEC</kbd> (“ABORT” uit) | “Abort Advisory Test is gedaan. Elke post waar het abort lampje niet brandt moet het nu melden.” |
-| | LD | bevestig positieve test | | “Launch Control bevestigt een positieve abort advisory test.” |
-| | | | <kbd>ITEM</kbd> 116 <kbd>EXEC</kbd> (“ABORT TEST” in het groen) |
+| | LD | bevestig positieve test |  <kbd>ITEM</kbd> 116 <kbd>EXEC</kbd> (“ABORT TEST” in het groen) | “Launch Control bevestigt een positieve abort advisory test.” |
 
 ## Weerbericht
 
