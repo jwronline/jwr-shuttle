@@ -84,7 +84,7 @@ uitschakelen APU’s
 
 voorbereiding lancering satelliet
 
-1. Geef scherm lancering satelliet weer: <kbd>SPEC</kbd> 302 <kbd>EXEC</kbd>.
+1. Geef scherm lancering satelliet weer: <kbd>OPS</kbd> 302 <kbd>EXEC</kbd>.
 2. Open de beschermkap (SUN SHIELD): <kbd>ITEM</kbd> 179 <kbd>EXEC</kbd>
 3. Laat de satelliet om zijn as draaien (SPIN SEQUENCE):
 	*  Zet de motoren aan: <kbd>ITEM</kbd> 219 <kbd>EXEC</kbd>
