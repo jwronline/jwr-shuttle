@@ -6,8 +6,8 @@ De lancering
 
 | MET (mission elapsed time) | Wie is aan de beurt | Wat gebeurt er | Scherm, knopjes, klavier, schakelaars | Wat wordt er gezegd? |
 | --- | --- | --- | --- | --- |
-| T-0:09:00 | LD | geef standby om de aftelling te hervatten op T-9 minuten | <kbd>OPS</kbd> 101 | “Roger. We beginnen de aftelling over 15 seconden op mijn teken. 15, 14, 13…, 3,2,1. start.” |
-| | | | druk op <kbd>EXEC</kbd> op het moment dat je ‘start’ zegt | |
+| T-0:09:00 | LD | geef standby om de aftelling te hervatten op T-9 minuten | <kbd>OPS</kbd> 101 <kbd>EXEC</kbd> | “Roger. We beginnen de aftelling over 15 seconden op mijn teken. 15, 14, 13…, 3,2,1. start.” |
+| | | | druk op <kbd>ITEM</kbd> 001 <kbd>EXEC</kbd> op het moment dat je ‘start’ zegt | |
 | | PAO | meld alle systemen ‘go’ voor lancering volgens tijdschema | | “We zijn nu T-8 minuten en … seconden. Alle systemen zijn ‘go’ voor een tijdige lancering van de shuttle.” |
 | T-0:08:30 | FD | geef launch director ‘GO’ om navraag van Launch Control te beginnen | | “Launch Director, je bent ‘go’ om launch control te raadplegen.” |
 | T-0:08:20 | PAO | rapporteer over pre-launch raadpleging | | “De Launch Director zal nu alle Launch Control posten raadplegen om zeker te zijn dat ze ‘go’ zijn voor de lancering van shuttle Japetus.” |
@@ -127,7 +127,7 @@ De lancering
 |  | FD | vraag programma OMS-ontsteking 1 aan |  | “Weather and Tracking, graag aanbeveling programma voor OMS-ontsteking 1.” |
 | T+0:09:20 | WXT |  | kijk naar het scherm met de koers om te bepalen welk OMS-programma nodig zal zijn. Raadpleeg Checklist OMS-1. | “Japetus, Weather and Tracking raadt aan OMS-1 programma … te gebruiken. Ontsteking om 10:15 Mission Elapsed Time.” |
 | T+0:09:35 | CMDR |  | voer CMDR Checklist #4 uit tot stap 5, en wacht met stap 6! | “Roger. Laden oms-1 programma … in de computer. Zullen oms ontsteken om 10:15 MET.” |
-|  |  | een mondelinge aftelling voor 10 seconden gaat aan het afvuren vooraf | druk <kbd>EXEC</kbd>tien seconden voor het afvuren van de OMS. kijk naar advisory line | “OMS-ontsteking over 15 seconden … 10, 9, 8, … 3, 2, 1, ontsteking.” |
+|  |  | een mondelinge aftelling voor 10 seconden gaat aan het afvuren vooraf | druk <kbd>EXEC</kbd> tien seconden voor het afvuren van de OMS. kijk naar advisory line | “OMS-ontsteking over 15 seconden … 10, 9, 8, … 3, 2, 1, ontsteking.” |
 | T+0:10:15 | SSO | bevestig OMS ontsteking | controleer statuslampjes | “-oger. -e bevestigen ontsteking van bei-e OM--motoren.” |
 | T+0:10:45 | PAO |  |  | “De shuttle heeft de motoren van het Orbital Maneuvering System ontstoken. Na beëindiging hiervan zal de bemanning zich klaarmaken voor de on-orbit werkzaamheden.” |
 | T+0:11:00 | ALLE POSTEN | alle posten in mission control configureren hun computers opnieuw voor on-orbit operaties. Raadpleeg je checklists!Iedereen neemt het deel on-orbit en herneemt om T+0:12:00 |  |  |
