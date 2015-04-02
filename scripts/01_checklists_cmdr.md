@@ -12,8 +12,11 @@ sluiten luchtkleppen
 
 inbrengen prelaunch programma
 
-1. Breng het vluchtplan in: <kbd>OPS</kbd> 777 <kbd>PRO</kbd>.
-2. Breng het reserveplan in: <kbd>OPS</kbd> 778 <kbd>PRO</kbd>.
+1. Breng het vluchtplan in: <kbd>OPS</kbd> 777 <kbd>EXEC</kbd>.
+	* vluchtplan high? <kbd>ITEM</kbd> 601 <kbd>EXEC</kbd>
+	* vluchtplan normal? <kbd>ITEM</kbd> 602 <kbd>EXEC</kbd>
+	* vluchtplan low? <kbd>ITEM</kbd> 603 <kbd>EXEC</kbd>
+2. Breng het reserveplan in: <kbd>OPS</kbd> 778 <kbd>EXEC</kbd>.
 
 ## CMDR CHECKLIST # 4
 
