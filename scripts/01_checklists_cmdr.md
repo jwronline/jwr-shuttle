@@ -17,6 +17,9 @@ inbrengen prelaunch programma
 	* vluchtplan normal? <kbd>ITEM</kbd> 602 <kbd>EXEC</kbd>
 	* vluchtplan low? <kbd>ITEM</kbd> 603 <kbd>EXEC</kbd>
 2. Breng het reserveplan in: <kbd>OPS</kbd> 778 <kbd>EXEC</kbd>.
+	* vluchtplan high? <kbd>ITEM</kbd> 601 <kbd>EXEC</kbd>
+	* vluchtplan normal? <kbd>ITEM</kbd> 602 <kbd>EXEC</kbd>
+	* vluchtplan low? <kbd>ITEM</kbd> 603 <kbd>EXEC</kbd>
 
 ## CMDR CHECKLIST # 4
 
@@ -68,8 +71,8 @@ Uitschakelen boordsystemen
 3. Schakel “VENT ISOL” en “VENT” naar “OPEN”. (L2)
 4. Schakel “A” en “B” opnieuw naar “CLOSE”. (L2)
 5. Schakel voor “DFI RECORDERS”: 
-	- “PCM” naar “LO SAMPLE”. (C3) 
-	- “ASCEnt” en “mission” naar “standby”. (c3)
+	* “PCM” naar “LO SAMPLE”. (C3) 
+	* “ASCEnt” en “mission” naar “standby”. (c3)
 6. Schakel “timer” naar “set”. (C2)
 7. Schakel “event timer” naar “stop”. (C2)
 8. Schakel “general purpose computer power” #5 tot en met #1 naar “OFF”. (O6)
