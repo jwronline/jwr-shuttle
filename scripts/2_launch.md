@@ -34,7 +34,7 @@ De lancering
 | | | | voer PLT CHECKLISTS #5, #6, #7 uit | |
 | | PAO | | | “De piloot start nu de Auxiliary Power units die de hydraulische energie leveren nodig bij het opstijgen en de landing van de shuttle.” |
 | | PLT | bevestig opstarten APU’s wanneer klaar | | “Launch Control, ik ben klaar met het opstarten van de APU’s in de juiste volgorde. Alle APU systemen werken normaal.” |
-| T-0:04:45 | SSO | | | “Roger, Japetus. Je bent ‘go’ om de brandstofcellen te starten.” |
+| T-0:04:45 | SSO | | <kbd>OPS</kbd> 183 <kbd>EXEC</kbd> | “Roger, Japetus. Je bent ‘go’ om de brandstofcellen te starten.” |
 | | PLT | | | “Roger. Start brandstofcellen. ik meld me wanneer opdracht klaar.” |
 | | | | voer PLT CHECKLIST #8 uit | |
 | | | bevestig opstarten wanneer klaar | | “Houston, checklist is afgewerkt en brandstofcellen zijn gestart en werken.” |
