@@ -78,10 +78,10 @@
 | T+0:25:00 | FD |  |  | “JAPETUS, JE BENT ’GO’ VOOR OMS-2 ONTBRANDING VOOR RENDEZ-VOUS MET HET RUIMTESTATION FREEDOM.” |
 |  | CMDR |  | voer CMDR CHECKLIST #8 uit tot en met stap 3 | “ROGER. WE BEVESTIGEN: ’GO’ VOOR OMS-2 ONTSTEKING.” |
 | T+0:25:30 | FD |  |  | “JAPETUS, LAAD NU HET COMPUTERPROGRAMMA.” |
-|  | CMDR | breng het programma in | stap 4 van de checklist – druk nog niet op [EXEC]! | “WE LADEN HET PROGRAMMA NU.”  “HOUSTON, JAPETUS. HET OMS-2 PROGRAMMA WERD IN DE GPC’S GELADEN.” |
+|  | CMDR | breng het programma in | stap 4 van de checklist – druk nog niet op <kbd>EXEC</kbd>! | “WE LADEN HET PROGRAMMA NU.”  “HOUSTON, JAPETUS. HET OMS-2 PROGRAMMA WERD IN DE GPC’S GELADEN.” |
 | T+0:25:45 | FD |  |  | “ROGER, JAPETUS. VOER OMS-2 UIT OM 26:30 M.E.T.” |
 |  | CMDR | bevestig |  | “ROGER. JAPETUS ZAL HET PROGRAMMA UITVOEREN OM 16:20 M.E.T.” |
-| T+0:26:20 | CMDR |  | druk op [EXEC]. Kijk naar de advisory line voor aftelling | “PROGRAMMA UITGEVOERD, ONTSTEKING OVER 10, 9, 8, 7, 6, 5, 4, 3, 2, 1. ONTSTEKING VAN BEIDE MOTOREN.” |
+| T+0:26:20 | CMDR |  | druk op <kbd>EXEC</kbd>. Kijk naar de advisory line voor aftelling | “PROGRAMMA UITGEVOERD, ONTSTEKING OVER 10, 9, 8, 7, 6, 5, 4, 3, 2, 1. ONTSTEKING VAN BEIDE MOTOREN.” |
 | T+0:26:30 | SSO | bevestig |  | “ROGER. WE BEVESTIGEN GOEDE ONTSTEKING VAN BEIDE MOTOREN.” |
 | T+0:27:30 | CMDR | bevestig uitschakelen OMS-motoren | (kijk naar computerscherm) | “JAPETUS HEEFT OMS-MOTOREN UITGESCHAKELD.” |
 |  |  |  | beëindig checklist |  |
@@ -95,13 +95,13 @@
 |  | CMDR | bevestig |  | “ROGER. RENDEZ-VOUS MET FREEDOM OVER 28 MINUTEN.” |
 | T+0:29:00 | FD | vraag een verslag over de EVA |  | “MAG IK EEN VERSLAG OVER DE EVA?” |
 |  | LD | kijk door het raam en geef met eigen woorden een verslag over de ruimtewandeling |  | “ …” |
-|  | WXT |  | enter [item 274 EXEC] | “DIT IS DE TRACKING OFFICER. WE HEBBEN ZOJUIST EEN SIGNAAL ONTVANGEN VAN DE SATELLIET. DE ONTBRANDING VAN DE RAKETMOTOR IS CORRECT VERLOPEN EN DE SATELLIET BEVINDT ZICH OP DE JUISTE BAAN. PROFICIAT, JAPETUS. HET SIGNAAL VAN DE SATELLIET WORDT DUIDELIJK ONTVANGEN DOOR DE GRONDSTATIONS. HIJ BEVINDT ZICH IN DE GEPLANDE BAAN, 300 MIJL BOVEN HET AARDOPPERVLAK.” |
+|  | WXT |  | enter <kbd>ITEM</kbd> 274 <kbd>EXEC</kbd> | “DIT IS DE TRACKING OFFICER. WE HEBBEN ZOJUIST EEN SIGNAAL ONTVANGEN VAN DE SATELLIET. DE ONTBRANDING VAN DE RAKETMOTOR IS CORRECT VERLOPEN EN DE SATELLIET BEVINDT ZICH OP DE JUISTE BAAN. PROFICIAT, JAPETUS. HET SIGNAAL VAN DE SATELLIET WORDT DUIDELIJK ONTVANGEN DOOR DE GRONDSTATIONS. HIJ BEVINDT ZICH IN DE GEPLANDE BAAN, 300 MIJL BOVEN HET AARDOPPERVLAK.” |
 | T+0:31:00 | PAO | kondig een boodschap aan en lees die voor |  | “JAPETUS, WE HEBBEN EEN SPECIALE BOODSCHAP VOOR JULLIE. ZE LUIDT ALS VOLGT: ‘ …’” |
 |  | CMDR | antwoord met je eigen woorden |  | “ …” |
 | T+0:35:00 | LD | geef verslag over de vorderingen van het EVA-team (kijk door het raam) |  | “ …” |
 |  |  | vraag toelating om de satelliet te activeren. | gebruik de satellite systems checklist | “FLIGHT DIRECTOR, BEN IK ‘GO’ OM DE ELEKTRISCHE STROOM EN DE TEMPERATUURCONTROLE VAN DE SATELLIET IN TE SCHAKELEN?” |
 |  | FD | antwoord |  | “ROGER. JE BENT ‘GO’ OM TE ACTIVEREN.” |
-|  | LD | activeer de satelliet | enter [item 987 EXEC] |  |
+|  | LD | activeer de satelliet | enter <kbd>ITEM</kbd> 987 <kbd>EXEC</kbd> |  |
 | T+0:38:00 | LD | geef verslag over het activeren van de satellietsystemen |  | “WE HEBBEN EEN GESLAAGDE ACTIVERING VAN DE SATELLIETSYSTEMEN. IK GA NU DOOR MET DE ACIVERING VAN DE COMMUNICATIEMODULE EN HET STUURSYSTEEM VOOR DE STAND VAN DE SATELLIET.” |
 |  | FD | controleer de statuslampjes en bevestig |  | “ROGER. GA VERDER MET DE NORMALE CHECKLIST.” |
 | T+0:39:00 | SSO | vraag naar brandstofniveaus |  | “JAPETUS, MAG IK HET BRANDSTOFNIVEAU VAN DE RUIMTEPENDEL?” |
