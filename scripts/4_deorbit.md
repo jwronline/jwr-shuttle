@@ -70,39 +70,39 @@
 | T+1:31:00 | PAO | geef verslag over nadering van HAC |  | “ DE VERWITTIGING DAT JAPETUS DE HAC NADERT BETEKENT DAT DE SHUTTLE KLAAR IS OM DE LAATSTE CORRECTIES UIT TE VOEREN VOOR DE LANDING. ‘HAC’ STAAT VOOR HEADING ALIGNMENT CYLINDER. TIJDENS DIT MANEUVER ZAL DE SHUTTLE EEN BOCHT VAN 180 GRADEN MAKEN OM ZIJN SNELHEID EN HOOGTE AAN TE PASSEN VOOR EEN PRECISIELANDING.” |
 |  | LD |  |  | “JAPETUS, WE HEBBEN JULLIE NADERING NU IN ZICHT.” |
 | T+1:31:30 | SSO | meld uitschakeling RCS |  | “RCS STUURRAKETTEN UITGESCHAKELD.” |
-|  | PLT | bevestig |  | “ROGER, RCS STUURRAKETTEN UITGESCHAKELD.” |
+|  | PLT | bevestig | <kbd>OPS</kbd> 280 <kbd>EXEC</kbd> | “ROGER, RCS STUURRAKETTEN UITGESCHAKELD.” |
 | T+1:32:00 | WXT |  |  | “JAPETUS, JULLIE HEBBEN NU EEN HOOGTE VAN …… ZEEMIJL.DE AFSTAND BEDRAAGT …ZEEMIJL.SNELHEID IS MACH …GLIJVLUCHT VAN 20 GRADEN.” |
 | T+1:32:30 | PAO |  |  | “ONGEVEER 2 MINUTEN EN 30 SECONDEN TOT DE LANDING.” |
 | T+1:33:00 | WXT |  |  | “JAPETUS, ER IS EEN KLEINE DWARSWIND VAN 2 KNOPEN UIT HET WESTEN.” |
 |  | CMDR |  |  | “ROGER. DWARSWIND 2 KNOPEN UIT HET WESTEN.” |
 | T+1:34:00 | WXT | controleer meters en geef verslag |  | “HOOGTE… VOET.AFSTAND …ZEEMIJL.SNELHEID MACH… .GLIJVLUCHT VAN 20 GRADEN.” |
 |  | CMDR | begin pre-flare | kijk uit voor advisory | “BEGIN PRE-FLARE.” |
-|  | PLT | wapen landingsgestel na aanwijzing | kijk naar advisory [ITEM 430 EXEC] | “LANDINGSGESTEL GEWAPEND.” |
+|  | PLT | wapen landingsgestel na aanwijzing | kijk naar advisory <kbd>ITEM</kbd> 430 <kbd>EXEC</kbd> | “LANDINGSGESTEL GEWAPEND.” |
 |  | SSO | bevestig |  | “ROGER. BEVESTIG GESTEL GEWAPEND.” |
 | T+1:34:45 | PLT | meld landingsgestel neer en vergrendeld |  | “GESTEL NEER …EN VERGRENDELD.” |
-|  | SSO | bevestig |  | “ROGER. GESTEL VERGRENDELD.” |
-| T+1:34:50 | CMDR | begin full flare | kijk uit naar advisory | “FULL FLARE.” |
-| T+1:35:00 | LD | meld landing | kijk uit voor advisory | “TOUCHDOWN HOOFDGESTEL.” |
-|  | CMDR | laat zachtjes de neus van de ruimtependel neer |  | “NEUSGESTEL ZAKT.” |
-|  | PLT |  |  | “LUCHTREM 100%.” |
-|  | LD | meld wanneer het neusgestel de grond raakt |  | “TOUCHDOWN NEUSGESTEL.” |
-|  | CMDR |  |  | “BEGIN NU TE REMMEN.” |
-|  | WXT |  |  | “BLIJFT OVER OP LANDINGSBAAN: 7.000 VOET.” |
-|  | PLT |  |  | “ROGER.  PLAATS GENOEG.” |
-|  | LD | meld wielenstop | kijk naar computerscherm | “WIELSTOP.” |
+|  | SSO | bevestig |  | “Roger. Gestel vergrendeld.” |
+| T+1:34:50 | CMDR | begin full flare | kijk uit naar advisory | “Full flare.” |
+| T+1:35:00 | LD | meld landing | kijk uit voor advisory | “Touchdown hoofdgestel.” |
+|  | CMDR | laat zachtjes de neus van de ruimtependel neer |  | “Neusgestel zakt.” |
+|  | PLT |  |  | “Luchtrem 100%.” |
+|  | LD | meld wanneer het neusgestel de grond raakt |  | “Touchdown neusgestel.” |
+|  | CMDR |  |  | “Begin nu te remmen.” |
+|  | WXT |  |  | “Blijft over op landingsbaan: 7.000 voet.” |
+|  | PLT |  |  | “Roger.  Plaats genoeg.” |
+|  | LD | meld wielenstop | kijk naar computerscherm | “Wielstop.” |
 |  | PAO | noteer het tijdstip van het stoppen van de wielen |  |  |
-|  | FD |  |  | “JAPETUS, MOOIE LANDING. HET KONVOOI IS OP WEG. WE PIKKEN JULLIE OVER ENKELE MINUTEN OP.” |
-|  | PAO |  |  | “WE HEBBEN EEN OFFICIEUSE VLUCHTTIJD VAN … UUR… MINUTEN EN… SECONDEN.” |
-|  | SSO |  |  | “JAPETUS, JE BENT ‘GO’ OM ALLE APU’S UIT TE SCHAKELEN.” |
-|  | PLT | begin uitschakelen |  | “ROGER. BEGIN NU APU’S UIT TE SCHAKELEN.” |
+|  | FD |  |  | “Japetus, mooie landing. Het konvooi is op weg. We pikken jullie over enkele minuten op.” |
+|  | PAO |  |  | “We hebben een officieuse vluchttijd van … uur… minuten en… seconden.” |
+|  | SSO |  |  | “Japetus, je bent ‘go’ om alle APU’s uit te schakelen.” |
+|  | PLT | begin uitschakelen |  | “Roger. Begin nu APU’s uit te schakelen.” |
 |  |  |  | PLT CHECKLIST #17 |  |
-|  | PLT | meld wanneer taak uitgevoerd is |  | “HOUSTON, ALLE APU’S UITGESCHAKELD.” |
-|  | SSO |  |  | “ROGER. WE BEVESTIGEN NORMALE UITSCHAKELING VAN ALLE APU’S.” |
-|  | LD | geef Japetus order boordsystemen uit te schakelen |  | “JAPETUS, JE KUNT BEGINNEN BOORDSYSREMEN UIT TE SCHAKELEN.” |
-|  | CMDR |  |  | “ROGER. BEGIN NU ALLE SYSTEMEN UIT TE SCHAKELEN.” |
+|  | PLT | meld wanneer taak uitgevoerd is |  | “Houston, alle APU’s uitgeschakeld.” |
+|  | SSO |  |  | “Roger. We bevestigen normale uitschakeling van alle APU’s.” |
+|  | LD | geef Japetus order boordsystemen uit te schakelen |  | “Japetus, je kunt beginnen boordsysremen uit te schakelen.” |
+|  | CMDR |  |  | “Roger. Begin nu alle systemen uit te schakelen.” |
 |  |  |  | CMDR CHECKLIST #13 |  |
-|  |  |  |  | “HOUSTON, VOLLEDIGE UITSCHAKELING BOORDSYSTEMEN EN BEVEILIGING SHUTTLE BEËINDIGD.” |
-|  | LD |  |  | “ROGER. VOLLEDIGE UITSCHAKELING EN BEVEILIGING PENDEL.” |
-|  | FD |  |  | “PROFICIAT VOOR EEN SUCCESVOLLE VLUCHT. HET KONVOOI MELDT DAT DE PENDEL VEILIG IS. JE BENT ‘GO’ OM DE ORBITER TE VERLATEN.” |
-|  | CMDR |  |  | “ROGER. IK BEN BLIJ WEER THUIS TE ZIJN.” |
-|  | FD |  |  | “BEGREPEN. WE ZIEN JULLIE OVER ENKELE MINUTEN.” |
+|  |  |  |  | “Houston, volledige uitschakeling boordsystemen en beveiliging shuttle beëindigd.” |
+|  | LD |  |  | “Roger. Volledige uitschakeling en beveiliging pendel.” |
+|  | FD |  |  | “Proficiat voor een succesvolle vlucht. Het konvooi meldt dat de pendel veilig is. Je bent ‘go’ om de orbiter te verlaten.” |
+|  | CMDR |  |  | “Roger. Ik ben blij weer thuis te zijn.” |
+|  | FD |  |  | “Begrepen. We zien jullie over enkele minuten.” |
