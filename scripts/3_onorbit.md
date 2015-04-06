@@ -173,7 +173,7 @@
 | T+1:03:00 | CMDR |  |  | “HOUSTON, JAPETUS HIER. WE ZIJN AFGESLOTEN EN KLAAR OM ONS VAN FREEDOM LOS TE KOPPELEN.” |
 |  | FD | bevestig |  | “ROGER. STANDBY. SPACECRAFT SYSTEMS OFFICER, IS FREEDOM KLAAR OM JAPETUS LOS TE KOPPELEN?” |
 |  | SSO | bevestig ‘GO’ voor loskoppeling |  | “ROGER. FREEDOM IS ‘GO’ VOOR LOSKOPPELING.” |
-| T+1:04:00 | CMDR | voer het loskoppelings- en verwijderingsprogramma in | enter [ITEM 388 EXEC]enter [ITEM 071], maar druk nog niet op [EXEC] | “VOER NU HET LOSKOPPELINGS- EN VERWIJDERINGSPROGRAMMA IN.” |
+| T+1:04:00 | CMDR | voer het loskoppelings- en verwijderingsprogramma in | <kbd>OPS</kbd> 388 <kbd>EXEC</kbd>, <kbd>ITEM</kbd> 071, maar druk nog niet op <kbd>EXEC</kbd> | “VOER NU HET LOSKOPPELINGS- EN VERWIJDERINGSPROGRAMMA IN.” |
 |  | FREEDOM |  |  | “ONTGRENDELEN NU EN TREKKEN ADAPTOR IN.” |
 | T+1:03:00 | CMDR |  |  | “HOUSTON, JAPETUS HIER. WE ZIJN AFGESLOTEN EN KLAAR OM ONS VAN FREEDOM LOS TE KOPPELEN.” |
 |  | FD | bevestig |  | “ROGER. STANDBY. SPACECRAFT SYSTEMS OFFICER, IS FREEDOM KLAAR OM JAPETUS LOS TE KOPPELEN?” |
@@ -181,7 +181,7 @@
 | T+1:04:00 | CMDR | voer het loskoppelings- en verwijderingsprogramma in | enter [ITEM 388 EXEC]enter [ITEM 071], maar druk nog niet op [EXEC] | “VOER NU HET LOSKOPPELINGS- EN VERWIJDERINGSPROGRAMMA IN.” |
 |  | FREEDOM |  |  | “ONTGRENDELEN NU EN TREKKEN ADAPTOR IN.” |
 | T+1:04:30 | CMDR | meld correcte loskoppeling |  | “VOER NU PROGRAMMA VAN HET LOSKOPPELINGS- EN VERWIJDERINGSMANEUVER UIT…” |
-|  |  |  | enter [EXEC] |  |
+|  |  |  | enter <kbd>EXEC</kbd> |  |
 |  |  | controleer de afstand op het scherm |  | “GOED ONTKOPPELD… EN WE HEBBEN EEN GESLAAGD VERWIJDERINGSMANEUVER.” |
 | T+1:05:00 | WXT | informeer Japetus wanneer de afstand van Freedom 500 voet bedraagt |  | “JAPETUS, JE BENT NU OP 500 VOET VAN FREEDOM. ZIET ER GOED UIT. ROGER, WE BEVESTIGEN EEN GOEDE VERWIJDERING.” |
 |  |  | begin het weer op de landingsbanen na te gaan. | gebruik checklist landing |  |
