@@ -6,20 +6,20 @@
 
 | MET (mission elapsed time) | Wie is aan de beurt | Wat gebeurt er | Scherm, knopjes, klavier, schakelaars | Wat wordt er gezegd? |
 | --- | --- | --- | --- | --- |
-| T+0:12:30 | CMDR |  | enter[SPEC 001 EXEC], [SPEC 303 EXEC] |  |
-|  |  | controleer OMS-lampjes en bevestig uitschakelen van de motoren. |  | “HOUSTON, OMS OP TIJD UITGESCHAKELD.” |
+| T+0:12:30 | CMDR |  | <kbd>OPS</kbd> 001 <kbd>EXEC</kbd>, <kbd>ITEM</kbd> 303 <kbd>EXEC</kbd> |  |
+|  |  | controleer OMS-lampjes en bevestig uitschakelen van de motoren. |  | “Houston, OMS op tijd uitgeschakeld.” |
 |  |  | indien de motoren niet op tijd uitgeschakeld worden, de defecte OMS-motor manueel uitschakelen. |  |  |
-|  | SSO | controleer OMS-lampjes en bevestig uitschakelen van de motoren |  | “ROGER, JAPETUS. WE BEVESTIGEN OMS UITGESCHAKELD.” |
-|  | FD |  |  | “KUNNEN WE EEN RAPPORT KRIJGEN VAN WEATHER AND TRACKING?” |
-|  | WXT | rapport over de ruimtependel | (dit staat niet op je scherm) | “DE BAAN IS CIRKELVORMIG MET EEN INCLINATIE VAN 28.5 GRADEN, EEN HOOGTE VAN 176.4 MIJL EN EEN SNELHEID VAN 25.319 VOET PER SECONDE. JAPETUS HEEFT DE GEPLANDE BAAN BEREIKT.” |
-| T+0:13:15 | FD | bevestig |  | “BEDANKT. WE ZIJN KLAAR OM ALLE POSTEN TE RAADPLEGEN VOOR ON-ORBIT OPERATIES.” |
-|  |  | enter (ITEM 080 EXEC)… en begin de controle: |  | “SPACECRAFT SYSTEMS?” |
+|  | SSO | controleer OMS-lampjes en bevestig uitschakelen van de motoren |  | “Roger, Japetus. We bevestigen OMS uitgeschakeld.” |
+|  | FD |  |  | “Kunnen we een rapport krijgen van Weather and Tracking?” |
+|  | WXT | rapport over de ruimtependel | (dit staat niet op je scherm) | “DE BAAN IS CIRKELVORMIG MET EEN INCLINATIE VAN 28.5 GRADEN, EEN HOOGTE VAN 176.4 MIJL EN EEN SNELHEID VAN 25.319 VOET PER SECONDE. Japetus heeft de geplande baan bereikt.” |
+| T+0:13:15 | FD | bevestig | <kbd>OPS</kbd> 016 <kbd>EXEC</kbd> | “BEDANKT. WE ZIJN KLAAR OM ALLE POSTEN TE RAADPLEGEN VOOR ON-ORBIT OPERATIES.” |
+|  |  | begin de controle: | <kbd>ITEM</kbd> 080 <kbd>EXEC</kbd> | “SPACECRAFT SYSTEMS?” |
 |  | SSO | antwoord aan FD en enter [GO] |  | “SSO IS ‘GO’.” |
 |  | FD |  |  | “ENVIRONMENTAL LIFE SUPPORT SYSTEMS?” |
-|  | ELSS | antwoord aan FD en enter [GO] |  | “ELLS IS ‘GO’” |
+|  | ELSS | antwoord aan FD en enter [GO] |  | “ELLS IS ‘GO’.” |
 |  |  | enter (ITEM 195 EXCEC) |  |  |
 |  | FD |  |  | “LAUNCH AND LANDING?” |
-|  | LD | antwoord aan FD en enter [GO] |  | “LAUNCH EN LANDING IS ‘GO’” |
+|  | LD | antwoord aan FD en enter [GO] |  | “LAUNCH EN LANDING IS ‘GO’.” |
 |  | FD |  |  | “WEATHER AND TRACKING?” |
 |  | WXT | antwoord aan FD en enter [GO] |  | “WEATHER AND TRACKING IS ‘GO’.” |
 |  | FD |  |  | “PUBLIC AFFAIRS OFFICER,?” |
@@ -33,11 +33,11 @@
 | --- | --- | --- | --- | --- |
 |  | FD | geef verslag, enter dan [GO] |  | “JAPETUS, JE BENT ‘GO’ OM ALLE APU’S UIT TE SCHAKELEN.” |
 |  | PLT |  |  | “ROGER. SCHAKEL NU ALLE APU’S UIT.” |
-|  |  | voer plt checklist #11 uit;geef na uitschakelen verslag aan sso |  | “HOUSTON, ALLE APU’S ZIJN UITGESCHAKELD.” |
+|  |  | voer plt checklist #11 uit; geef na uitschakelen verslag aan sso |  | “HOUSTON, ALLE APU’S ZIJN UITGESCHAKELD.” |
 |  | SSO | controleer en bevestig |  | “ROGER. WE BEVESTIGEN UITSCHAKELING VAN ALLE APU’S.” |
 | T+0:16:00 | ELSS | meld |  | “MS 1, JE BENT ‘GO’ OM DE VRACHTRUIMDEUREN TE OPENEN EN DE RADIATOREN TE ONTPLOOIEN.” |
-|  | MS 1 |  |  | “ROGER. OPENEN VRACHTRUIMDEUREN EN ONTPLOOIEN RADIATOREN.” |
-|  |  |  | [ITEM 467 EXEC] | “HOUSTON, VRACHTDEUREN ZIJN OPEN. RADIATOREN ONTPLOOID.” |
+|  | MS 1 |  | <kbd>OPS</kbd> 459 <kbd>EXEC</kbd> | “ROGER. OPENEN VRACHTRUIMDEUREN EN ONTPLOOIEN RADIATOREN.” |
+|  |  |  | <kbd>ITEM</kbd> 467 <kbd>EXEC</kbd> | “HOUSTON, VRACHTDEUREN ZIJN OPEN. RADIATOREN ONTPLOOID.” |
 |  | ELSS | controleer lampjes en bevestig |  | “ROGER. WE BEVESTIGEN DEUREN OPEN EN RADIATOREN ONTPLOOID.” |
 |  | LD | meld |  | “JAPETUS, JE BENT ‘GO’ OM DE SATELLIET TE LANCEREN OVER 5 MINUTEN. IK BEGIN NU DE SATELLIETSYSTEMEN IN TE SCHAKELEN.” |
 |  |  |  | voer satellite systems checklist uit |  |
@@ -55,10 +55,10 @@
 |  | PLT |  | voer PLT CHEKCLIST #12 uit |  |
 |  | CMDR |  |  | “ROGER. WE BEGINNEN NU MET DE VOORBEREIDINGSPROCEDURES VAN DE CHECKLIST.” |
 |  |  |  | voer CMDR CHECKLIST #6 uit |  |
-| T+0:19:30 | CMDR |  |  | “HOUSTON, CHECKLIST AF. WE ZIJN ‘GO’ VOOR HET LANCEREN VAN DE SATELLIET.” |
-|  |  |  | enter [ITEM 491 EXEC] |  |
+| T+0:19:30 | CMDR |  | <kbd>OPS</kbd> 320 <kbd>EXEC</kbd> | “HOUSTON, CHECKLIST AF. WE ZIJN ‘GO’ VOOR HET LANCEREN VAN DE SATELLIET.” |
+|  |  |  | enter <kbd>ITEM</kbd> 491 <kbd>EXEC</kbd> |  |
 |  | LD |  |  | “ROGER, JAPETUS. DE LANCERING VAN DE SATELLIET ZAL PLAATSVINDEN OM 21 MINUTEN M.E.T. JE BENT ‘GO’ VOOR DE UITEINDELIJKE LANCERING.” |
-|  | PLT | voer PLT CHECKLIST #13 uit, maar wacht tot 21:00 M.E.T. om op EXEC te drukken! | voer PLT CHECKLIST #13 uit | “ROGER. BEGREPEN. LANCERING SATELLIET OM 21 MINUTEN M.E.T. WE VOEREN NU DE LAATSTE COMPUTERCODES IN.” |
+|  | PLT | voer PLT CHECKLIST #13 uit, maar wacht tot 21:00 M.E.T. om op <kbd>EXEC</kbd> te drukken! | voer PLT CHECKLIST #13 uit | “ROGER. BEGREPEN. LANCERING SATELLIET OM 21 MINUTEN M.E.T. WE VOEREN NU DE LAATSTE COMPUTERCODES IN.” |
 | T+0:20:30 | PLT |  |  | “HOUSTON, NOG 30 SECONDEN VOOR LANCERING SATELLIET.” |
 |  |  | meld rotatie (spin-up) van satelliet |  | “ SATELLIET SPIN-GESTABILISEERD.” |
 | T+0:20:50 | PLT | ga verder met uitvoering checklist. |  | “LANCERING OVER 10,… 3,2,1, LANCERING!” |
