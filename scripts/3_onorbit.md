@@ -95,7 +95,8 @@
 |  | CMDR | bevestig |  | “ROGER. RENDEZ-VOUS MET FREEDOM OVER 28 MINUTEN.” |
 | T+0:29:00 | FD | vraag een verslag over de EVA |  | “MAG IK EEN VERSLAG OVER DE EVA?” |
 |  | LD | kijk door het raam en geef met eigen woorden een verslag over de ruimtewandeling |  | “ …” |
-|  | WXT |  | enter <kbd>ITEM</kbd> 274 <kbd>EXEC</kbd> | “DIT IS DE TRACKING OFFICER. WE HEBBEN ZOJUIST EEN SIGNAAL ONTVANGEN VAN DE SATELLIET. DE ONTBRANDING VAN DE RAKETMOTOR IS CORRECT VERLOPEN EN DE SATELLIET BEVINDT ZICH OP DE JUISTE BAAN. PROFICIAT, JAPETUS. HET SIGNAAL VAN DE SATELLIET WORDT DUIDELIJK ONTVANGEN DOOR DE GRONDSTATIONS. HIJ BEVINDT ZICH IN DE GEPLANDE BAAN, 300 MIJL BOVEN HET AARDOPPERVLAK.” |
+|  | WXT |  | <kbd>OPS</kbd> 274 <kbd>EXEC</kbd> | “DIT IS DE TRACKING OFFICER. WE HEBBEN ZOJUIST EEN SIGNAAL ONTVANGEN VAN DE SATELLIET.” |
+|  |  | | <kbd>ITEM</kbd> 320 <kbd>EXEC</kbd> | “DE ONTBRANDING VAN DE RAKETMOTOR IS CORRECT VERLOPEN EN DE SATELLIET BEVINDT ZICH OP DE JUISTE BAAN. PROFICIAT, JAPETUS. HET SIGNAAL VAN DE SATELLIET WORDT DUIDELIJK ONTVANGEN DOOR DE GRONDSTATIONS. HIJ BEVINDT ZICH IN DE GEPLANDE BAAN, 300 MIJL BOVEN HET AARDOPPERVLAK.” |
 | T+0:31:00 | PAO | kondig een boodschap aan en lees die voor |  | “JAPETUS, WE HEBBEN EEN SPECIALE BOODSCHAP VOOR JULLIE. ZE LUIDT ALS VOLGT: ‘ …’” |
 |  | CMDR | antwoord met je eigen woorden |  | “ …” |
 | T+0:35:00 | LD | geef verslag over de vorderingen van het EVA-team (kijk door het raam) |  | “ …” |
@@ -105,10 +106,10 @@
 | T+0:38:00 | LD | geef verslag over het activeren van de satellietsystemen |  | “WE HEBBEN EEN GESLAAGDE ACTIVERING VAN DE SATELLIETSYSTEMEN. IK GA NU DOOR MET DE ACIVERING VAN DE COMMUNICATIEMODULE EN HET STUURSYSTEEM VOOR DE STAND VAN DE SATELLIET.” |
 |  | FD | controleer de statuslampjes en bevestig |  | “ROGER. GA VERDER MET DE NORMALE CHECKLIST.” |
 | T+0:39:00 | SSO | vraag naar brandstofniveaus |  | “JAPETUS, MAG IK HET BRANDSTOFNIVEAU VAN DE RUIMTEPENDEL?” |
-|  | CMDR | controleer de brandstofmeters en antwoord met de percentages van de overblijvende brandstof | enter [SPEC 008 EXEC] (OMS), dan [SPEC 009 EXEC] (RCS) | “ROGER. OMS BRANDSTOFNIVEAU IS … % EN RCS BRANDSTOFNIVEAU IS … %.” |
+|  | CMDR | controleer de brandstofmeters en antwoord met de percentages van de overblijvende brandstof | <kbd>OPS</kbd> 003 <kbd>EXEC</kbd>. <kbd>ITEM</kbd> 008 <kbd>EXEC</kbd> (OMS), dan <kbd>ITEM</kbd> 009 <kbd>EXEC</kbd> (RCS) | “ROGER. OMS BRANDSTOFNIVEAU IS … % EN RCS BRANDSTOFNIVEAU IS … %.” |
 |  | SSO | bevestig verslag en geef advies over situatie. Raadpleeg de fuel level checklist. |  | “JAPETUS, WE BEVESTIGEN DAT JULLIE BRANDSTOFNIVEAU … IS. HOU ONS OP DE HOOGTE VAN ELKE ABNORMALE VERANDERING.” |
 |  | CMDR | antwoord |  | “ROGER, HOUSTON. WE HOUDEN JULLIE OP DE HOOGTE.” |
-| T+0:40:30 | LD | begin het experiment met de kristaloven. Gebruik de Christal furnace checklist. |  |  |
+| T+0:40:30 | LD | begin het experiment met de kristaloven. Gebruik de Crystal furnace checklist. |  |  |
 | T+0:41:00 | FD | geef, indien het eva team nog altijd bezig is met hun ruimtewandeling, en 5-minuten verwittiging. |  | “LAUNCH AND LANDING, NOG VIJF MINUTEN EVA-TIJD. VERWITTIG DE ASTRONAUTEN BUITEN.” |
 |  | LD |  |  | “ROGER. NOG VIJF MINUTEN EVA.”“EVA-BEMANNING. HEBBEN JULLIE DE CONVERSATIE GEVOLGD?” |
 |  | MS 2 |  |  | “WE HEBBEN HET GEHOORD. BINNEN VIJF MINUTEN ZIJN WE BINNEN.” |
