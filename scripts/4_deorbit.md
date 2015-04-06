@@ -17,7 +17,7 @@
 |  | FD |  |  | “ROGER.” |
 | T+1:18:00 | SSO |  |  | “MISSION SPECIALIST 1, JE BENT ‘GO’ OM DE VRACHTRUIMDEUREN TE SLUITEN.” |
 |  | MS 1 |  |  | “BEGREPEN. IK SLUIT NU DE DEUREN VAN HET VRACHTRUIM.” |
-| T+1:19:00 | PLT | start de aftelling voor de OMS-ontsteking en tel luidop af | enter (EXEC) om aftelling OMS-ontsteking te starten.lees dan luidop de aftelling op het scherm | “OMS-ONSTEKING OVER 10, 9, 8, 7, …, NU!” |
+| T+1:19:00 | PLT | start de aftelling voor de OMS-ontsteking en tel luidop af | enter <kbd>EXEC</kbd> om aftelling OMS-ontsteking te starten.lees dan luidop de aftelling op het scherm | “OMS-ONSTEKING OVER 10, 9, 8, 7, …, NU!” |
 | T+1:19:10 | PLT |  |  | “ONTSTEKING OMS.” |
 |  | SSO | bevestig OMS-ontsteking |  | “ROGER, ONTSTEKING OMS.” |
 | T+1:20:50 | PLT |  |  | “OMS UITGESCHAKELD.” |
@@ -35,7 +35,9 @@
 |  | CMDR |  |  | “ROGER.” |
 | T+1:26:10 | CMDR | BEGIN EERSTE S-BOCHT |  |  |
 |  | PAO | eerste s-bocht |  | “DE RUIMTEPENDEL VOERT NU EEN REEKS S-BOCHTEN UIT. DIT MOET DE PENDEL GENOEG AFREMMEN VOOR EEN NORMALE LANDING.” |
-| T+1:27:00 | WXT | LEES GEGEVENS AF VAN DE VLUCHTMETERS | [SPEC 001 EXEC] | “JAPETUS, WE VOLGEN JE OP EEN HOOGTE VAN … ZEEMIJL. DE AFSTAND IS … ZEEMIJL EN DE SNELHEID IS MACH …   . HOOGTE EN AFSTAND ZIJN NORMAAL.” |
+
+| T+1:27:00 | WXT | LEES GEGEVENS AF VAN DE VLUCHTMETERS | <kbd>OPS</kbd> 200 <kbd>EXEC</kbd> |  |
+|  |  | <kbd>ITEM</kbd> 005 <kbd>EXEC</kbd> | “JAPETUS, WE VOLGEN JE OP EEN HOOGTE VAN … ZEEMIJL. DE AFSTAND IS … ZEEMIJL EN DE SNELHEID IS MACH …   . HOOGTE EN AFSTAND ZIJN NORMAAL.” |
 |  | CMDR |  |  | “ROGER.” |
 |  | WXT | GEEF HET WEERBERICHT | (LEES OP HET SCHERM) | “JAPETUS, ALLE OMSTANDIGHEDEN ZIJN NORMAAL VOOR EEN LANDING OP … WESTENWIND …, TEMPERATUUR … GRADEN EN BAROMETERSTAND IS …” |
 | T+1:27:20 | PLT | BEVESTIG |  | “ROGER, TRACKING. METEO O.K. VOOR EEN LANDING OP … HOUSTON, WE BEGINNEN ONZE TWEEDE S-BOCHT.” |
