@@ -64,8 +64,8 @@ De lancering
 | | CMDR | | Kijk naar advisory line | “Roger. Rolbeweging gestart.” |
 | T+0:00:15 | CMDR | | Kijk naar advisory line | “Houston, rolbeweging is beëindigd.” |
 | | FD | bevestig | | “Roger. ROlbeweging is voltooid.” |
-| T+0:00:20 | WXT | | enter <kbd>SPEC</kbd> 200 <kbd>EXEC</kbd> | |
-| | | meld shuttle status | lees af van computerscherm | “Snelheid is … voet per seconde.” |
+| T+0:00:20 | WXT | | enter <kbd>OPS</kbd> 200 <kbd>EXEC</kbd> | |
+| | | meld shuttle status | lees af van computerscherm <kbd>ITEM</kbd> 006 <kbd>EXEC</kbd>| “Snelheid is … voet per seconde.” |
 | | FD | | | “Japetus, je bent ‘go’ om stuwkracht te verminderen.” |
 | | WXT | controleer snelheid en meld wanneer shuttle mach 1 bereikt | controleer machmeter | “De shuttle vliegt nu aan de snelheid van het geluid.” |
 | | WXT | meld status van de shuttle | controleer meters | “Snelheid … voet per seconde, hoogte … zeemijl.” |
