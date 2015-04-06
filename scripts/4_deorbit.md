@@ -35,16 +35,17 @@
 |  | CMDR |  |  | “ROGER.” |
 | T+1:26:10 | CMDR | BEGIN EERSTE S-BOCHT |  |  |
 |  | PAO | eerste s-bocht |  | “DE RUIMTEPENDEL VOERT NU EEN REEKS S-BOCHTEN UIT. DIT MOET DE PENDEL GENOEG AFREMMEN VOOR EEN NORMALE LANDING.” |
-
-| T+1:27:00 | WXT | LEES GEGEVENS AF VAN DE VLUCHTMETERS | <kbd>OPS</kbd> 200 <kbd>EXEC</kbd> |  |
-|  |  | <kbd>ITEM</kbd> 005 <kbd>EXEC</kbd> | “JAPETUS, WE VOLGEN JE OP EEN HOOGTE VAN … ZEEMIJL. DE AFSTAND IS … ZEEMIJL EN DE SNELHEID IS MACH …   . HOOGTE EN AFSTAND ZIJN NORMAAL.” |
+| T+1:27:00 | WXT | LEES GEGEVENS AF VAN DE VLUCHTMETERS | <kbd>OPS</kbd> 200 <kbd>EXEC</kbd> | “Japetus. Ik traceer jullie nu.” |
+|  |  | <kbd>ITEM</kbd> 005 <kbd>EXEC</kbd> | “Japetus, we volgen je op een hoogte van … zeemijl. De afstand is … zeemijl en de snelheid is mach … Hoogte en afstand zijn normaal.” |
 |  | CMDR |  |  | “ROGER.” |
-|  | WXT | GEEF HET WEERBERICHT | (LEES OP HET SCHERM) | “JAPETUS, ALLE OMSTANDIGHEDEN ZIJN NORMAAL VOOR EEN LANDING OP … WESTENWIND …, TEMPERATUUR … GRADEN EN BAROMETERSTAND IS …” |
+|  | WXT | GEEF HET WEERBERICHT | <kbd>OPS</kbd> 130 <kbd>EXEC</kbd> | “Japetus. Ik neem het weer nu op.” |
+|  |  |  | <kbd>ITEM</kbd> 320 <kbd>EXEC</kbd> | “JAPETUS, ALLE OMSTANDIGHEDEN ZIJN NORMAAL VOOR EEN LANDING OP … WESTENWIND …, TEMPERATUUR … GRADEN EN BAROMETERSTAND IS …” |
 | T+1:27:20 | PLT | BEVESTIG |  | “ROGER, TRACKING. METEO O.K. VOOR EEN LANDING OP … HOUSTON, WE BEGINNEN ONZE TWEEDE S-BOCHT.” |
 |  | LD |  |  | “ROGER, JAPETUS. BEGIN S-BOCHT NU.” |
 |  |  |  |  | “JAPETUS, ONTPLOOI LUCHTREM TOT 65 %.” |
 |  | PLT |  |  | “ROGER. LUCHTREM OP 65%.” |
-|  | WXT |  | [SPEC 001 EXEC] lees meters af | “JAPETUS, JULLIE ZIJN OP EEN HOOGTE VAN … ZEEMIJL.AFSTAND IS … ZEEMIJL.SNELHEID IS MACH …” |
+|  | WXT | ga in track-modus | <kbd>OPS</kbd> 200 <kbd>EXEC</kbd> |  |
+|  |  | lees meters af | <kbd>ITEM</kbd> 010 <kbd>EXEC</kbd> | “JAPETUS, JULLIE ZIJN OP EEN HOOGTE VAN … ZEEMIJL.AFSTAND IS … ZEEMIJL.SNELHEID IS MACH …” |
 |  | PLT |  |  | “ROGER.” |
 |  | WXT | GEEF VERSLAG OVER STATUS SHUTTLE |  | “DE SHUTTLE IS NU AFGEREMD TOT MACH 3, OF DRIEMAAL DE GELUIDSSNELHEID.” |
 | T+1:27:40 | WXT |  |  | “JAPETUS, TAEM INTERFACE, AFSTAND 59 ZEEMIJL EN SNELHEID MACH 2.5.” |
@@ -56,7 +57,7 @@
 |  | CMDR | bevestig |  | “ROGER. ONTPLOOI DE LUCHTSONDES.” |
 |  |  |  | CMDR CHECKLIST #12 |  |
 |  |  | meld wanneer afgewerkt |  | “HOUSTON, LUCHTSONDES ONTPLOOID.” |
-| T+1:29:00 | WXT | geef verslag over status shuttle |  | “JAPETUS, JULLIE ZIJN NU OP EEN HOOGTE VAN …… ZEEMIJL.DE HORIZONTALE AFSTAND IS ……ZEEMIJL.DE SNELHEID BEDRAAGT MACH …” |
+| T+1:29:00 | WXT | geef verslag over status shuttle | <kbd>ITEM</kbd> 011 <kbd>EXEC</kbd> | “JAPETUS, JULLIE ZIJN NU OP EEN HOOGTE VAN …… ZEEMIJL.DE HORIZONTALE AFSTAND IS ……ZEEMIJL.DE SNELHEID BEDRAAGT MACH …” |
 |  | SSO | meld alle systemen ‘go’ |  | “JAPETUS, ALLE SYSTEMEN ZIJN ‘GO’.” |
 |  | CMDR | bevestig |  | “ROGER. BEDANKT.” |
 | T+1:29:30 | PAO | geef status shuttle |  | “JAPETUS HEEFT NOG 5 MINUTEN EN 30 SECONDEN TOT DE LANDING.” |
