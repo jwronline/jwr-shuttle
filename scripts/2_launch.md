@@ -76,7 +76,7 @@ De lancering
 | | CMDR | | | “Roger. ‘Go’ om te versnellen.” |
 | T+0:01:10 | PAO | | | “De melding van de Flight Director dat MAX-Q bereikt is betekent dat de shuttle een maximum aerodynamische druk onderging. De motren worden nu opnieu op volle kracht gebracht.” |
 | | PLT | meld wanneer de motoren opnieuw op volle kracht zijn | controleer de meters | “Houston, motoren nu op volle kracht” |
-| | SSO | controleer de baan van de shuttle | enter <kbd>SPEC</kbd> 200 <kbd>EXEC</kbd> | “De eerste trap werkt nog altijd normaal.” |
+| | SSO | controleer de baan van de shuttle | enter <kbd>OPS</kbd> 200 <kbd>EXEC</kbd> | “De eerste trap werkt nog altijd normaal.” |
 | | WXT | controleer meters | | “Snelheid is … voet per seconde, hoogte is … zeemijl.” |
 | T+0:01:30 | SSO | meld 30 seconden voor SRB SEP | | “Nog 30 seconden voor SRB SEP.” |
 | | CMDR | bevestig SRB SEP | | “Roger. SRB SEP binnen 30 seconden.” |
