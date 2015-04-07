@@ -123,6 +123,7 @@ herstart APU #1
 1. Schakel "BOILER CNTLR #1" naar "ON". (R2) 
 2. Schakel "APU CONTROL #1" naar "START/RIDE". (R2)
  
+
 ## PLT CHECKLIST # 16
 
 herstart APU’s #2, #3
@@ -131,6 +132,7 @@ herstart APU’s #2, #3
 2. Schakel "APU CONTROL #2, #3" naar "START/RIDE". (R2)
 3. Schakel "APU AUTO SHUTDOWN" naar "INHIBIT". (R2)
    
+
 ## PLT CHECKLIST # 17
 
 UItschakelen Boordsystemen
