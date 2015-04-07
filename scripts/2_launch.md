@@ -126,7 +126,7 @@ De lancering
 | T+0:09:15 | SSO | rapporteer over werking tweede trap |  | “De werking van de tweede trap was normaal.” |
 |  | FD | vraag programma OMS-ontsteking 1 aan |  | “Weather and Tracking, graag aanbeveling programma voor OMS-ontsteking 1.” |
 | T+0:09:20 | WXT |  | kijk naar het scherm met de koers om te bepalen welk OMS-programma nodig zal zijn. Raadpleeg Checklist OMS-1. | “Japetus, Weather and Tracking raadt aan OMS-1 programma … te gebruiken. Ontsteking om 10:15 Mission Elapsed Time.” |
-| T+0:09:35 | CMDR |  | voer CMDR Checklist #4 uit tot stap 5, en wacht met stap 6! | “Roger. Laden oms-1 programma … in de computer. Zullen oms ontsteken om 10:15 MET.” |
+| T+0:09:35 | CMDR |  | voer CMDR Checklist #4 uit tot stap 5, en wacht met stap 6! | “Roger. Laden OMS-1 programma … in de computer. Zullen OMS ontsteken om 10:15 MET.” |
 |  |  | een mondelinge aftelling voor 10 seconden gaat aan het afvuren vooraf | druk <kbd>EXEC</kbd> tien seconden voor het afvuren van de OMS. kijk naar advisory line | “OMS-ontsteking over 15 seconden … 10, 9, 8, … 3, 2, 1, ontsteking.” |
 | T+0:10:15 | SSO | bevestig OMS ontsteking | controleer statuslampjes | “Roger. We bevestigen ontsteking van beide OMS motoren.” |
 | T+0:10:45 | PAO |  |  | “De shuttle heeft de motoren van het Orbital Maneuvering System ontstoken. Na beëindiging hiervan zal de bemanning zich klaarmaken voor de on-orbit werkzaamheden.” |
