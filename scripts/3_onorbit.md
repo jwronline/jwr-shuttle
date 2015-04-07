@@ -170,26 +170,27 @@
 
 | MET (mission elapsed time) | Wie is aan de beurt | Wat gebeurt er | Scherm, knopjes, klavier, schakelaars | Wat wordt er gezegd? |
 | --- | --- | --- | --- | --- |
-| T+1:03:00 | CMDR |  |  | “Houston, Japetus HIER. WE ZIJN AFGESLOTEN EN KLAAR OM ONS VAN FREEDOM LOS TE KOPPELEN.” |
-|  | FD | bevestig |  | “Roger. STANDBY. Spacecraft Systems Officer, IS FREEDOM KLAAR OM Japetus LOS TE KOPPELEN?” |
-|  | SSO | bevestig ‘go’ voor loskoppeling |  | “Roger. FREEDOM IS ‘go’ VOOR LOSKOPPELING.” |
-| T+1:04:00 | CMDR | voer het loskoppelings- en verwijderingsprogramma in | <kbd>OPS</kbd> 388 <kbd>EXEC</kbd>, <kbd>ITEM</kbd> 071, maar druk nog niet op <kbd>EXEC</kbd> | “VOER NU HET LOSKOPPELINGS- EN VERWIJDERINGSPROGRAMMA IN.” |
-|  | FREEDOM |  |  | “ONTGRENDELEN NU EN TREKKEN ADAPTOR IN.” |
-| T+1:04:30 | CMDR | meld correcte loskoppeling |  | “VOER NU PROGRAMMA VAN HET LOSKOPPELINGS- EN VERWIJDERINGSMANEUVER UIT…” |
+| T+1:03:00 | CMDR |  |  | “Houston, Japetus hier. We zijn afgesloten en klaar om ons van freedom los te koppelen.” |
+|  | FD | bevestig |  | “Roger. standby. Spacecraft Systems Officer, is freedom klaar om Japetus los te koppelen?” |
+|  | SSO | bevestig ‘go’ voor loskoppeling |  | “Roger. freedom is ‘go’ voor loskoppeling.” |
+| T+1:04:00 | CMDR | voer het loskoppelings- en verwijderingsprogramma in | <kbd>OPS</kbd> 388 <kbd>EXEC</kbd>, <kbd>ITEM</kbd> 071, maar druk nog niet op <kbd>EXEC</kbd> | “Voer nu het loskoppelings- en verwijderingsprogramma in.” |
+|  | FREEDOM |  |  | “Ontgrendelen nu en trekken adaptor in.” |
+| T+1:04:30 | CMDR | meld correcte loskoppeling |  | “Voer nu programma van het loskoppelings- en verwijderingsmaneuver uit…” |
 |  |  |  | enter <kbd>EXEC</kbd> |  |
-|  |  | controleer de afstand op het scherm |  | “GOED ONTKOPPELD… EN WE HEBBEN EEN GESLAAGD VERWIJDERINGSMANEUVER.” |
-| T+1:05:00 | WXT | informeer Japetus wanneer de afstand van Freedom 500 voet bedraagt |  | “Japetus, JE BENT NU OP 500 VOET VAN FREEDOM. ZIET ER GOED UIT. Roger, WE BEVESTIGEN EEN GOEDE VERWIJDERING.” |
+|  |  | controleer de afstand op het scherm |  | “Goed ontkoppeld… En we hebben een geslaagd verwijderingsmaneuver.” |
+| T+1:05:00 | WXT | informeer Japetus wanneer de afstand van Freedom 500 voet bedraagt | <kbd>ITEM</kbd> 034 <kbd>EXEC</kbd> | “Japetus, je bent nu op 500 voet van freedom. Ziet er goed uit. Roger, we bevestigen een goede verwijdering.” |
 |  |  | begin het weer op de landingsbanen na te gaan. | gebruik checklist landing |  |
-| T+1:06:00 | PAO | geef verslag over gebeurtenissen |  | “Japetus WERD VAN HET STATION FREEDOM LOSGEKOPPELD. DE BEMANNING BEGINT ZICH NU KLAAR TE MAKEN OM DE BAAN TE VERLATEN EN NAAR DE AARDE TERUG TE KEREN.” |
-| T+1:08:00 | LD | zeg het middendek alle experimenten vast te maken |  | “MIDDENDEK, ALLE EXPERIMENTEN DIENEN NU VASTGEMAAKT TE WORDEN.” |
-|  | PS 2 |  |  | “Roger. BEGINNEN ALLE EXPERIMENTEN OP TE BERGEN EN VAST TE MAKEN. WE ZULLEN HET MID DECK NETJES OPRUIMEN.” |
-| T+1:09:00 | FD |  |  | “Japetus, MAAK JE KLAAR VOOR DE-ORBIT EN TERUGKEER.” |
-|  | CMDR | bevestig |  | “Roger. MAKEN ONS KLAAR VOOR DE-ORBIT EN TERUGKEER. |
-| T+1:10:00 | SSO |  |  | “Japetus, ALLES ZIET ER GOED UIT VOOR DE-ORBIT.” |
-|  | PLT | beaam toestand Japetus |  | “Roger, Houston. Japetus IS KLAAR OM NAAR HUIS TERUG TE KEREN.” |
-| T+1:10:30 | WXT | geef met je eigen woorden het weerbericht voor de primaire landingsplaats aan de commander en de piloot |  | “…” |
-|  | CMDR |  |  | “BEDANKT, TRACKING.” |
-| T+1:11:00 | FD | verwittig de bemanning in hun zetels plaats te nemen |  | “Japetus, DE BEMANNINGSLEDEN MOETEN NU IN HUN ZETELS PLAATSNEMEN VOOR DE-ORBIT.” |
+| T+1:06:00 | PAO | geef verslag over gebeurtenissen |  | “Japetus werd van het station freedom losgekoppeld. De bemanning begint zich nu klaar te maken om de baan te verlaten en naar de aarde terug te keren.” |
+| T+1:08:00 | LD | zeg het middendek alle experimenten vast te maken |  | “Middendek, alle experimenten dienen nu vastgemaakt te worden.” |
+|  | PS 2 |  |  | “Roger. Beginnen alle experimenten op te bergen en vast te maken. we zullen het mid deck netjes opruimen.” |
+| T+1:09:00 | FD |  |  | “Japetus, maak je klaar voor de-orbit en terugkeer.” |
+|  | CMDR | bevestig |  | “Roger. maken ons klaar voor de-orbit en terugkeer.” |
+| T+1:10:00 | SSO |  |  | “Japetus, alles ziet er goed uit voor de-orbit.” |
+|  | PLT | beaam toestand Japetus |  | “Roger, Houston. Japetus is klaar om naar huis terug te keren.” |
+| T+1:10:30 | WXT | ga in weermodus | <kbd>OPS</kbd> 200 <kbd>EXEC</kbd> | “We controleren het weer voor de primaire landingsplaats” |
+|  |  | geef met je eigen woorden het weerbericht voor de primaire landingsplaats aan de commander en de piloot | <kbd>ITEM</kbd> 145 <kbd>EXEC</kbd> | “…” |
+|  | CMDR |  |  | “Bedankt, tracking.” |
+| T+1:11:00 | FD | verwittig de bemanning in hun zetels plaats te nemen |  | “Japetus, de bemanningsleden moeten nu in hun zetels plaatsnemen voor de-orbit.” |
 |  | CMDR | bevestig in je eigen woorden dat dit gebeurt of gebeurd is |  | “…” |
 |  | LD | meld begin landing checklists |  | “ALLE MISSION CONTROL POSTEN BEGINNEN NU AAN HUN LANDING CHECKLISTS.” |
 |  |  |  |  | “Weather and Tracking, DIT IS LANDING DIRECTOR. MAG IK HET WEERBERICHT VAN KENNEDY, EDWARDS EN WHITE SANDS?” |
