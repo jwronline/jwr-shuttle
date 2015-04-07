@@ -45,7 +45,7 @@
 |  | PAO | geef verslag |  | “De Mission Specialists hebben de vrachtruimdeuren geopend en de radiatoren ontplooid om de hitte uit de ruimtependel weg te stralen. Weldra zullen de Payload Specialists op het middendek met experimenten beginnen.” |
 |  | FD |  |  | “Japetus, klaar om de ruimtependel in de juiste positie te maneuvreren voor het lanceren van de satelliet?” |
 |  | CMDR |  |  | “Roger. standby.” |
-|  | LD |  |  | “EVA team, je bent ‘go’ om je ruimtepak aan te trekken. Verwittig ons wanneer je klaar bent om de druk in de luchtsluis weg te laten.” |
+|  | LD |  |  | “EVA-team, je bent ‘go’ om je ruimtepak aan te trekken. Verwittig ons wanneer je klaar bent om de druk in de luchtsluis weg te laten.” |
 |  | MS2 |  |  | “Roger. We beginnen nu ons ruimtepak aan te trekken.” |
 | T+0:17:30 | CMDR | geef verslag over voorbereidingsmaneuver voor lancering |  | “Houston, de ruimtependel is klaar om voorbereidingsmaneuver uit te voeren.” |
 |  | FD |  |  | “Roger. begin het geplande maneuver.” |
@@ -93,7 +93,7 @@
 |  | CMDR |  |  | “Roger. Begrepen.” |
 |  | FD | meld |  | “We zijn ‘go’ voor rendez-vous over 28 minuten.” |
 |  | CMDR | bevestig |  | “Roger. rendez-vous met Freedom over 28 minuten.” |
-| T+0:29:00 | FD | vraag een verslag over de EVA |  | “Mag ik een verslag over de eva?” |
+| T+0:29:00 | FD | vraag een verslag over de EVA-|  | “Mag ik een verslag over de eva?” |
 |  | cmdr | kijk door het raam en geef met eigen woorden een verslag over de ruimtewandeling |  | “ …” |
 |  | WXT |  | <kbd>OPS</kbd> 274 <kbd>EXEC</kbd> | “Dit is de Tracking Officer. We hebben zojuist een signaal ontvangen van de satelliet.” |
 |  |  | | <kbd>ITEM</kbd> 320 <kbd>EXEC</kbd> | “De ontbranding van de raketmotor is correct verlopen en de satelliet bevindt zich op de juiste baan. Proficiat, Japetus. Het signaal van de satelliet wordt duidelijk ontvangen door de grondstations. Hij bevindt zich in de geplande baan, 300 mijl boven het aardoppervlak.” |
@@ -103,68 +103,68 @@
 |  |  | vraag toelating om de satelliet te activeren. | gebruik de satellite systems checklist | “Flight Director, ben ik ‘go’ om de elektrische stroom en de temperatuurcontrole van de satelliet in te schakelen?” |
 |  | FD | antwoord |  | “Roger. Je bent ‘go’ om te activeren.” |
 |  | LD | activeer de satelliet | enter <kbd>ITEM</kbd> 987 <kbd>EXEC</kbd> |  |
-| T+0:38:00 | LD | geef verslag over het activeren van de satellietsystemen |  | “WE HEBBEN EEN GESLAAGDE ACTIVERING VAN DE SATELLIETSYSTEMEN. IK GA NU DOOR MET DE ACIVERING VAN DE COMMUNICATIEMODULE EN HET STUURSYSTEEM VOOR DE STAND VAN DE SATELLIET.” |
-|  | FD | controleer de statuslampjes en bevestig |  | “Roger. GA VERDER MET DE NORMALE CHECKLIST.” |
-| T+0:39:00 | SSO | vraag naar brandstofniveaus |  | “Japetus, MAG IK HET BRANDSTOFNIVEAU VAN DE RUIMTEPENDEL?” |
-|  | CMDR | controleer de brandstofmeters en antwoord met de percentages van de overblijvende brandstof | <kbd>OPS</kbd> 003 <kbd>EXEC</kbd>. <kbd>ITEM</kbd> 008 <kbd>EXEC</kbd> (OMS), dan <kbd>ITEM</kbd> 009 <kbd>EXEC</kbd> (RCS) | “Roger. OMS BRANDSTOFNIVEAU IS … % EN RCS BRANDSTOFNIVEAU IS … %.” |
-|  | SSO | bevestig verslag en geef advies over situatie. Raadpleeg de fuel level checklist. |  | “Japetus, WE BEVESTIGEN DAT JULLIE BRANDSTOFNIVEAU … IS. HOU ONS OP DE HOOGTE VAN ELKE ABNORMALE VERANDERING.” |
-|  | CMDR | antwoord |  | “Roger, Houston. WE HOUDEN JULLIE OP DE HOOGTE.” |
+| T+0:38:00 | LD | geef verslag over het activeren van de satellietsystemen |  | “We hebben een geslaagde activering van de satellietsystemen. Ik ga nu door met de acivering van de communicatiemodule en het stuursysteem voor de stand van de satelliet.” |
+|  | FD | controleer de statuslampjes en bevestig |  | “Roger. Ga verder met de normale checklist.” |
+| T+0:39:00 | SSO | vraag naar brandstofniveaus |  | “Japetus, mag ik het brandstofniveau van de ruimtependel?” |
+|  | CMDR | controleer de brandstofmeters en antwoord met de percentages van de overblijvende brandstof | <kbd>OPS</kbd> 003 <kbd>EXEC</kbd>. <kbd>ITEM</kbd> 008 <kbd>EXEC</kbd> (OMS), dan <kbd>ITEM</kbd> 009 <kbd>EXEC</kbd> (RCS) | “Roger. OMS brandstofniveau is … % en RCS brandstofniveau is … %.” |
+|  | SSO | bevestig verslag en geef advies over situatie. Raadpleeg de fuel level checklist. |  | “Japetus, we bevestigen dat jullie brandstofniveau … is. hou ons op de hoogte van elke abnormale verandering.” |
+|  | CMDR | antwoord |  | “Roger, Houston. We houden jullie op de hoogte.” |
 | T+0:40:30 | LD | begin het experiment met de kristaloven. Gebruik de Crystal furnace checklist. |  |  |
-| T+0:41:00 | FD | geef, indien het eva team nog altijd bezig is met hun ruimtewandeling, en 5-minuten verwittiging. |  | “Launch and Landing, NOG VIJF MINUTEN EVA-TIJD. VERWITTIG DE ASTRONAUTEN BUITEN.” |
-|  | LD |  |  | “Roger. NOG VIJF MINUTEN EVA.”“EVA-BEMANNING. HEBBEN JULLIE DE CONVERSATIE GEVOLGD?” |
-|  | MS 2 |  |  | “WE HEBBEN HET GEHOORD. BINNEN VIJF MINUTEN ZIJN WE BINNEN.” |
-|  | PAO |  |  | “DE MISSION SPECIALISTS VAN Japetus BEËINDIGEN NU HUN EVA ACTIVITEITEN. ZE ZULLEN WELDRA NAAR DE LUCHTSLUIS VAN DE RUIMTEPENDEL TERUGKEREN.” |
-| T+0:45:00 | FREEDOM | leg rechtstreekse radioverbinding met Houston. |  | “Houston, FREEDOM HIER. ONTVANG JE ME?” |
-|  | FD |  |  | “Roger. WE ONTVANGEN JE, FREEDOM.” |
-|  | WXT | controleer meters en meld vluchtgegevens | enter <kbd>OPS</kbd> 200 <kbd>EXEC</kbd> en <kbd>ITEM</kbd> 010 <kbd>EXEC</kbd> | “Japetus EN FREEDOM. JULLIE AFSTAND IS … VOET.” |
+| T+0:41:00 | FD | geef, indien het eva team nog altijd bezig is met hun ruimtewandeling, en 5-minuten verwittiging. |  | “Launch and Landing, nog vijf minuten EVA-tijd. verwittig de astronauten buiten.” |
+|  | LD |  |  | “Roger. Nog vijf minuten EVA.” “EVA-bemanning. hebben jullie de conversatie gevolgd?” |
+|  | MS 2 |  |  | “We hebben het gehoord. binnen vijf minuten zijn we binnen.” |
+|  | PAO |  |  | “De Mission Specialists van Japetus beëindigen nu hun EVA-activiteiten. Ze zullen weldra naar de luchtsluis van de ruimtependel terugkeren.” |
+| T+0:45:00 | FREEDOM | leg rechtstreekse radioverbinding met Houston. |  | “Houston, Freedom hier. Ontvang je me?” |
+|  | FD |  |  | “Roger. We ontvangen je, Freedom.” |
+|  | WXT | controleer meters en meld vluchtgegevens | enter <kbd>OPS</kbd> 200 <kbd>EXEC</kbd> en <kbd>ITEM</kbd> 010 <kbd>EXEC</kbd> | “Japetus en Freedom. jullie afstand is … voet.” |
 |  | PLT | bevestig | <kbd>OPS</kbd> 190 <kbd>EXEC</kbd> | “Roger.” |
-|  | FREEDOM | bevestig | enter <kbd>ITEM</kbd> 386 <kbd>EXEC</kbd> (radar lock) | “Roger, WE HEBBEN RADARCONTACT MET Japetus.” |
-|  | WXT | vraag |  | “Japetus, HEB JE NU VISUEEL CONTACT MET SPACE STATION?” |
-|  | CMDR | kijk door de voorruit en antwoord |  | “Roger. WE HEBBEN HEN IN ZICHT. FREEDOM ZIET ER PRACHTIG UIT!” |
-|  | FD | informeer Japetus |  | “Japetus, JE BENT ‘go’ VOOR NADERINGSOPERATIES.” |
-|  | PLT | antwoord | enter <kbd>ITEM</kbd> 070 <kbd>EXEC</kbd> | “Roger. ‘go’ VOOR PROX OPS.” |
-|  | FD | roep Freedom op |  | “FREEDOM. HEB JE DIT GEHOORD?” |
-|  | FREEDOM | antwoord aan FD |  | “Roger. Japetus IS ‘go’ VOOR PROX OPS. WE ZIJN GECONFIGUREERD VOOR DE KOPPELING EN VOLGEN DE GANG VAN ZAKEN.” |
-|  | WXT | controleer vluchtgegevens en informeer over de situatie |  | “NADERING ZIET ER GOED UIT. VERSCHUIVING ZIET ER GOED UIT.” |
-|  | CMDR |  |  | “Houston, WE HOUDEN ONZE NADERINGSKOERS AAN.” |
-|  | LD |  |  | “MIDDENDEK, WE ZIJN NU KLAAR OM AAN FREEDOM TE KOPPELEN. ALLE LOSZITTENDE VOORWERPEN VASTMAKEN. BEREID JE VOOR OP HET OVERSTAPPEN VAN DE BEMANNING.” |
-|  | PS 1 | antwoord |  | “Roger. MAKEN ALLE LOSZITTENDE VOORWERPEN VAST.” |
-| T+0:47:00 | WXT | controleer meters en geef vluchtgegevens |  | “VERSLAG KOPPELING:RELATIEVE AFSTAND: … VOET,RELATIEVE SNELHEID: … FPS.” |
+|  | FREEDOM | bevestig | enter <kbd>ITEM</kbd> 386 <kbd>EXEC</kbd> (radar lock) | “Roger, we hebben radarcontact met Japetus.” |
+|  | WXT | vraag |  | “Japetus, heb je nu visueel contact met Space Station?” |
+|  | CMDR | kijk door de voorruit en antwoord |  | “Roger. We hebben hen in zicht. Freedom ziet er prachtig uit!” |
+|  | FD | informeer Japetus |  | “Japetus, je bent ‘go’ voor naderingsoperaties.” |
+|  | PLT | antwoord | enter <kbd>ITEM</kbd> 070 <kbd>EXEC</kbd> | “Roger. ‘go’ voor PROX OPS.” |
+|  | FD | roep Freedom op |  | “Freedom. Heb je dit gehoord?” |
+|  | FREEDOM | antwoord aan FD |  | “Roger. Japetus is ‘go’ voor PROX OPS. We zijn geconfigureerd voor de koppeling en volgen de gang van zaken.” |
+|  | WXT | controleer vluchtgegevens en informeer over de situatie |  | “Nadering ziet er goed uit. Verschuiving ziet er goed uit.” |
+|  | CMDR |  |  | “Houston, we houden onze naderingskoers aan.” |
+|  | LD |  |  | “Middendek, we zijn nu klaar om aan Freedom te koppelen. Alle loszittende voorwerpen vastmaken. Bereid je voor op het overstappen van de bemanning.” |
+|  | PS 1 | antwoord |  | “Roger. Maken alle loszittende voorwerpen vast.” |
+| T+0:47:00 | WXT | controleer meters en geef vluchtgegevens |  | “Verslag koppeling: relatieve afstand: … voet, relatieve snelheid: … fps.” |
 |  | SSO |  |  | “Japetus, WE RADEN AAN GEDURENDE 12 SECONDEN AF TE REMMEN MET HET VOORSTE RCS-SYSTEEM.” |
 |  | CMDR |  |  | “Roger. VOEREN CORRECTIE NU UIT.” |
-| T+0:48:00 | LD | indien het EVA-team nog steeds buiten is, verwittig hen dan dat het tijd is om binnen te komen |  | “EVA TEAM, ALLE ACTIVITEITEN STOPZETTEN. JULLIE MOETEN NU IN DE PENDEL TERUGKEREN.” |
-|  | MS1 OF 2 |  |  | “Roger. WE ZITTEN NU IN ONZE STOEL.” |
-| T+0:49:00 | WXT |  |  | “Japetus, JE BENT NU IN MANUELE EN VISUELE NADERING NAAR SPACE STATION FREEDOM.” |
-| T+0:49:10 | PLT | antwoord | enter <kbd>OPS</kbd> 303 <kbd>EXEC</kbd> en <kbd>ITEM</kbd> 010 <kbd>EXEC</kbd> | “Roger. MANUELE EN VISUELE NADERING TOT FREEDOM.” |
-| T+0:50:00 | WXT | controleer meters en geef koppelingsgegevens |  | “RELATIEVE AFSTAND: … VOET,RELATIEVE SNELHEID: … FPS.” |
-|  |  | geef uitleg |  | “ZIET ER GOED UIT, Japetus.” |
-|  | FD | geef uitleg over de koppelingsoperaties |  | “Roger, SHUTTLE. DE NADERING ZIET ER GOED UIT, GA DOOR MET KOPPELINGSOPERATIES.” |
+| T+0:48:00 | LD | indien het EVA-team nog steeds buiten is, verwittig hen dan dat het tijd is om binnen te komen |  | “EVA-team, alle activiteiten stopzetten. Jullie moeten nu in de pendel terugkeren.” |
+|  | MS1 OF 2 |  |  | “Roger. We zitten nu in onze stoel.” |
+| T+0:49:00 | WXT |  |  | “Japetus, je bent nu in manuele en visuele nadering naar Space Station Freedom.” |
+| T+0:49:10 | PLT | antwoord | enter <kbd>OPS</kbd> 303 <kbd>EXEC</kbd> en <kbd>ITEM</kbd> 010 <kbd>EXEC</kbd> | “Roger. Manuele en visuele nadering tot Freedom.” |
+| T+0:50:00 | WXT | controleer meters en geef koppelingsgegevens |  | “Relatieve afstand: … voet,relatieve snelheid: … fps.” |
+|  |  | geef uitleg |  | “Ziet er goed uit, Japetus.” |
+|  | FD | geef uitleg over de koppelingsoperaties |  | “Roger, shuttle. De nadering ziet er goed uit, ga door met koppelingsoperaties.” |
 |  | PLT |  |  | “Roger.” |
-| T+0:51:00 | WXT | controleer meters en geef koppelingsgegevens |  | “RELATIEVE AFSTAND: … VOET,RELATIEVE SNELHEID: … FPS.” |
-|  | PLT |  |  | “Roger. HOUDEN HUIDIGE VERSCHUIVING EN NADERINGSSNELHEID AAN.” |
-| T+0:51:30 | FREEDOM | houd Houston op de hoogte van afstand tot shuttle |  | “Houston, FREEDOM. RADAR VAST OP Japetus. AFSTAND IS GOED. ZIJN KLAAR OM KOPPELINGSADAPTOR TE ONTPLOOIEN.” |
-| T+0:51:45 | FD | antwoord |  | “Roger, FREEDOM. STANDBY.Japetus, JE BENT ‘go’ VOOR DE EINDFASE VAN HET KOPPELINGSMANEUVER. ENTER AUTO DOCK PROGRAMMA.” |
+| T+0:51:00 | WXT | controleer meters en geef koppelingsgegevens |  | “Relatieve afstand: … voet,relatieve snelheid: … fps.” |
+|  | PLT |  |  | “Roger. Houden huidige verschuiving en naderingssnelheid aan.” |
+| T+0:51:30 | FREEDOM | houd Houston op de hoogte van afstand tot shuttle |  | “Houston, Freedom. Radar vast op Japetus. Afstand is goed. zijn klaar om koppelingsadaptor te ontplooien.” |
+| T+0:51:45 | FD | antwoord |  | “Roger, Freedom. Standby. Japetus, je bent ‘go’ voor de eindfase van het koppelingsmaneuver. Enter auto dock programma.” |
 |  | CMDR |  | <kbd>OPS</kbd> 450 <kbd>EXEC</kbd> | “Roger, Houston.” |
-|  |  |  | enter <kbd>ITEM</kbd> 258, maar druk nog niet op <kbd>EXEC</kbd> | “AUTO DOCK PROGRAMMA IS GELADEN.” |
-|  | FD | bevestig uitvoering van taak |  | “Roger, AUTO DOCK PROGRAMMA.” |
-| T+0:52:30 | LD |  |  | “MIDDENDEK, LET OP. NOG ENKELE OGENBLIKKEN VOOR KOPPELING MET FREEDOM.” |
-|  | PS 1 OF 2 | antwoord |  | “Roger VOOR VERWITTIGING KOPPELING.” |
-| T+0:53:00 | WXT | controleer meters en verwittig wanneer afstand 50 voet is. Geef akkoord voor auto dock. |  | “AFSTAND IS 50 VOET. AUTO DOCK UITVOEREN.” |
-|  | CMDR | meld wanneer de taak volbracht is. | druk op <kbd>EXEC</kbd> | “Roger. AUTO DOCK UITGEVOERD. KIJK UIT VOOR BEVESTIGING VAN DE IMMOBILISATIE VAN DE SHUTTLE TEN OPZICHTE VAN FREEDOM. WE BEVINDEN ONS VOOR LUCHTSLUIS EEN. FREEDOM, KUNNEN JULLIE ONS EEN LIFT GEVEN?” |
-| T+0:53:30 | FREEDOM | bevestig immobilisatie van de shuttle en begin koppelingsprocedures | <kbd>OPS</kbd> 140 <kbd>EXEC</kbd> | “Roger, Japetus. WE ONTPLOOIEN DE KOPPELINGSADAPTOR NU.” |
+|  |  |  | enter <kbd>ITEM</kbd> 258, maar druk nog niet op <kbd>EXEC</kbd> | “Auto Dock programma is geladen.” |
+|  | FD | bevestig uitvoering van taak |  | “Roger, Auto Dock programma.” |
+| T+0:52:30 | LD |  |  | “Middendek, let op. Nog enkele ogenblikken voor koppeling met Freedom.” |
+|  | PS 1 OF 2 | antwoord |  | “Roger voor verwittiging koppeling.” |
+| T+0:53:00 | WXT | controleer meters en verwittig wanneer afstand 50 voet is. Geef akkoord voor auto dock. |  | “Afstand is 50 voet. Auto Dock uitvoeren.” |
+|  | CMDR | meld wanneer de taak volbracht is. | druk op <kbd>EXEC</kbd> | “Roger. Auto Dock uitgevoerd. Kijk uit voor bevestiging van de immobilisatie van de shuttle ten opzichte van Freedom. We bevinden ons voor luchtsluis één. Freedom, kunnen jullie ons een lift geven?” |
+| T+0:53:30 | FREEDOM | bevestig immobilisatie van de shuttle en begin koppelingsprocedures | <kbd>OPS</kbd> 140 <kbd>EXEC</kbd> | “Roger, Japetus. We ontplooien de koppelingsadaptor nu.” |
 |  |  | (volg de handelingen op het computerscherm.) |  |  |
-| T+0:54:00 | FREEDOM | wanneer de afstand 0 voet bedraagt | enter <kbd>ITEM</kbd> 382 <kbd>EXEC</kbd> | “FREEDOM BEVESTIGT SOFT DOCK MET Japetus.” |
-|  |  |  | enter <kbd>ITEM</kbd> 383 <kbd>EXEC</kbd> | “Japetus, FREEDOM. WE HEBBEN HARD DOCK MET DE SHUTTLE. WE BEGINNEN NU Japetus OP LUCHTSLUIS EEN TE VERANKEREN.” |
-|  | CMDR | bevestig |  | “Roger, FREEDOM. BEDANKT VOOR DE HULP.” |
-| T+0:54:30 | FREEDOM | roep SSO op |  | “SSO, HARD DOCK TUSSEN BEIDE LUCHTSLUIZEN EN VERANKERING COMPLEET.” |
-|  | SSO | antwoord aan Freedom |  | “Roger, FREEDOM. WE BEVESTIGEN GESLAAGDE KOPPELING EN GOEDE VERANKERING. JE BENT ‘go’ OM DE LUCHTSLUIS ONDER DRUK TE ZETTEN.” |
-|  | FREEDOM | controleer scherm en meld wanneer druk nominaal is. | enter <kbd>ITEM</kbd> 388 <kbd>EXEC</kbd> | “DRUK IS NORMAAL. KLAAR OM BEMANNING UIT TE WISSELEN. NU GELIJKE DRUK IN LUCHTSLUIS.” |
+| T+0:54:00 | FREEDOM | wanneer de afstand 0 voet bedraagt | enter <kbd>ITEM</kbd> 382 <kbd>EXEC</kbd> | “Freedom bevestigt soft dock met Japetus.” |
+|  |  |  | enter <kbd>ITEM</kbd> 383 <kbd>EXEC</kbd> | “Japetus, freedom. We hebben hard dock met de shuttle. We beginnen nu Japetus op luchtsluis één te verankeren.” |
+|  | CMDR | bevestig |  | “Roger, Freedom. Bedankt voor de hulp.” |
+| T+0:54:30 | FREEDOM | roep SSO op |  | “SSO, hard dock tussen beide luchtsluizen en verankering compleet.” |
+|  | SSO | antwoord aan Freedom |  | “Roger, Freedom. We bevestigen geslaagde koppeling en goede verankering. Je bent ‘go’ om de luchtsluis onder druk te zetten.” |
+|  | FREEDOM | controleer scherm en meld wanneer druk nominaal is. | enter <kbd>ITEM</kbd> 388 <kbd>EXEC</kbd> | “Druk is normaal. Klaar om bemanning uit te wisselen. Nu gelijke druk in luchtsluis.” |
 |  | CMDR | bevestig |  | “Roger.” |
-| T+0:55:00 | FD |  |  | “WE ZIJN ‘go’ OM BEMANNINGS- EN VRACHTTRANSFER TE BEGINNEN.” |
-|  | FREEDOM | antwoord aan FD |  | “Roger. WE ZIJN KLAAR VOOR HET TRANSFER.” |
+| T+0:55:00 | FD |  |  | “we zijn ‘go’ om bemannings- en vrachttransfer te beginnen.” |
+|  | FREEDOM | antwoord aan FD |  | “Roger. We zijn klaar voor het transfer.” |
 |  |  |  | enter <kbd>ITEM</kbd> 253 <kbd>EXEC</kbd> |  |
-|  | CMDR | bevestig standby |  | “Roger. ALLES IS KLAAR AAN DEZE KANT.” |
-|  | PAO | geef verslag over koppelingsmaneuver |  | “Japetus WERD MET SUCCES AAN HET RUIMTESTATION FREEDOM GEKOPPELD. NU ZAL HET BEMANNINGS- EN VRACHTTRANSFERT BEGINNEN. DE TELEGELEIDE ROBOTARM IS AL BEGONNEN NIEUWE EXPERIMENTENPLATFORMS UIT HET VRACHTUIM VAN Japetus TE HALEN.” |
+|  | CMDR | bevestig standby |  | “Roger. Alles is klaar aan deze kant.” |
+|  | PAO | geef verslag over koppelingsmaneuver |  | “Japetus werd met succes aan het ruimtestation freedom gekoppeld. Nu zal het bemannings- en vrachttransfert beginnen. De telegeleide robotarm is al begonnen nieuwe experimentenplatforms uit het vrachtuim van Japetus te halen.” |
 
 ## DEEL 4: LOSKOPPELEN VAN RUIMTESTATION + OPRUIMEN OM NAAR HUIS TE GAAN
 
