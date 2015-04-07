@@ -19,7 +19,7 @@
 |  | ELSS | antwoord aan FD en enter [GO] |  | “ELLS is ‘go’.” |
 |  |  | <kbd>ITEM</kbd> 195 <kbd>EXEC</kbd> |  |  |
 |  | FD |  |  | “Launch and Landing?” |
-|  | LD | antwoord aan FD en enter [GO] |  | “LAUNCH EN LANDING IS ‘go’.” |
+|  | LD | antwoord aan FD en enter [GO] |  | “Launch and Landing IS ‘go’.” |
 |  | FD |  |  | “Weather and Tracking?” |
 |  | WXT | antwoord aan FD en enter [GO] |  | “Weather and Tracking IS ‘go’.” |
 |  | FD |  |  | “Public Affairs Officer,?” |
@@ -31,15 +31,15 @@
 
 | MET (mission elapsed time) | Wie is aan de beurt | Wat gebeurt er | Scherm, knopjes, klavier, schakelaars | Wat wordt er gezegd? |
 | --- | --- | --- | --- | --- |
-|  | FD | geef verslag, enter dan [GO] |  | “JAPETUS, JE BENT ‘go’ OM ALLE APU’S UIT TE SCHAKELEN.” |
-|  | PLT |  |  | “Roger. SCHAKEL NU ALLE APU’S UIT.” |
-|  |  | voer plt checklist #11 uit; geef na uitschakelen verslag aan sso |  | “HOUSTON, ALLE APU’S ZIJN UITGESCHAKELD.” |
-|  | SSO | controleer en bevestig |  | “Roger. WE BEVESTIGEN UITSCHAKELING VAN ALLE APU’S.” |
-| T+0:16:00 | ELSS | meld |  | “MS 1, JE BENT ‘go’ OM DE VRACHTRUIMDEUREN TE OPENEN EN DE RADIATOREN TE ONTPLOOIEN.” |
-|  | MS 1 |  | <kbd>OPS</kbd> 459 <kbd>EXEC</kbd> | “Roger. OPENEN VRACHTRUIMDEUREN EN ONTPLOOIEN RADIATOREN.” |
-|  |  |  | <kbd>ITEM</kbd> 467 <kbd>EXEC</kbd> | “HOUSTON, VRACHTDEUREN ZIJN OPEN. RADIATOREN ONTPLOOID.” |
-|  | ELSS | controleer lampjes en bevestig |  | “Roger. WE BEVESTIGEN DEUREN OPEN EN RADIATOREN ONTPLOOID.” |
-|  | LD | meld |  | “JAPETUS, JE BENT ‘go’ OM DE SATELLIET TE LANCEREN OVER 5 MINUTEN. IK BEGIN NU DE SATELLIETSYSTEMEN IN TE SCHAKELEN.” |
+|  | FD | geef verslag, enter dan [GO] |  | “JAPETUS, je bent ‘go’ om alle APU’s uit te schakelen.” |
+|  | PLT |  |  | “Roger. Schakel nu alle APU’s uit.” |
+|  |  | voer plt checklist #11 uit; geef na uitschakelen verslag aan sso |  | “Houston, Alle APU’s zijn uitgeschakeld.” |
+|  | SSO | controleer en bevestig |  | “Roger. We bevestigen uitschakeling van alle APU’s.” |
+| T+0:16:00 | ELSS | meld |  | “MS 1, je bent ‘go’ om de vrachtruimdeuren te openen en de radiatoren te ontplooien.” |
+|  | MS 1 |  | <kbd>OPS</kbd> 459 <kbd>EXEC</kbd> | “Roger. Openen vrachtruimdeuren en ontplooien radiatoren.” |
+|  |  |  | <kbd>ITEM</kbd> 467 <kbd>EXEC</kbd> | “Houston, vrachtdeuren zijn open. Radiatoren ontplooid.” |
+|  | ELSS | controleer lampjes en bevestig |  | “Roger. We bevestigen deuren open en radiatoren ontplooid.” |
+|  | LD | meld |  | “Japetus, je bent ‘go’ om de satelliet te lanceren over 5 minuten. Ik begin nu de satellietsystemen in te schakelen.” |
 |  |  |  | voer satellite systems checklist uit |  |
 | T+0:16:30 | PLT | bevestig |  | “Roger. ‘go’ OM OVER 4 MINUTEN EN 30 SECONDEN DE SATELLIET TE LANCEREN.” |
 |  | PAO | geef verslag |  | “DE MISSION SPECIALISTS HEBBEN DE VRACHTRUIMDEUREN GEOPEND EN DE RADIATOREN ONTPLOOID OM DE HITTE UIT DE RUIMTEPENDEL WEG TE STRALEN. WELDRA ZULLEN DE PAYLOAD SPECIALISTS OP HET MIDDENDEK MET EXPERIMENTEN BEGINNEN.” |
@@ -47,27 +47,27 @@
 |  | CMDR |  |  | “Roger. STANDBY.” |
 |  | LD |  |  | “EVA TEAM, JE BENT ‘go’ OM JE RUIMTEPAK AAN TE TREKKEN. VERWITTIG ONS WANNEER JE KLAAR BENT OM DE DRUK IN DE LUCHTSLUIS WEG TE LATEN.” |
 |  | MS2 |  |  | “Roger. WE BEGINNEN NU ONS RUIMTEPAK AAN TE TREKKEN.” |
-| T+0:17:30 | CMDR | geef verslag over voorbereidingsmaneuver voor lancering |  | “HOUSTON, DE RUIMTEPENDEL IS KLAAR OM VOORBEREIDINGSMANEUVER UIT TE VOEREN.” |
+| T+0:17:30 | CMDR | geef verslag over voorbereidingsmaneuver voor lancering |  | “Houston, DE RUIMTEPENDEL IS KLAAR OM VOORBEREIDINGSMANEUVER UIT TE VOEREN.” |
 |  | FD |  |  | “Roger. BEGIN HET GEPLANDE MANEUVER.” |
 |  | CMDR |  |  | “Roger. NEGATIEVE PITCH 5 GRADEN NEERWAARTS EN ROLBEWEGING 10 GRADEN NAAR RECHTS.” |
-|  |  |  | voer CMDR CHECKLIST #5 voor RCS-maneuver in voorbereiding lancering uit | “HOUSTON, VOORBEREIDINGSMANEUVER UITGEVOERD.” |
+|  |  |  | voer CMDR CHECKLIST #5 voor RCS-maneuver in voorbereiding lancering uit | “Houston, VOORBEREIDINGSMANEUVER UITGEVOERD.” |
 | T+0:18:30 | WXT |  |  | “Roger, JAPETUS. WE BEVESTIGEN EEN NORMALE POSITIE VOOR HET LANCEREN VAN DE SATELLIET. ALLES ZIET ER GOED UIT. BEGIN MET VOORBEREIDINGSPROCEDURES VAN DE LANCERING.” |
 |  | PLT |  | voer PLT CHEKCLIST #12 uit |  |
 |  | CMDR |  |  | “Roger. WE BEGINNEN NU MET DE VOORBEREIDINGSPROCEDURES VAN DE CHECKLIST.” |
 |  |  |  | voer CMDR CHECKLIST #6 uit |  |
-| T+0:19:30 | CMDR |  | <kbd>OPS</kbd> 320 <kbd>EXEC</kbd> | “HOUSTON, CHECKLIST AF. WE ZIJN ‘go’ VOOR HET LANCEREN VAN DE SATELLIET.” |
+| T+0:19:30 | CMDR |  | <kbd>OPS</kbd> 320 <kbd>EXEC</kbd> | “Houston, CHECKLIST AF. WE ZIJN ‘go’ VOOR HET LANCEREN VAN DE SATELLIET.” |
 |  |  |  | enter <kbd>ITEM</kbd> 491 <kbd>EXEC</kbd> |  |
 |  | LD |  |  | “Roger, JAPETUS. DE LANCERING VAN DE SATELLIET ZAL PLAATSVINDEN OM 21 MINUTEN M.E.T. JE BENT ‘go’ VOOR DE UITEINDELIJKE LANCERING.” |
 |  | PLT | voer PLT CHECKLIST #13 uit, maar wacht tot 21:00 M.E.T. om op <kbd>EXEC</kbd> te drukken! | voer PLT CHECKLIST #13 uit | “Roger. BEGREPEN. LANCERING SATELLIET OM 21 MINUTEN M.E.T. WE VOEREN NU DE LAATSTE COMPUTERCODES IN.” |
-| T+0:20:30 | PLT |  |  | “HOUSTON, NOG 30 SECONDEN VOOR LANCERING SATELLIET.” |
+| T+0:20:30 | PLT |  |  | “Houston, NOG 30 SECONDEN VOOR LANCERING SATELLIET.” |
 |  |  | meld rotatie (spin-up) van satelliet |  | “ SATELLIET SPIN-GESTABILISEERD.” |
 | T+0:20:50 | PLT | ga verder met uitvoering checklist. |  | “LANCERING OVER 10,… 3,2,1, LANCERING!” |
-| T+0:21:00 | PLT | volg op scherm en meld lancering | druk op <kbd>EXEC</kbd> (sat.deploy groen) | “HOUSTON, DE LANCERING ZIET ER GOED UIT.” |
+| T+0:21:00 | PLT | volg op scherm en meld lancering | druk op <kbd>EXEC</kbd> (sat.deploy groen) | “Houston, DE LANCERING ZIET ER GOED UIT.” |
 |  | LD | bevestig |  | “Roger, JAPETUS. VAN HIERUIT LIJKT HET OOK O.K.” |
 |  | PAO |  |  | “DE COMUNICATIESATELLIET WERD MET SUCCES GELANCEERD EN DE RUIMTEPENDEL ZAL NU MET HET VERWIJDERINGSMANEUVER BEGINNEN. DIT MANEUVER IS NODIG OM DE RUIMTEPENDEL TE BESCHERMEN TEGEN EVENTUELE SCHADE WANNEER DE IUS OF INERTIAL UPPER STAGE ONTSTOKEN WORDT OM DE SATELLIET NAAR ZIJN GEPLANDE BAAN TE STUWEN.” |
 |  | FD |  |  | “JAPETUS, BEGIN NU MET VERWIJDERINGSMANEUVER.” |
-| T+0:21:30 | CMDR |  | voer CMDR CHECKLIST #7 uit | “Roger, HOUSTON. BEGINNEN MET VERWIJDERINGSMANEUVER.” |
-| T+0:22:00 | CMDR | meld wanneer maneuver is uitgevoerd | enter <kbd>ITEM</kbd> 549 <kbd>EXEC</kbd> (separation maneuver groen) | “HOUSTON, JAPETUS. VERWIJDERINGSMANEUVER UITGEVOERD.” |
+| T+0:21:30 | CMDR |  | voer CMDR CHECKLIST #7 uit | “Roger, Houston. BEGINNEN MET VERWIJDERINGSMANEUVER.” |
+| T+0:22:00 | CMDR | meld wanneer maneuver is uitgevoerd | enter <kbd>ITEM</kbd> 549 <kbd>EXEC</kbd> (separation maneuver groen) | “Houston, JAPETUS. VERWIJDERINGSMANEUVER UITGEVOERD.” |
 |  | LD |  |  | “AFFIRMATIEF, JAPETUS. DE TELEMETRIE VAN DE SATELLIET BEVESTIGT DAT DE BOORDSYSTEMEN NORMAAL WERKEN. IK ZAL DE VOORNAAMSTE ELEKTRONISCHE SYSTEMEN OVER 15 MINUTEN INSCHAKELEN.” |
 | T+0:22:30 | WXT | controleer en bevestig |  | “DIT IS TRACKING. WE HOUDEN DE SATELLIET IN HET OOG. ZIJN BAAN IS NORMAAL EN WE ZIJN ’GO’ OM DE SATELLIETSYSTEMEN IN TE SCHAKELEN OP HET GEPLANDE TIJDSTIP.” |
 
@@ -78,7 +78,7 @@
 | T+0:25:00 | FD |  |  | “JAPETUS, JE BENT ’GO’ VOOR OMS-2 ONTBRANDING VOOR RENDEZ-VOUS MET HET RUIMTESTATION FREEDOM.” |
 |  | CMDR |  | voer CMDR CHECKLIST #8 uit tot en met stap 3 | “Roger. WE BEVESTIGEN: ’GO’ VOOR OMS-2 ONTSTEKING.” |
 | T+0:25:30 | FD |  |  | “JAPETUS, LAAD NU HET COMPUTERPROGRAMMA.” |
-|  | CMDR | breng het programma in | stap 4 van de checklist – druk nog niet op <kbd>EXEC</kbd>! | “WE LADEN HET PROGRAMMA NU.”  “HOUSTON, JAPETUS. HET OMS-2 PROGRAMMA WERD IN DE GPC’S GELADEN.” |
+|  | CMDR | breng het programma in | stap 4 van de checklist – druk nog niet op <kbd>EXEC</kbd>! | “WE LADEN HET PROGRAMMA NU.”  “Houston, JAPETUS. HET OMS-2 PROGRAMMA WERD IN DE GPC’S GELADEN.” |
 | T+0:25:45 | FD |  |  | “Roger, JAPETUS. VOER OMS-2 UIT OM 26:30 M.E.T.” |
 |  | CMDR | bevestig |  | “Roger. JAPETUS ZAL HET PROGRAMMA UITVOEREN OM 16:20 M.E.T.” |
 | T+0:26:20 | CMDR |  | druk op <kbd>EXEC</kbd>. Kijk naar de advisory line voor aftelling | “PROGRAMMA UITGEVOERD, ONTSTEKING OVER 10, 9, 8, 7, 6, 5, 4, 3, 2, 1. ONTSTEKING VAN BEIDE MOTOREN.” |
@@ -108,13 +108,13 @@
 | T+0:39:00 | SSO | vraag naar brandstofniveaus |  | “JAPETUS, MAG IK HET BRANDSTOFNIVEAU VAN DE RUIMTEPENDEL?” |
 |  | CMDR | controleer de brandstofmeters en antwoord met de percentages van de overblijvende brandstof | <kbd>OPS</kbd> 003 <kbd>EXEC</kbd>. <kbd>ITEM</kbd> 008 <kbd>EXEC</kbd> (OMS), dan <kbd>ITEM</kbd> 009 <kbd>EXEC</kbd> (RCS) | “Roger. OMS BRANDSTOFNIVEAU IS … % EN RCS BRANDSTOFNIVEAU IS … %.” |
 |  | SSO | bevestig verslag en geef advies over situatie. Raadpleeg de fuel level checklist. |  | “JAPETUS, WE BEVESTIGEN DAT JULLIE BRANDSTOFNIVEAU … IS. HOU ONS OP DE HOOGTE VAN ELKE ABNORMALE VERANDERING.” |
-|  | CMDR | antwoord |  | “Roger, HOUSTON. WE HOUDEN JULLIE OP DE HOOGTE.” |
+|  | CMDR | antwoord |  | “Roger, Houston. WE HOUDEN JULLIE OP DE HOOGTE.” |
 | T+0:40:30 | LD | begin het experiment met de kristaloven. Gebruik de Crystal furnace checklist. |  |  |
 | T+0:41:00 | FD | geef, indien het eva team nog altijd bezig is met hun ruimtewandeling, en 5-minuten verwittiging. |  | “Launch and Landing, NOG VIJF MINUTEN EVA-TIJD. VERWITTIG DE ASTRONAUTEN BUITEN.” |
 |  | LD |  |  | “Roger. NOG VIJF MINUTEN EVA.”“EVA-BEMANNING. HEBBEN JULLIE DE CONVERSATIE GEVOLGD?” |
 |  | MS 2 |  |  | “WE HEBBEN HET GEHOORD. BINNEN VIJF MINUTEN ZIJN WE BINNEN.” |
 |  | PAO |  |  | “DE MISSION SPECIALISTS VAN JAPETUS BEËINDIGEN NU HUN EVA ACTIVITEITEN. ZE ZULLEN WELDRA NAAR DE LUCHTSLUIS VAN DE RUIMTEPENDEL TERUGKEREN.” |
-| T+0:45:00 | FREEDOM | leg rechtstreekse radioverbinding met Houston. |  | “HOUSTON, FREEDOM HIER. ONTVANG JE ME?” |
+| T+0:45:00 | FREEDOM | leg rechtstreekse radioverbinding met Houston. |  | “Houston, FREEDOM HIER. ONTVANG JE ME?” |
 |  | FD |  |  | “Roger. WE ONTVANGEN JE, FREEDOM.” |
 |  | WXT | controleer meters en meld vluchtgegevens | enter <kbd>OPS</kbd> 200 <kbd>EXEC</kbd> en <kbd>ITEM</kbd> 010 <kbd>EXEC</kbd> | “JAPETUS EN FREEDOM. JULLIE AFSTAND IS … VOET.” |
 |  | PLT | bevestig | <kbd>OPS</kbd> 190 <kbd>EXEC</kbd> | “Roger.” |
@@ -126,7 +126,7 @@
 |  | FD | roep Freedom op |  | “FREEDOM. HEB JE DIT GEHOORD?” |
 |  | FREEDOM | antwoord aan FD |  | “Roger. JAPETUS IS ‘go’ VOOR PROX OPS. WE ZIJN GECONFIGUREERD VOOR DE KOPPELING EN VOLGEN DE GANG VAN ZAKEN.” |
 |  | WXT | controleer vluchtgegevens en informeer over de situatie |  | “NADERING ZIET ER GOED UIT. VERSCHUIVING ZIET ER GOED UIT.” |
-|  | CMDR |  |  | “HOUSTON, WE HOUDEN ONZE NADERINGSKOERS AAN.” |
+|  | CMDR |  |  | “Houston, WE HOUDEN ONZE NADERINGSKOERS AAN.” |
 |  | LD |  |  | “MIDDENDEK, WE ZIJN NU KLAAR OM AAN FREEDOM TE KOPPELEN. ALLE LOSZITTENDE VOORWERPEN VASTMAKEN. BEREID JE VOOR OP HET OVERSTAPPEN VAN DE BEMANNING.” |
 |  | PS 1 | antwoord |  | “Roger. MAKEN ALLE LOSZITTENDE VOORWERPEN VAST.” |
 | T+0:47:00 | WXT | controleer meters en geef vluchtgegevens |  | “VERSLAG KOPPELING:RELATIEVE AFSTAND: … VOET,RELATIEVE SNELHEID: … FPS.” |
@@ -142,9 +142,9 @@
 |  | PLT |  |  | “Roger.” |
 | T+0:51:00 | WXT | controleer meters en geef koppelingsgegevens |  | “RELATIEVE AFSTAND: … VOET,RELATIEVE SNELHEID: … FPS.” |
 |  | PLT |  |  | “Roger. HOUDEN HUIDIGE VERSCHUIVING EN NADERINGSSNELHEID AAN.” |
-| T+0:51:30 | FREEDOM | houd Houston op de hoogte van afstand tot shuttle |  | “HOUSTON, FREEDOM. RADAR VAST OP JAPETUS. AFSTAND IS GOED. ZIJN KLAAR OM KOPPELINGSADAPTOR TE ONTPLOOIEN.” |
+| T+0:51:30 | FREEDOM | houd Houston op de hoogte van afstand tot shuttle |  | “Houston, FREEDOM. RADAR VAST OP JAPETUS. AFSTAND IS GOED. ZIJN KLAAR OM KOPPELINGSADAPTOR TE ONTPLOOIEN.” |
 | T+0:51:45 | FD | antwoord |  | “Roger, FREEDOM. STANDBY.JAPETUS, JE BENT ‘go’ VOOR DE EINDFASE VAN HET KOPPELINGSMANEUVER. ENTER AUTO DOCK PROGRAMMA.” |
-|  | CMDR |  | <kbd>OPS</kbd> 450 <kbd>EXEC</kbd> | “Roger, HOUSTON.” |
+|  | CMDR |  | <kbd>OPS</kbd> 450 <kbd>EXEC</kbd> | “Roger, Houston.” |
 |  |  |  | enter <kbd>ITEM</kbd> 258, maar druk nog niet op <kbd>EXEC</kbd> | “AUTO DOCK PROGRAMMA IS GELADEN.” |
 |  | FD | bevestig uitvoering van taak |  | “Roger, AUTO DOCK PROGRAMMA.” |
 | T+0:52:30 | LD |  |  | “MIDDENDEK, LET OP. NOG ENKELE OGENBLIKKEN VOOR KOPPELING MET FREEDOM.” |
@@ -170,7 +170,7 @@
 
 | MET (mission elapsed time) | Wie is aan de beurt | Wat gebeurt er | Scherm, knopjes, klavier, schakelaars | Wat wordt er gezegd? |
 | --- | --- | --- | --- | --- |
-| T+1:03:00 | CMDR |  |  | “HOUSTON, JAPETUS HIER. WE ZIJN AFGESLOTEN EN KLAAR OM ONS VAN FREEDOM LOS TE KOPPELEN.” |
+| T+1:03:00 | CMDR |  |  | “Houston, JAPETUS HIER. WE ZIJN AFGESLOTEN EN KLAAR OM ONS VAN FREEDOM LOS TE KOPPELEN.” |
 |  | FD | bevestig |  | “Roger. STANDBY. Spacecraft Systems Officer, IS FREEDOM KLAAR OM JAPETUS LOS TE KOPPELEN?” |
 |  | SSO | bevestig ‘go’ voor loskoppeling |  | “Roger. FREEDOM IS ‘go’ VOOR LOSKOPPELING.” |
 | T+1:04:00 | CMDR | voer het loskoppelings- en verwijderingsprogramma in | <kbd>OPS</kbd> 388 <kbd>EXEC</kbd>, <kbd>ITEM</kbd> 071, maar druk nog niet op <kbd>EXEC</kbd> | “VOER NU HET LOSKOPPELINGS- EN VERWIJDERINGSPROGRAMMA IN.” |
@@ -186,7 +186,7 @@
 | T+1:09:00 | FD |  |  | “JAPETUS, MAAK JE KLAAR VOOR DE-ORBIT EN TERUGKEER.” |
 |  | CMDR | bevestig |  | “Roger. MAKEN ONS KLAAR VOOR DE-ORBIT EN TERUGKEER. |
 | T+1:10:00 | SSO |  |  | “JAPETUS, ALLES ZIET ER GOED UIT VOOR DE-ORBIT.” |
-|  | PLT | beaam toestand Japetus |  | “Roger, HOUSTON. JAPETUS IS KLAAR OM NAAR HUIS TERUG TE KEREN.” |
+|  | PLT | beaam toestand Japetus |  | “Roger, Houston. JAPETUS IS KLAAR OM NAAR HUIS TERUG TE KEREN.” |
 | T+1:10:30 | WXT | geef met je eigen woorden het weerbericht voor de primaire landingsplaats aan de commander en de piloot |  | “…” |
 |  | CMDR |  |  | “BEDANKT, TRACKING.” |
 | T+1:11:00 | FD | verwittig de bemanning in hun zetels plaats te nemen |  | “JAPETUS, DE BEMANNINGSLEDEN MOETEN NU IN HUN ZETELS PLAATSNEMEN VOOR DE-ORBIT.” |
