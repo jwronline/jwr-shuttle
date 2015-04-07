@@ -192,25 +192,25 @@
 |  | CMDR |  |  | “Bedankt, tracking.” |
 | T+1:11:00 | FD | verwittig de bemanning in hun zetels plaats te nemen |  | “Japetus, de bemanningsleden moeten nu in hun zetels plaatsnemen voor de-orbit.” |
 |  | CMDR | bevestig in je eigen woorden dat dit gebeurt of gebeurd is |  | “…” |
-|  | LD | meld begin landing checklists |  | “ALLE MISSION CONTROL POSTEN BEGINNEN NU AAN HUN LANDING CHECKLISTS.” |
-|  |  |  |  | “Weather and Tracking, DIT IS LANDING DIRECTOR. MAG IK HET WEERBERICHT VAN KENNEDY, EDWARDS EN WHITE SANDS?” |
-|  | WXT | geef in je eigen woorden het weerbericht. |  | “Roger. HET WEERBERICHT IS ALS VOLGT: …” |
-|  |  | kies de beste landingsplaats. Als het weer het toelaat, verkies je Kennedy. Zoniet Edwards, zoniet White Sands. |  | “IK RAAD AAN DAT WE OP … LANDEN.” |
-|  | FD | vraag aan mission control om computerschermen te configureren voor de landing. Vraag LD te beginnen met de controle van alle posten. | <kbd>ITEM</kbd> 080 <kbd>EXEC</kbd> | “ALLE POSTEN CONFIGUREREN NU HUN COMPUTERSCHERMEN VOOR DE LANDING. Launch and Landing DIRECTOR GAAT NA OF ALLE POSTEN ‘go’ ZIJN VOOR DE LANDING.” |
+|  | LD | meld begin landing checklists |  | “Alle Mission Control posten beginnen nu aan hun landing checklists.” |
+|  |  |  |  | “Weather and Tracking, dit is Landing Director. Mag ik het weerbericht van Kennedy, Edwards en White sands?” |
+|  | WXT | geef in je eigen woorden het weerbericht. | <kbd>ITEM</kbd> 145 <kbd>EXEC</kbd> | “Roger. Het weerbericht is als volgt: …” |
+|  |  | kies de beste landingsplaats. Als het weer het toelaat, verkies je Kennedy. Zoniet Edwards, zoniet White Sands. |  | “Ik raad aan dat we op … landen.” |
+|  | FD | vraag aan mission control om computerschermen te configureren voor de landing. Vraag LD te beginnen met de controle van alle posten. | <kbd>OPS</kbd> 080 <kbd>EXEC</kbd> | “Alle posten configureren nu hun computerschermen voor de landing. Launch and Landing Director gaat na of alle posten ‘go’ zijn voor de landing.” |
 |  | ALLE POSTEN | raadpleeg de checklists voor de juiste schermen en codes voor de landing. |  |  |
-|  | LD | bevestig, begin controle bij SSO |  | “Roger. ALLE POSTEN ANTWOORDEN VERBAAL EN VIA DE COMPUTER. Spacecraft Systems BEN JE ‘go’?” |
-|  | SSO | antwoord aan LD | enter [GO] | “SSO IS ‘go’.” |
+|  | LD | bevestig, begin controle bij SSO |  | “Roger. Alle posten antwoorden verbaal en via de computer. Spacecraft Systems ben je ‘go’?” |
+|  | SSO | antwoord aan LD | enter [GO] | “SSO is ‘go’.” |
 |  | LD | controle ELSS |  | “Environmental Life Support?” |
-|  | ELSS | antwoord aan LD | enter [GO] | “Environmental Life Support IS ‘go’.” |
+|  | ELSS | antwoord aan LD | enter [GO] | “Environmental Life Support is ‘go’.” |
 |  |  |  | enter <kbd>ITEM</kbd> 195 <kbd>EXEC</kbd> |  |
 |  | LD | controle WXT |  | “Weather and Tracking?” |
-|  | WXT | antwoord aan LD | enter [GO] | “Weather and Tracking IS ‘go’.” |
+|  | WXT | antwoord aan LD | enter [GO] | “Weather and Tracking is ‘go’.” |
 |  | LD | controle PAO |  | “Public Affairs Officer?” |
-|  | PAO | antwoord aan LD | enter [GO] | “Public Affairs Officer IS ‘go’.” |
-|  | LD | controle Flight Deck |  | “Japetus, BEN JE ‘go’?” |
-|  | CMDR | antwoord aan LD | enter [GO] | “Japetus IS ‘go’.” |
-|  | LD | meld dat alle posten ‘go’ zijn voor de-orbit van Japetus |  | “FLIGHT DIRECTOR, DIT IS LANDING DIRECTOR. ALLE POSTEN ZIJN ‘go’ VOOR DE-ORBIT EN TERUGKEER VAN Japetus.” |
+|  | PAO | antwoord aan LD | enter [GO] | “Public Affairs Officer is ‘go’.” |
+|  | LD | controle Flight Deck |  | “Japetus, ben je ‘go’?” |
+|  | CMDR | antwoord aan LD | enter [GO] | “Japetus is ‘go’.” |
+|  | LD | meld dat alle posten ‘go’ zijn voor de-orbit van Japetus |  | “Flight Director, dit is Landing Director. Alle posten zijn ‘go’ voor de-orbit en terugkeer van Japetus.” |
 |  |  |  | enter [GO] |  |
-|  | FD | bevestig | enter [GO] | “Roger. ALLE POSTEN ‘go’.” |
+|  | FD | bevestig | <kbd>ITEM</kbd> 195 <kbd>EXEC</kbd> | “Roger. alle posten ‘go’.” |
 | T+1:13:00 | LD | geef verslag over de landing (primaire, secundaire of tertiaire landingsplaats) |  | “We zullen landen op … .” |
 | T+1:13:15 | ALLE POSTEN | iedereen neemt het deel landing en herneemt om T+1:14:00 |  |  |
