@@ -70,7 +70,8 @@ De lancering
 | | WXT | controleer snelheid en meld wanneer shuttle mach 1 bereikt | controleer machmeter | “De shuttle vliegt nu aan de snelheid van het geluid.” |
 | | WXT | meld status van de shuttle | controleer meters | “Snelheid … voet per seconde, hoogte … zeemijl.” |
 | T+0:00:54 | CMDR | | | “Roger. ‘Go’ om stuwkracht te verminderen.” |
-| | PLT | controleer meters en meld verloop van stuwkrachtvermindering | enter <kbd>SPEC</kbd> 005 <kbd>EXEC</kbd> | “Stuwkrachtvermindering. motoren nu op 65%.” |
+| | PLT | controleer meters en meld verloop van stuwkrachtvermindering | <kbd>OPS</kbd> 005 <kbd>EXEC</kbd> | “Bekijken de status van de stuwkracht” |
+| | | verminder de stuwkracht | <kbd>ITEM</kbd> 620 <kbd>EXEC</kbd> | “Stuwkrachtvermindering. motoren nu op 65%.” |
 | T+0:01:00 | FD | meld MAX-Q wanneer de snelheid van de shuttle 1500 FPS overschrijdt | (wacht eerst op statuslampje) | “Japetus, je hebt MAX-Q bereikt, en bent ‘go’ om te versnellen.” |
 | | CMDR | | | “Roger. ‘Go’ om te versnellen.” |
 | T+0:01:10 | PAO | | | “De melding van de Flight Director dat MAX-Q bereikt is betekent dat de shuttle een maximum aerodynamische druk onderging. De motren worden nu opnieu op volle kracht gebracht.” |
