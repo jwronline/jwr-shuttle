@@ -154,7 +154,7 @@
 | T+0:53:30 | FREEDOM | bevestig immobilisatie van de shuttle en begin koppelingsprocedures | <kbd>OPS</kbd> 140 <kbd>EXEC</kbd> | “Roger, Japetus. We ontplooien de koppelingsadaptor nu.” |
 |  |  | (volg de handelingen op het computerscherm.) |  |  |
 | T+0:54:00 | FREEDOM | wanneer de afstand 0 voet bedraagt | enter <kbd>ITEM</kbd> 382 <kbd>EXEC</kbd> | “Freedom bevestigt soft dock met Japetus.” |
-|  |  |  | enter <kbd>ITEM</kbd> 383 <kbd>EXEC</kbd> | “Japetus, freedom. We hebben hard dock met de shuttle. We beginnen nu Japetus op luchtsluis één te verankeren.” |
+|  |  |  | enter <kbd>ITEM</kbd> 383 <kbd>EXEC</kbd> | “Japetus, Freedom. We hebben hard dock met de shuttle. We beginnen nu Japetus op luchtsluis één te verankeren.” |
 |  | CMDR | bevestig |  | “Roger, Freedom. Bedankt voor de hulp.” |
 | T+0:54:30 | FREEDOM | roep SSO op |  | “SSO, hard dock tussen beide luchtsluizen en verankering compleet.” |
 |  | SSO | antwoord aan Freedom |  | “Roger, Freedom. We bevestigen geslaagde koppeling en goede verankering. Je bent ‘go’ om de luchtsluis onder druk te zetten.” |
@@ -164,23 +164,23 @@
 |  | FREEDOM | antwoord aan FD |  | “Roger. We zijn klaar voor het transfer.” |
 |  |  |  | enter <kbd>ITEM</kbd> 253 <kbd>EXEC</kbd> |  |
 |  | CMDR | bevestig standby |  | “Roger. Alles is klaar aan deze kant.” |
-|  | PAO | geef verslag over koppelingsmaneuver |  | “Japetus werd met succes aan het ruimtestation freedom gekoppeld. Nu zal het bemannings- en vrachttransfert beginnen. De telegeleide robotarm is al begonnen nieuwe experimentenplatforms uit het vrachtuim van Japetus te halen.” |
+|  | PAO | geef verslag over koppelingsmaneuver |  | “Japetus werd met succes aan het ruimtestation Freedom gekoppeld. Nu zal het bemannings- en vrachttransfert beginnen. De telegeleide robotarm is al begonnen nieuwe experimentenplatforms uit het vrachtuim van Japetus te halen.” |
 
 ## DEEL 4: LOSKOPPELEN VAN RUIMTESTATION + OPRUIMEN OM NAAR HUIS TE GAAN
 
 | MET (mission elapsed time) | Wie is aan de beurt | Wat gebeurt er | Scherm, knopjes, klavier, schakelaars | Wat wordt er gezegd? |
 | --- | --- | --- | --- | --- |
-| T+1:03:00 | CMDR |  |  | “Houston, Japetus hier. We zijn afgesloten en klaar om ons van freedom los te koppelen.” |
-|  | FD | bevestig |  | “Roger. standby. Spacecraft Systems Officer, is freedom klaar om Japetus los te koppelen?” |
-|  | SSO | bevestig ‘go’ voor loskoppeling |  | “Roger. freedom is ‘go’ voor loskoppeling.” |
+| T+1:03:00 | CMDR |  |  | “Houston, Japetus hier. We zijn afgesloten en klaar om ons van Freedom los te koppelen.” |
+|  | FD | bevestig |  | “Roger. standby. Spacecraft Systems Officer, is Freedom klaar om Japetus los te koppelen?” |
+|  | SSO | bevestig ‘go’ voor loskoppeling |  | “Roger. Freedom is ‘go’ voor loskoppeling.” |
 | T+1:04:00 | CMDR | voer het loskoppelings- en verwijderingsprogramma in | <kbd>OPS</kbd> 388 <kbd>EXEC</kbd>, <kbd>ITEM</kbd> 071, maar druk nog niet op <kbd>EXEC</kbd> | “Voer nu het loskoppelings- en verwijderingsprogramma in.” |
 |  | FREEDOM |  |  | “Ontgrendelen nu en trekken adaptor in.” |
 | T+1:04:30 | CMDR | meld correcte loskoppeling |  | “Voer nu programma van het loskoppelings- en verwijderingsmaneuver uit…” |
 |  |  |  | enter <kbd>EXEC</kbd> |  |
 |  |  | controleer de afstand op het scherm |  | “Goed ontkoppeld… En we hebben een geslaagd verwijderingsmaneuver.” |
-| T+1:05:00 | WXT | informeer Japetus wanneer de afstand van Freedom 500 voet bedraagt | <kbd>ITEM</kbd> 034 <kbd>EXEC</kbd> | “Japetus, je bent nu op 500 voet van freedom. Ziet er goed uit. Roger, we bevestigen een goede verwijdering.” |
+| T+1:05:00 | WXT | informeer Japetus wanneer de afstand van Freedom 500 voet bedraagt | <kbd>ITEM</kbd> 034 <kbd>EXEC</kbd> | “Japetus, je bent nu op 500 voet van Freedom. Ziet er goed uit. Roger, we bevestigen een goede verwijdering.” |
 |  |  | begin het weer op de landingsbanen na te gaan. | gebruik checklist landing |  |
-| T+1:06:00 | PAO | geef verslag over gebeurtenissen |  | “Japetus werd van het station freedom losgekoppeld. De bemanning begint zich nu klaar te maken om de baan te verlaten en naar de aarde terug te keren.” |
+| T+1:06:00 | PAO | geef verslag over gebeurtenissen |  | “Japetus werd van het station Freedom losgekoppeld. De bemanning begint zich nu klaar te maken om de baan te verlaten en naar de aarde terug te keren.” |
 | T+1:08:00 | LD | zeg het middendek alle experimenten vast te maken |  | “Middendek, alle experimenten dienen nu vastgemaakt te worden.” |
 |  | PS 2 |  |  | “Roger. Beginnen alle experimenten op te bergen en vast te maken. we zullen het mid deck netjes opruimen.” |
 | T+1:09:00 | FD |  |  | “Japetus, maak je klaar voor de-orbit en terugkeer.” |
