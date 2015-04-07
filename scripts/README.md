@@ -6,11 +6,7 @@ Print alle bestanden uit met je geprefereerde methode. Eens een goeie en betrouw
 
 # Progress
 
-Voor zover is het hele script en zijn de checklists omgezet in geldige markdown. Het is echter nog niet allemaal 'schoongemaakt' (d.w.z. er zijn nog hopen tekst in all-caps die proper gemaakt moeten worden).
-
-De codes moeten ook nog geïmplementeerd worden in [shuttle-command](https://github.com/shuttle-command), en aangepast in het script.
-
-Tot nu toe is dit werk al volledig klaar voor het bestand [1_pre-launch.md](1_pre-launch.md)
+Alle codes zijn angepast zodat ze werken, nog niet allemaal zijn ze ook in shuttle-command beschikbaar gemaakt.
 
 # Licentie
 
