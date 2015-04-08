@@ -16,6 +16,10 @@ This shows what functions are implemented for each position and what they do.
 | 778 | 601  | secondary flight plan: high |
 |     | 602  | secondary flight plan: normal |
 |     | 603  | secondary flight plan: low |
+| 320 | 491  | pre-launch satelliet |
+|     | 549  | verwijdering satelliet |
+| 003 | 008  | OMS fuel level |
+|     | 009  | RCS fuel level |
 
 ## PLT -002
 
@@ -43,6 +47,7 @@ This shows what functions are implemented for each position and what they do.
 | 130 | 642  | emergency weather |
 |     | 145  | landing weather |
 | 200 | 006  | tracking at launch |
+| 274 | 320  | satellite tracking |
 
 ## LD -005
 
