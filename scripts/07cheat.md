@@ -27,6 +27,7 @@ This shows what functions are implemented for each position and what they do.
 |     | 224  | launch satellite |
 | 008 | 301  | OMS info |
 |     | 478  | de-orbit |
+| 006 | 620  | verminder stuwkracht |
 
 ## FD -003
 
@@ -46,6 +47,26 @@ This shows what functions are implemented for each position and what they do.
 
 | OPS | ITEM | extra    |
 |-----|------|----------|
-| 101 | 001  | pre-flight checks |
+| 101 | 001  | begin terug af te tellen |
 | 137 | 137  | abort advisory |
 |     | 116  | audio check |
+
+## ELSS -006
+
+| OPS | ITEM | extra    |
+|-----|------|----------|
+| 003 | 136  | cabin leak check |
+| 140 |      | retract launch arm |
+
+## SSO -007
+
+| OPS | ITEM | extra    |
+|-----|------|----------|
+| 183 | 162  | internal power supply |
+| 200 |      | check the trajectory |
+
+## PAO -008
+
+| OPS | ITEM | extra    |
+|-----|------|----------|
+| 001 | 001  | test     |
