@@ -34,6 +34,7 @@ This shows what functions are implemented for each position and what they do.
 | OPS | ITEM | extra    |
 |-----|------|----------|
 | 438 | 439  | abort advisory test |
+| 016 | 080  | controle on-orbit |
 
 ## WXT -004
 

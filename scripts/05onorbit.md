@@ -17,7 +17,7 @@
 |  | SSO | antwoord aan FD en enter [GO] |  | "SSO is ‘go’." |
 |  | FD |  |  | "Environmental life support systems?" |
 |  | ELSS | antwoord aan FD en enter [GO] |  | "ELLS is ‘go’." |
-|  |  | <kbd>ITEM</kbd> 195 <kbd>EXEC</kbd> |  |  |
+|  |  | | <kbd>ITEM</kbd> 195 <kbd>EXEC</kbd> |  |  |
 |  | FD |  |  | "Launch and Landing?" |
 |  | LD | antwoord aan FD en enter [GO] |  | "Launch and Landing IS ‘go’." |
 |  | FD |  |  | "Weather and Tracking?" |
