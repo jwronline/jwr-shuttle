@@ -32,6 +32,7 @@ This shows what functions are implemented for each position and what they do.
 | 008 | 301  | OMS info |
 |     | 478  | de-orbit |
 | 006 | 620  | verminder stuwkracht |
+| 190 | 070  | prox ops |
 
 ## FD -003
 
