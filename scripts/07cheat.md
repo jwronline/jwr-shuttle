@@ -45,7 +45,7 @@ This shows what functions are implemented for each position and what they do.
 
 | OPS | ITEM | extra    |
 |-----|------|----------|
-| 130 | 642  | emergency weather |
+| 130 | 624  | emergency weather |
 |     | 145  | landing weather |
 | 200 | 006  | tracking at launch |
 | 274 | 320  | satellite tracking |
