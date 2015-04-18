@@ -10,7 +10,7 @@ All files for the space shuttle by JWR-vzw
 - [x] A dashboard in gif-form for our planet (by [/u/hellofromthemoon](http://www.reddit.com/u/hellofromthemoon))
 - [x] Countdown timer (ekleinod)
 - [x] [Shuttle Command](https://www.github.com/jeugdwerkgroep-ruimtevaart/shuttle-command)
-- [x] [Scripts](http://jeugdwerkgroep-ruimtevaart.github.io/jwr-shuttle) in Dutch
+- [x] [Scripts](http://jwronline.github.io/jwr-shuttle) in Dutch
 
 # Licence
 
