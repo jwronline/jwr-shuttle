@@ -1,0 +1,3 @@
+[submodule "blessed-contrib"]
+	path = blessed-contrib
+	url = https://github.com/yaronn/blessed-contrib
