@@ -4,6 +4,10 @@ Dit zijn de scripts die gebruikt worden voor het uitvoeren van een space shuttle
 
 Print alle bestanden uit met je geprefereerde methode. Eens een goeie en betrouwbare manier gevonden is om van markdown naar pdf te gaan, wordt die hierop gezet.
 
+# Waar zitten ze eigenlijk?
+
+Alle scripts zie je online in [gh.jwronline.be/jwr-shuttle](http://gh.jwronline.be/jwr-shuttle), op github [hier](https://github.com/jwronline/jwr-shuttle/tree/gh-pages).
+
 # Progress
 
 Alle codes zijn angepast zodat ze werken, nog niet allemaal zijn ze ook in shuttle-command beschikbaar gemaakt.
