@@ -1,6 +1,10 @@
 ---
+title: 01 CMDR checklist
+layout: default
 ---
+
 # Commander
+
 ## CMDR checklist # 2: sluiten luchtkleppen
 
 1. Zoek "CABIN RELIEF" en "CABIN VENT". (L2)

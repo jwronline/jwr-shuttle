@@ -1,5 +1,8 @@
 ---
+title: 04 Launch
+layout: default
 ---
+
 # Launch
 
 De lancering
@@ -16,9 +19,9 @@ De lancering
 | T-0:08:10 | LD | begin pre-launch raadpleging van bemanning | | "Begin pre-launch status mondeling en met de computer. Commander, ben je ‘go’?" |
 | | CMDR | antwoord en enter ‘GO’ | enter [GO] | "Japetus is ‘go’ voor lancering." |
 | | LD | overleg met SSO | | "SSO, ben je ‘go’ ?" |
-| | SSO | antwoord aan LD en enter ‘GO’ | enter [GO] | | enter <kbd>ITEM</kbd> 195 <kbd>EXEC</kbd> | "SSO is ‘go’ ." |
+| | SSO | antwoord aan LD en enter ‘GO’ | enter <kbd>ITEM</kbd> 195 <kbd>EXEC</kbd> | "SSO is ‘go’ ." |
 | | LD | overleg met ELSS: | | "Environmetal Life Support?" |
-| | ELSS | antwoord aan LD en enter ‘GO’ | | enter [GO] | | | "ELSS hier. alle systemen ‘go’. Trek toegangsarm voor de bemanning in." |
+| | ELSS | antwoord aan LD en enter ‘GO’ | enter [GO] | "ELSS hier. alle systemen ‘go’. Trek toegangsarm voor de bemanning in." |
 | | | trek toegangsarm in | enter <kbd>ITEM</kbd> 140 <kbd>EXEC</kbd> | |
 | | LD | overleg met WXT | | "Weather and Tracking?" |
 | | WXT | antwoord aan LD en enter ‘GO’ | enter [GO] | "Weather and Tracking is ‘go’." |
@@ -99,7 +102,7 @@ De lancering
 | T+0:05:00 | WXT | controleer meters | | "Snelheid is … voet per seconde, hoogte is … zeemijl, afstand is … zeemijl." |
 | T+0:05:30 | FD | wanneer de shuttle sneller vliegt dan 11.500 FPS, geef shuttle ‘GO’ voor ATO mogelijkheid | Luister of WXT een voldoende snelheid vermeldde | "Japetus, je hebt ATO mogelijkheid." |
 | | PLT | bevestig ATO mogelijkheid | | "Roger. ATO mogelijk. |
-| | PAO | rapporteer over boodschap |  | "Deze boodschap verwittigt de shuttle-commandant dat Japetus nu over de moglijkheid beschikt om een Abort To Orbit uit te voeren bij het uitvallen van een motor." |  |
+| | PAO | rapporteer over boodschap |  | "Deze boodschap verwittigt de shuttle-commandant dat Japetus nu over de moglijkheid beschikt om een Abort To Orbit uit te voeren bij het uitvallen van een motor." |
 | T+0:06:00 | PLT | controleer de motor en meld elke afwijking | controleer meters en statuslampjes van motor | "Houston, Japetus heeft een normale werking van de tweede trap." |
 |  | SSO | bevestig normale werking van de tweede trap |  | "Roger. We bevestigen een normale werking van de tweede trap." |
 | T+0:06:15 | WXT |  | controleer meters | ""Snelheid is … voet per seconde, hoogte is … zeemijl, afstand is … zeemijl."" |

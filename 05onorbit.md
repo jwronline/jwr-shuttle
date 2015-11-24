@@ -1,5 +1,8 @@
 ---
+title: 05 On orbit
+layout: default
 ---
+
 # On orbit
 
 (activiteiten in een baan om de Aarde)

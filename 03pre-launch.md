@@ -1,5 +1,8 @@
 ---
+title: 03 pre-launch
+layout: default
 ---
+
 # pre-launch
 
 Voorbereiding van de lancering.

@@ -1,5 +1,8 @@
 ---
+title: 02 checklist PLT
+layout: default
 ---
+
 # Pilot
 
 ## PLT CHECKLIST # 1
