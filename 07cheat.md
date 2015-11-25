@@ -56,6 +56,25 @@ This shows what functions are implemented for each position and what they do.
 |                           | XXX         |      |
 | AIR DATA PROBE LEFT       | DEPLOY/HEAT |      |
 |                           | XXX         |      |
+| VENT ISOL                 | OPEN        |      |
+|                           | XXX         |      |
+| VENT                      | OPEN        |      |
+|                           | XXX         |      |
+| DFI RECORDERS PCM         | LO SAMPLE   |      |
+| DFI RECORDERS ASCent      | STANDBY     |      |
+| DFI RECORDERS mission     | STANDBY     |      |
+| TIMER                     | SET         |      |
+| EVENT TIMER               | STOP        |      |
+| GPC POWER #1              | ON          |      |
+|                           | OFF         |      |
+| GPC POWER #2              | ON          |      |
+|                           | OFF         |      |
+| GPC POWER #3              | ON          |      |
+|                           | OFF         |      |
+| GPC POWER #4              | ON          |      |
+|                           | OFF         |      |
+| GPC POWER #5              | ON          |      |
+|                           | OFF         |      |
 
 ## PLT -002
 
@@ -76,9 +95,44 @@ This shows what functions are implemented for each position and what they do.
 
 <kbd>OPS</kbd> XXX <kbd>EXEC</kbd> om in cockpit-mode te gaan
 
-| knop         | optie | ITEM |
+| knop                      | optie       | ITEM |
+|---------------------------|-------------|------|
+| INSTRUMENT POWER          | ON          |      |
+| FLT CNTLR POWER           | ON          |      |
+| BOILER N2 SUPPLY #1       | ON          |      |
+| BOILER N2 SUPPLY #2       | ON          |      |
+| BOILER N2 SUPPLY #3       | ON          |      |
+| BOILER CNTLR #1           | ON          |      |
+| BOILER CNTLR #2           | ON          |      |
+| BOILER CNTLR #3           | ON          |      |
+| BOILER CNTLR PWR/HTR #1   | A           |      |
+| BOILER CNTLR PWR/HTR #2   | A           |      |
+| BOILER CNTLR PWR/HTR #3   | A           |      |
+| APU FUEL TK VLV #1        | OPEN        |      |
+| APU FUEL TK VLV #2        | OPEN        |      |
+| APU FUEL TK VLV #3        | OPEN        |      |
+| APU FUEL/PUMP VLV COOL A  | AUTO        |      |
+| HYD CIRC PUMP #1          | ON          |      |
+| HYD CIRC PUMP #2          | ON          |      |
+| HYD CIRC PUMP #3          | ON          |      |
+| APU CNTLR PWR #1          | ON          |      |
+| APU CNTLR PWR #2          | ON          |      |
+| APU CNTLR PWR #3          | ON          |      |
+| HYD MAIN PUMP PRESS #1    | NORM        |      |
+| HYD MAIN PUMP PRESS #2    | NORM        |      |
+| HYD MAIN PUMP PRESS #3    | NORM        |      |
+| APU SPEED SELECT #1       | HIGH        |      |
+| APU SPEED SELECT #2       | HIGH        |      |
+| APU SPEED SELECT #3       | HIGH        |      |
+| APU CONTROL #1            | START/RUN   |      |
+| APU CONTROL #2            | START/RUN   |      |
+| APU CONTROL #3            | START/RUN   |      |
+| FUEL CELL/READY FOR LOAD #1 | START     |      |
+| FUEL CELL/READY FOR LOAD #2 | START     |      |
+| FUEL CELL/READY FOR LOAD #3 | START     |      |
+| APU AUTO SHUT DOWN        | INHIBIT     |      |
 
-|--------------|-------|------|
+TODO: checklist 10 en verder
 
 
 ## FD -003
