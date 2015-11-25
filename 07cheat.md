@@ -9,6 +9,8 @@ This shows what functions are implemented for each position and what they do.
 
 ## CMDR -001
 
+### keyboard
+
 | OPS | ITEM | extra    |
 |-----|------|----------|
 | 008 | 301  | OMS info |
@@ -26,7 +28,38 @@ This shows what functions are implemented for each position and what they do.
 | 003 | 008  | OMS fuel level |
 |     | 009  | RCS fuel level |
 
+### buttons
+
+<kbd>OPS</kbd> XXX <kbd>EXEC</kbd> om in cockpit-mode te gaan
+
+| knop                      | optie       | ITEM |
+|---------------------------|-------------|------|
+| CABIN RELIEF A            | ENABLE      |      |
+|                           | XXX         |      |
+| CABIN RELIEF B            | ENABLE      |      |
+|                           | XXX         |      |
+| CABIN VENT A              | ENABLE      |      |
+|                           | XXX         |      |
+| CABIN VENT B              | ENABLE      |      |
+|                           | XXX         |      |
+| VENT ISOL                 | OPEN        |      |
+|                           | CLOSE       |      |
+| VENT                      | OPEN        |      |
+|                           | CLOSE       |      |
+| OMS ENG LEFT              | ARM         |      |
+|                           | OFF         |      |
+| OMS ENG RIGHT             | ARM         |      |
+|                           | OFF         |      |
+| AIR DATA PROBE STOW LEFT  | ENABLE      |      |
+|                           | XXX         |      |
+| AIR DATA PROBE STOW RIGHT | ENABLE      |      |
+|                           | XXX         |      |
+| AIR DATA PROBE LEFT       | DEPLOY/HEAT |      |
+|                           | XXX         |      |
+
 ## PLT -002
+
+### keyboard
 
 | OPS | ITEM | extra    |
 |-----|------|----------|
@@ -38,6 +71,15 @@ This shows what functions are implemented for each position and what they do.
 |     | 478  | de-orbit |
 | 006 | 620  | verminder stuwkracht |
 | 190 | 070  | prox ops |
+
+### buttons
+
+<kbd>OPS</kbd> XXX <kbd>EXEC</kbd> om in cockpit-mode te gaan
+
+| knop         | optie | ITEM |
+
+|--------------|-------|------|
+
 
 ## FD -003
 
