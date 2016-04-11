@@ -1,10 +1,18 @@
 # JWR-Shuttle
 
-All files for the space shuttle by JWR-vzw
+All files for the space shuttle by JWR
+
+# How to run a shuttle mission?
+
+1. Make a mission control and shuttle
+2. Print or open the [scripts](https://github.com/jwronline/scripts)
+3. Download and prepare the computers with [shuttle-command](https://github.com/jwronline/shuttle-command)
+4. Install a projector and prepare the [dashboard](https://github.com/jwronline/dashboard)
+
+In case of questions: email info [at] jwronline [dot] be
 
 # What's in here?
 
-- [ ] A dashboard by [@Yaronn](https://github.com/Yaron/blessed-contrib), to be modified to have space shuttle data
 - [x] A library of sounds from space shuttle missions (NASA)
 - [ ] A library of videos from space shuttle missions (NASA)
 - [x] A dashboard in gif-form for our planet (by [/u/hellofromthemoon](http://www.reddit.com/u/hellofromthemoon))
@@ -20,7 +28,7 @@ jwr-shuttle is licensed under a [Creative Commons Atturbution-ShareAlike 4.0 Int
 
 # Acknowledgements
 
-Made by [Haroen Viaene](http://haroenv.github.io)
+Made by [Haroen Viaene](https://haroen.me)
 
 dashboard by @yaronn
 
