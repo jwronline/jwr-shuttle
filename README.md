@@ -11,7 +11,7 @@ All files for the space shuttle by JWR
 5. Prepare a screen in the cockpit and run the [caw](https://github.com/jwronline/caw) (caution and warning)
 
 
-In case of questions: email info [at] jwronline [dot] be
+In case of questions: email info [at] jwronline [dot] be or hello [at] haroen [dot] me
 
 # What's in here?
 
