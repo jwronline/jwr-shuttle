@@ -17,10 +17,11 @@ In case of questions: email info [at] jwronline [dot] be
 
 - [x] A library of sounds from space shuttle missions (NASA)
 - [ ] A library of videos from space shuttle missions (NASA)
-- [x] A dashboard in gif-form for our planet (by [/u/hellofromthemoon](http://www.reddit.com/u/hellofromthemoon))
 - [x] Countdown timer (ekleinod)
-- [x] [Shuttle Command](https://www.github.com/jeugdwerkgroep-ruimtevaart/shuttle-command)
-- [x] [Scripts](http://jwronline.github.io/jwr-shuttle) in Dutch
+- [x] [Shuttle Command](https://www.github.com/jwronline/shuttle-command)
+- [x] [Scripts](http://gh.jwronline.be/scripts) in Dutch
+- [x] [Dashboard](https://github.com/jwronline/dashboard)
+- [x] [Caution and Warning](https://github.com/jwronline/caw) (caution and warning)
 
 # Licence
 
