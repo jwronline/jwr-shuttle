@@ -4,10 +4,12 @@ All files for the space shuttle by JWR
 
 # How to run a shuttle mission?
 
-1. Make a mission control and shuttle
+1. Make a mission control and shuttle (pictures)
 2. Print or open the [scripts](https://github.com/jwronline/scripts)
 3. Download and prepare the computers with [shuttle-command](https://github.com/jwronline/shuttle-command)
 4. Install a projector and prepare the [dashboard](https://github.com/jwronline/dashboard)
+5. Prepare a screen in the cockpit and run the [caw](https://github.com/jwronline/caw) (caution and warning)
+
 
 In case of questions: email info [at] jwronline [dot] be
 
@@ -29,10 +31,6 @@ jwr-shuttle is licensed under a [Creative Commons Atturbution-ShareAlike 4.0 Int
 # Acknowledgements
 
 Made by [Haroen Viaene](https://haroen.me)
-
-dashboard by @yaronn
-
-dashboard earth gif by [/u/hellofromthemoon](http://www.reddit.com/u/hellofromthemoon)
 
 Sounds and videos by NASA
 
