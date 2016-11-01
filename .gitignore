@@ -1,3 +1,4 @@
+
 # OS generated files #
 ######################
 .DS_Store
@@ -8,3 +9,7 @@
 ehthumbs.db
 Thumbs.db
 desktop.ini
+
+# jekyll #
+##########
+_site
